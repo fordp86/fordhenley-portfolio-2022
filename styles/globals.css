@@ -1,0 +1,56 @@
+@import "../public/css/base.css";
+@import "../public/css/animate.css";
+@import "../public/css/magnific-popup.css";
+/* @import "../public/css/owl-carousel.css"; */
+@import "../public/css/style.css";
+
+.d-block {
+  display: block !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img.h-100 {
+  height: 100%;
+}
+a {
+  cursor: pointer;
+}
+
+#send_message {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 20px 20px; */
+  background-color: var(--main-color);
+  color: var(--text-color-for-main-bg);
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid var(--main-color);
+  font-family: "Jost", Arial, Helvetica, sans-serif;
+}
+#send_message:hover {
+  border-color: var(--main-color);
+  color: var(--main-color);
+  background-color: transparent;
+}
+
+.blog_list .right_part .hiddenText {
+  font-size: 22px;
+  padding: 20px 0;
+}
+.fn__link.zoom {
+  font-size: unset !important;
+}
+
+.service_link {
+  display: inline-block;
+  font-weight: bold;
+}
