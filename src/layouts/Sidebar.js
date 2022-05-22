@@ -127,25 +127,7 @@ const Sidebar = () => {
               <li>
                 <a href="#">
                   <img
-                    src="svg/social/facebook.svg"
-                    alt="image"
-                    className="fn__svg"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img
                     src="svg/social/instagram.svg"
-                    alt="image"
-                    className="fn__svg"
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img
-                    src="svg/social/pinterest.svg"
                     alt="image"
                     className="fn__svg"
                   />
@@ -164,12 +146,7 @@ const Sidebar = () => {
           </div>
           <div className="desc">
             <p>
-              © 2021 Rewall Template
-              <br />
-              Developed by{" "}
-              <a href="https://themeforest.net/user/trendycoder/portfolio" target="_blank" rel="noreferrer">
-                TrendyCoder
-              </a>
+              © 2022 Ford Henley
             </p>
           </div>
         </div>

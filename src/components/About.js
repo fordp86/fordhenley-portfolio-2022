@@ -16,7 +16,7 @@ const About = () => {
                 </div>
                 <div className="img_holder layer" data-depth="0.3">
                   <img src="img/thumb/450-550.jpg" alt="image" />
-                  <div className="abs_img" data-bg-img="img/about.jpg" />
+                  <div className="abs_img" data-bg-img="img/about.jpeg" />
                 </div>
                 <div
                   className="dots layer"
@@ -28,7 +28,7 @@ const About = () => {
             <div className="right_part">
               {/* Main Title */}
               <div className="main_title">
-                <h3>Website Developer</h3>
+                <h3>Ford Henley</h3>
                 <p>
                   Founder of{" "}
                   <Link href="https://frenify.com/"><a                    
@@ -40,7 +40,6 @@ const About = () => {
                   . Professional UI/UX designer and web developer based on
                   London. Sometimes works as a freelancer.
                 </p>
-                <img src="img/signature.png" alt="image" />
               </div>
               {/* /Main Title */}
             </div>
