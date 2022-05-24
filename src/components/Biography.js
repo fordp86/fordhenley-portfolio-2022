@@ -11,10 +11,9 @@ const Biography = () => {
         <div className="container max880">
           <h3>Biography</h3>
           <p>
-            {`I'm a Freelancer Front-end Developer with over 12 years of
-                    experience. I'm from London, UK. I code and create web
-                    elements for amazing people around the world. I like work
-                    with new people. New people are new experiences.`}
+            {`I'm a Full Stack Developer & Digital Marketer with over 12 years of
+                    experience. I'm from Fort Walton Beach, FL and currently reside in Austin,TX. 
+                    I code and create websites for amazing people around the world. I like to learn new skills and take challenges headon.`}
           </p>
         </div>
       </div>
@@ -26,50 +25,27 @@ const Biography = () => {
             <ul>
               <li className="wow fadeInUp" data-wow-delay="0s">
                 <p>
-                  Name: <span>Felicia Amor</span>
-                </p>
-              </li>
-              <li className="wow fadeInUp" data-wow-delay="0.15s">
-                <p>
-                  Birthday: <span>June 14, 1992</span>
+                  Name: <span>Ford Henley</span>
                 </p>
               </li>
               <li className="wow fadeInUp" data-wow-delay="0.3s">
                 <p>
-                  Age: <span>29 Years</span>
+                  Age: <span>35 Years</span>
                 </p>
               </li>
               <li className="wow fadeInUp" data-wow-delay="0.45s">
                 <p>
-                  Adress: <span>London, UK</span>
-                </p>
-              </li>
-              <li className="wow fadeInUp" data-wow-delay="0.6s">
-                <p>
-                  Phone:{" "}
-                  <span>
-                    <Link href="tel:+17785355344"><a>(+1) 7785 355 344</a></Link>
-                  </span>
-                </p>
-              </li>
-              <li className="wow fadeInUp" data-wow-delay="0.75s">
-                <p>
-                  Skype: <span>Felicia.A</span>
+                  Address: <span>Austin, Texas</span>
                 </p>
               </li>
               <li className="wow fadeInUp" data-wow-delay="0.9s">
                 <p>
                   Email:{" "}
                   <span>
-                    <Link href="mailto:felicia@domainname.com"><a>
-                      felicia@domainname.com
+                    <Link href="mailto:fordp86@gmail.com"><a>
+                      fordp86@gmail.com
                     </a></Link>
                   </span>
-                </p>
-              </li>
-              <li className="wow fadeInUp" data-wow-delay="1.05s">
-                <p>
-                  Telegram: <span>Available</span>
                 </p>
               </li>
             </ul>
@@ -84,7 +60,7 @@ const Biography = () => {
           <span className="line bottom_hover" />
           <span className="line top" />
           <span className="line bottom" />
-          <Link href="img/cv.jpg"><a download>
+          <Link href="download/PatrickFordHenley_Resume_2022.pdf" target="_blank"><a download>
             <span className="icon">
               <img src="svg/inbox.svg" alt="image" className="fn__svg" />
               <img src="svg/arrow.svg" alt="image" className="fn__svg arrow" />
@@ -132,43 +108,46 @@ const Biography = () => {
                     <li>
                       <div className="item">
                         <div className="item_top">
-                          <h5>Frenify LLC</h5>
-                          <span>( 2018 — Today )</span>
+                          <h5>Sport Clips - Franchise</h5>
+                          <span>( 2015 — Today )</span>
                         </div>
-                        <h3>Sr. Front-end Engineer</h3>
-                        <p>
-                          Adipisicing Lorem ipsum dolor sit amet, consectetur
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.{" "}
-                        </p>
+                        <h3>Director of Business Development</h3>
+                        <ul>
+                          <li>- Lead business development activities, research current and future target markets.</li>
+                          <li>- Work with Team Leader to manage marketing projects and improve business
+                            efficiency through using automations and technology.</li>
+                          <li>- Headed creation of support ticket systems to manage multistore issues and standardize monthly store success checks for quality assurance.</li>
+                          <li>- Increased Destin location sales by 10% with strategic marketing partnerships to drive more traffic to the tourist-heavy economy via online advertising & social media.</li>
+                        </ul>
                       </div>
                     </li>
                     <li>
                       <div className="item">
                         <div className="item_top">
-                          <h5>Google LLC</h5>
-                          <span>( 2016 — 2018 )</span>
+                          <h5>Ford's Web Help</h5>
+                          <span>( 2017 — 2022)</span>
                         </div>
-                        <h3>Front-end Developer</h3>
-                        <p>
-                          Adipisicing Lorem ipsum dolor sit amet, consectetur
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.{" "}
-                        </p>
+                        <h3>President</h3>
+                        <ul>
+                          <li>- Provide clients with custom designed solutions to drive revenue, create consistent branding, and streamline workflows.</li>
+                          <li>- Gather requirements for digital marketing initiatives and plan project scope. • Design, launch, test, and deliver websites, while providing key updates to
+  stakeholders and clients along with optimizing for searching engines.</li>
+                          <li>- Manage all small business operations, including marketing, contract negotiations, and finances.</li>
+                        </ul>
                       </div>
                     </li>
                     <li>
                       <div className="item">
                         <div className="item_top">
-                          <h5>Twitter LLC</h5>
-                          <span>( 2016 — 2011 )</span>
+                          <h5>The Shops at Wright Plaza</h5>
+                          <span>( 2015 — 2018 )</span>
                         </div>
-                        <h3>Graphic Designer</h3>
-                        <p>
-                          Adipisicing Lorem ipsum dolor sit amet, consectetur
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.{" "}
-                        </p>
+                        <h3>Marketing Director</h3>
+                        <ul>
+                          <li>- Worked collaboratively with the rental unit manager to incorporate modern technology and develop a competitive web presence in all tenant stores.</li>
+                          <li>- Developed New Brand Identity: created a new logo and website for the Shops at Wright Plaza.</li>
+                          <li>- Coordinated digital displays with new tenant promotional information for monthly advertising on billboards and store reader-boards.</li>
+                        </ul>
                       </div>
                     </li>
                   </ul>
@@ -184,42 +163,49 @@ const Biography = () => {
                     <li>
                       <div className="item">
                         <div className="item_top">
-                          <h5>Frenify University</h5>
-                          <span>( 2014 — 2017 )</span>
+                          <h5>Bethel Tech</h5>
+                          <span>( Fall 2022 )</span>
                         </div>
-                        <h3>Computer Science</h3>
+                        <h3>Full Stack Web Development</h3>
                         <p>
-                          Adipisicing Lorem ipsum dolor sit amet, consectetur
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.{" "}
+                          I have and will learn JavaScript, TypeScript, React,
+                          MySql, React Native and more.
                         </p>
                       </div>
                     </li>
                     <li>
                       <div className="item">
                         <div className="item_top">
-                          <h5>Edu University</h5>
-                          <span>( 2011 — 2014 )</span>
+                          <h5>Udacity Nano Degree</h5>
+                          <span>( 2018)</span>
                         </div>
-                        <h3>Master Degree</h3>
+                        <h3>Front End Web Development</h3>
                         <p>
-                          Adipisicing Lorem ipsum dolor sit amet, consectetur
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.{" "}
+                         I learned HTML, CSS, JavaScript and Python
                         </p>
                       </div>
                     </li>
                     <li>
                       <div className="item">
                         <div className="item_top">
-                          <h5>Clolumbia College</h5>
-                          <span>( 2007 — 2011 )</span>
+                          <h5>Full Sail University</h5>
+                          <span>( 2014 )</span>
                         </div>
-                        <h3>Bachelor Degree</h3>
+                        <h3>Masters Certificate - Digital Marketing</h3>
                         <p>
-                          Adipisicing Lorem ipsum dolor sit amet, consectetur
-                          elit, sed do eiusmod tempor incididunt ut labore et
-                          dolore magna aliqua.{" "}
+                          I learned how to create and manage digital marketing campaigns.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="item">
+                        <div className="item_top">
+                          <h5>The University of Alabama</h5>
+                          <span>( 2005-2009 )</span>
+                        </div>
+                        <h3>Bachelors - Marketing</h3>
+                        <p>
+                          I completed my major requirements with a 4.0.
                         </p>
                       </div>
                     </li>
@@ -232,66 +218,116 @@ const Biography = () => {
               <div id="tab3" className={`tab_item ${activeCls("tab3")}`}>
                 {/* Progress Bar */}
                 <div className="fn_cs_progress_bar">
-                  <div className="progress_item open" data-value={92}>
+                  <div className="progress_item open" data-value={100}>
                     <div className="item_in">
                       <h3 className="progress_title">Adobe Photoshop</h3>
                       <span
                         className="progress_percent"
-                        style={{ right: "8%" }}
+                        style={{ right: "2%" }}
                       >
-                        92%
+                        5 years
                       </span>
-                      <div className="progress_bg" style={{ width: "92%" }} />
+                      <div className="progress_bg" style={{ width: "100%" }} />
                     </div>
                   </div>
-                  <div className="progress_item open" data-value={95}>
+                  <div className="progress_item open" data-value={100}>
                     <div className="item_in">
                       <h3 className="progress_title">HTML5 &amp; CSS3</h3>
                       <span
                         className="progress_percent"
-                        style={{ right: "5%" }}
+                        style={{ right: "2%" }}
                       >
-                        95%
+                        11 years
                       </span>
-                      <div className="progress_bg" style={{ width: "95%" }} />
+                      <div className="progress_bg" style={{ width: "100%" }} />
                     </div>
                   </div>
-                  <div className="progress_item open" data-value={80}>
+                  <div className="progress_item open" data-value={100}>
                     <div className="item_in">
                       <h3 className="progress_title">WordPress</h3>
                       <span
                         className="progress_percent"
-                        style={{ right: "20%" }}
+                        style={{ right: "2%" }}
                       >
-                        80%
+                        10 years
                       </span>
-                      <div className="progress_bg" style={{ width: "80%" }} />
+                      <div className="progress_bg" style={{ width: "100%" }} />
                     </div>
                   </div>
-                  <div className="progress_item open" data-value={85}>
+                  <div className="progress_item open" data-value={100}>
                     <div className="item_in">
-                      <h3 className="progress_title">Adobe Illustrator</h3>
+                      <h3 className="progress_title">Affinity Photo</h3>
                       <span
                         className="progress_percent"
-                        style={{ right: "15%" }}
+                        style={{ right: "2%" }}
                       >
-                        85%
+                        5 years
                       </span>
-                      <div className="progress_bg" style={{ width: "85%" }} />
+                      <div className="progress_bg" style={{ width: "100%" }} />
+                    </div>
+                  </div>
+                  <div className="progress_item open" data-value={100}>
+                    <div className="item_in">
+                      <h3 className="progress_title">PHP</h3>
+                      <span
+                        className="progress_percent"
+                        style={{ right: "2%" }}
+                      >
+                        5 years
+                      </span>
+                      <div className="progress_bg" style={{ width: "100%" }} />
+                    </div>
+                  </div>
+                  <div className="progress_item open" data-value={100}>
+                    <div className="item_in">
+                      <h3 className="progress_title">JavaScript</h3>
+                      <span
+                        className="progress_percent"
+                        style={{ right: "2%" }}
+                      >
+                        2 years
+                      </span>
+                      <div className="progress_bg" style={{ width: "100%" }} />
+                    </div>
+                  </div>
+                  <div className="progress_item open" data-value={100}>
+                    <div className="item_in">
+                      <h3 className="progress_title">TypeScript</h3>
+                      <span
+                        className="progress_percent"
+                        style={{ right: "2%" }}
+                      >
+                        1 years
+                      </span>
+                      <div className="progress_bg" style={{ width: "100%" }} />
+                    </div>
+                  </div>
+                  <div className="progress_item open" data-value={100}>
+                    <div className="item_in">
+                      <h3 className="progress_title">React</h3>
+                      <span
+                        className="progress_percent"
+                        style={{ right: "2%" }}
+                      >
+                        1 years
+                      </span>
+                      <div className="progress_bg" style={{ width: "100%" }} />
+                    </div>
+                  </div>
+                  <div className="progress_item open" data-value={100}>
+                    <div className="item_in">
+                      <h3 className="progress_title">MySql</h3>
+                      <span
+                        className="progress_percent"
+                        style={{ right: "2%" }}
+                      >
+                        1 years
+                      </span>
+                      <div className="progress_bg" style={{ width: "100%" }} />
                     </div>
                   </div>
                 </div>
                 {/* /Progress Bar */}
-                {/* Description */}
-                <div className="fn_cs_desc">
-                  <p>
-                    A freelance creative designer with a love for minimal
-                    design, clean typography and well-written code, located in
-                    San Francisco. Provide high quality and cost effective
-                    offshore web and software development services. Wide range
-                    of web and software development services across the world.
-                  </p>
-                </div>
               </div>
               {/* /#2 tab content */}
             </div>

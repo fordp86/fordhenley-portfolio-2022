@@ -16,7 +16,7 @@
 /*	01) Base
 /*------------------------------------------------------------------*/
 :root{
-    --main-color: #ffcc0d;
+    --main-color: #a9aa71;
     --text-color-for-main-bg: #000;
 }
 html {
@@ -25,13 +25,13 @@ html {
 	margin: 0px
 }
 body{
+	background-color: #E3E7D3;
 	font-family: 'Jost', Arial, Helvetica, sans-serif;
 	font-size: 22px;
 	line-height: 1.37;
 	letter-spacing: 0;
 	font-weight: 400;
 	color: #000;
-	
 	word-break: break-word;
 }
 .fn__svg{

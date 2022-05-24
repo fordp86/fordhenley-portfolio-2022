@@ -58,27 +58,27 @@ export const isotopLayout = (container, item) => {
 };
 
 // Colo change
-export const colorChange = () => {
-  const colors = document.querySelectorAll("#color_box ul li.item a");
-  colors.forEach((color) => {
-    color.addEventListener("click", () => {
-      const colorCode = color.getAttribute("data-color");
-      function isTooDark(hexcolor) {
-        var r = parseInt(hexcolor.substr(1, 2), 16);
-        var g = parseInt(hexcolor.substr(3, 2), 16);
-        var b = parseInt(hexcolor.substr(4, 2), 16);
-        var yiq = (r * 299 + g * 587 + b * 114) / 1000;
-        return yiq < 100 ? "#fff" : "#000";
-      }
-      document.querySelector(
-        "html"
-      ).style = `--main-color:${colorCode}; --text-color-for-main-bg:${isTooDark(
-        colorCode
-      )};`;
-      colors.forEach((co) => {
-        co.classList.remove("active");
-        color.classList.add("active");
-      });
-    });
-  });
-};
+// export const colorChange = () => {
+//   const colors = document.querySelectorAll("#color_box ul li.item a");
+//   colors.forEach((color) => {
+//     color.addEventListener("click", () => {
+//       const colorCode = color.getAttribute("data-color");
+//       function isTooDark(hexcolor) {
+//         var r = parseInt(hexcolor.substr(1, 2), 16);
+//         var g = parseInt(hexcolor.substr(3, 2), 16);
+//         var b = parseInt(hexcolor.substr(4, 2), 16);
+//         var yiq = (r * 299 + g * 587 + b * 114) / 1000;
+//         return yiq < 100 ? "#fff" : "#000";
+//       }
+//       document.querySelector(
+//         "html"
+//       ).style = `--main-color:${colorCode}; --text-color-for-main-bg:${isTooDark(
+//         colorCode
+//       )};`;
+//       colors.forEach((co) => {
+//         co.classList.remove("active");
+//         color.classList.add("active");
+//       });
+//     });
+//   });
+// };

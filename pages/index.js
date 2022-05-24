@@ -3,11 +3,9 @@ import About from "../src/components/About";
 import Biography from "../src/components/Biography";
 import Blog from "../src/components/Blog";
 import Contact from "../src/components/Contact";
-import Customer from "../src/components/Customer";
+import Languages from "../src/components/Languages";
 import NextSection from "../src/components/NextSection";
 import Portfolio from "../src/components/Portfolio";
-import Service from "../src/components/Service";
-import ColorScheme from "../src/layouts/ColorScheme";
 import MobileMenu from "../src/layouts/MobileMenu";
 import Sidebar from "../src/layouts/Sidebar";
 import { animation, aTagClick, dataImage, parallax } from "../src/utils";
@@ -25,7 +23,6 @@ const Index = () => {
       <div className="rewall_fn_wrapper">
         {/* <ColorScheme /> */}
         <MobileMenu />
-        <ColorScheme />
         <Sidebar />
 
         <div className="rewall_fn_content">
@@ -44,30 +41,15 @@ const Index = () => {
             {/* Portfolio Section */}
             <Portfolio />
             {/* /Portfolio Section */}
-            {/* Scroll to next section */}
-
-            <NextSection mainUrl="service" upUrl="portfolio" />
             {/* /Scroll to next section */}
-            {/* Service Section */}
-            <Service />
-            {/* /Service Section */}
-            {/* Scroll to next section */}
-
-            <NextSection mainUrl="customer" upUrl="service" />
+            <NextSection mainUrl="languages" upUrl="service" />
             {/* /Scroll to next section */}
-            {/* Customer Section */}
-            <Customer />
-            {/* /Customer Section */}
+            {/* Languages Section */}
+            <Languages />
+            {/* /Languages Section */}
             {/* Scroll to next section */}
 
-            <NextSection mainUrl="blog" upUrl="customer" />
-            {/* /Scroll to next section */}
-            {/* Blog Section */}
-            <Blog />
-            {/* /Blog Section */}
-            {/* Scroll to next section */}
-
-            <NextSection mainUrl="contact" upUrl="blog" />
+            <NextSection mainUrl="contact" upUrl="languages" />
             {/* /Scroll to next section */}
             {/* Contact Section */}
             <Contact />

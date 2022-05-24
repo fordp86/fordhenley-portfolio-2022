@@ -128,15 +128,9 @@ const Contact = () => {
           {/* /Contact Form */}
           {/* Contact Info */}
           <div className="fn_cs_contact_info">
-            <p>Address</p>
-            <h3>69 Queen St, London, United Kingdom</h3>
-            <p>Phone</p>
-            <h3>
-              <Link href="tel:+7068980751"><a>(+706) 898-0751</a></Link>
-            </h3>
             <p>
               <Link href="mailto:trendycoder.com@gmail.com"><a className="fn__link">
-              trendycoder.com@gmail.com
+              fordp86<span>@</span>gmail.com
               </a></Link>
             </p>
           </div>
