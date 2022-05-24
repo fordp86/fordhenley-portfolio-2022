@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
     <>
 
       <Head>
-        <title>Rewall | Personal Portfolio React Template</title>
+        <title>Ford Henley | Personal Portfolio In React</title>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="description" content="personal portfolio react template" />
