@@ -92,7 +92,7 @@ const Portfolio = () => {
                         className="fn__link zoom"                        
                         data-title="Lauryn Henley Freedom Coach"
                       >
-                       Lauryn Henley Freedom Coach"
+                       Lauryn Henley Freedom Coach
                       </a></Link>
                     </h3>
                     <p>WordPress Theme, Front End Dev, WP Elementor</p>
@@ -216,7 +216,7 @@ const Portfolio = () => {
                   <div className="img_holder">
                     <Link href="img/portfolio/2-tall-port-img-1-1.jpeg"><a
                       className="zoom"                      
-                      data-title="2 Tall Womenc"
+                      data-title="2 Tall Women"
                     >
                       <img className="h-100" src="img/portfolio/2-tall-port-img-1-1.jpeg" />
                     </a></Link>
@@ -224,6 +224,93 @@ const Portfolio = () => {
                     <div
                       className="abs_img"
                       data-bg-img="img/portfolio/2-tall-port-img-1-1.jpeg"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li className="masonry_in">
+                <div className="item">
+                  <div className="title_holder">
+                    <h3>
+                      <Link href="#"><a
+                        className="fn__link zoom"
+                        
+                        data-title="Randall’s Adventure"
+                      >
+                        Randall’s Adventure
+                      </a></Link>
+                    </h3>
+                    <p>Drupal 7, Drupal Commerce</p>
+                  </div>
+                  <div className="img_holder">
+                    <Link href="img/portfolio/randallsadventure.jpeg"><a
+                      className="zoom"                      
+                      data-title="Randall’s Adventure"
+                    >
+                      <img className="h-100" src="img/portfolio/randallsadventure.jpeg" />
+                    </a></Link>
+                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                    <div
+                      className="abs_img"
+                      data-bg-img="img/portfolio/randallsadventure.jpeg"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li className="masonry_in">
+                <div className="item">
+                  <div className="title_holder">
+                    <h3>
+                      <Link href="#"><a
+                        className="fn__link zoom"
+                        
+                        data-title="Echols Metal Roofing"
+                      >
+                        Echols Metal Roofing
+                      </a></Link>
+                    </h3>
+                    <p>Custom WordPress Theme, Bootstrap 5</p>
+                  </div>
+                  <div className="img_holder">
+                    <Link href="img/portfolio/echols-thumbnail.jpeg"><a
+                      className="zoom"                      
+                      data-title="Echols Metal Roofing"
+                    >
+                      <img className="h-100" src="img/portfolio/echols-thumbnail.jpeg" />
+                    </a></Link>
+                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                    <div
+                      className="abs_img"
+                      data-bg-img="img/portfolio/echols-thumbnail.jpeg"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li className="masonry_in">
+                <div className="item">
+                  <div className="title_holder">
+                    <h3>
+                      <Link href="#"><a
+                        className="fn__link zoom"
+                        
+                        data-title="46 Logistics"
+                      >
+                        46 Logistics
+                      </a></Link>
+                    </h3>
+                    <p>Custom SEO Campaign</p>
+                  </div>
+                  <div className="img_holder">
+                    <Link href="img/portfolio/46logistics.jpeg"><a
+                      className="zoom"                      
+                      data-title="46 Logistics"
+                    >
+                      <img className="h-100" src="img/portfolio/46logistics.jpeg" />
+                    </a></Link>
+                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                    <div
+                      className="abs_img"
+                      data-bg-img="img/portfolio/46logistics.jpeg"
                     />
                   </div>
                 </div>
