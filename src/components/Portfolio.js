@@ -131,12 +131,99 @@ const Portfolio = () => {
                       className="zoom"                      
                       data-title="Destin Music"
                     >
-                      <img className="h-100" src="img/portfolio/destinmusichiphop-port.jpeg" />
+                      <img className="h-100" src="img/portfolio/destinmusichiphop-port.jpeg" alt="Destin Music" />
                     </a></Link>
                     {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
                     <div
                       className="abs_img"
                       data-bg-img="img/portfolio/destinmusichiphop-port.jpeg"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li className="masonry_in">
+                <div className="item">
+                  <div className="title_holder">
+                    <h3>
+                      <Link href="#"><a
+                        className="fn__link zoom"
+                        
+                        data-title="Emerald Coast All Sports Association"
+                      >
+                        Emerald Coast All Sports Association
+                      </a></Link>
+                    </h3>
+                    <p>Custom WordPress Theme, Bootstrap 5</p>
+                  </div>
+                  <div className="img_holder">
+                    <Link href="img/portfolio/asa-port-img-1.jpeg"><a
+                      className="zoom"                      
+                      data-title="Emerald Coast All Sports Association"
+                    >
+                      <img className="h-100" src="img/portfolio/asa-port-img-1.jpeg" alt="Emerald Coast All Sports Association" />
+                    </a></Link>
+                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                    <div
+                      className="abs_img"
+                      data-bg-img="img/portfolio/asa-port-img-1.jpeg"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li className="masonry_in">
+                <div className="item">
+                  <div className="title_holder">
+                    <h3>
+                      <Link href="#"><a
+                        className="fn__link zoom"
+                        
+                        data-title="Cornerstone Medicare"
+                      >
+                        Cornerstone Medicare
+                      </a></Link>
+                    </h3>
+                    <p>Custom WordPress Theme, Bootstrap 4</p>
+                  </div>
+                  <div className="img_holder">
+                    <Link href="img/portfolio/cornertstone-port-img-1.jpeg"><a
+                      className="zoom"                      
+                      data-title="Cornerstone Medicare"
+                    >
+                      <img className="h-100" src="img/portfolio/cornertstone-port-img-1.jpeg" alt="Cornerstone Medicare" />
+                    </a></Link>
+                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                    <div
+                      className="abs_img"
+                      data-bg-img="img/portfolio/cornertstone-port-img-1.jpeg"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li className="masonry_in">
+                <div className="item">
+                  <div className="title_holder">
+                    <h3>
+                      <Link href="#"><a
+                        className="fn__link zoom"
+                        
+                        data-title="2 Tall Women"
+                      >
+                        2 Tall Women
+                      </a></Link>
+                    </h3>
+                    <p>WordPress Elementor Theme Customization</p>
+                  </div>
+                  <div className="img_holder">
+                    <Link href="img/portfolio/2-tall-port-img-1-1.jpeg"><a
+                      className="zoom"                      
+                      data-title="2 Tall Womenc"
+                    >
+                      <img className="h-100" src="img/portfolio/2-tall-port-img-1-1.jpeg" />
+                    </a></Link>
+                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                    <div
+                      className="abs_img"
+                      data-bg-img="img/portfolio/2-tall-port-img-1-1.jpeg"
                     />
                   </div>
                 </div>
