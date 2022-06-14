@@ -11,7 +11,7 @@ const Biography = () => {
         <div className="container max880">
           <h3>Biography</h3>
           <p>
-            {`I'm a Full Stack Developer & Digital Marketer with over 12 years of
+            {`I'm a Full Stack Developer & Digital Marketer with over 10 years of
                     experience. I'm from Fort Walton Beach, FL and currently reside in Austin,TX. 
                     I code and create websites for amazing people around the world. I like to learn new skills and take challenges headon.`}
           </p>
