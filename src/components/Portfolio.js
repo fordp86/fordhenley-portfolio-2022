@@ -315,6 +315,122 @@ const Portfolio = () => {
                   </div>
                 </div>
               </li>
+              <li className="masonry_in">
+                <div className="item">
+                  <div className="title_holder">
+                    <h3>
+                      <Link href="#"><a
+                        className="fn__link zoom"
+                        
+                        data-title="Sherman & Briscoe Orthodontics"
+                      >
+                        Sherman & Briscoe Orthodontics
+                      </a></Link>
+                    </h3>
+                    <p>Custom WordPress Bootstrap Theme, Custom SEO Campaign</p>
+                  </div>
+                  <div className="img_holder">
+                    <Link href="img/portfolio/bracesbysb-port.jpeg"><a
+                      className="zoom"                      
+                      data-title="Sherman & Briscoe Orthodontics"
+                    >
+                      <img className="h-100" src="img/portfolio/bracesbysb-port.jpeg" />
+                    </a></Link>
+                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                    <div
+                      className="abs_img"
+                      data-bg-img="img/portfolio/bracesbysb-port.jpeg"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li className="masonry_in">
+                <div className="item">
+                  <div className="title_holder">
+                    <h3>
+                      <Link href="#"><a
+                        className="fn__link zoom"
+                        
+                        data-title="Devright"
+                      >
+                        Devright
+                      </a></Link>
+                    </h3>
+                    <p>Custom SEO Campaign and WordPress Elementor Theme</p>
+                  </div>
+                  <div className="img_holder">
+                    <Link href="img/portfolio/devrightport-thumb.jpeg"><a
+                      className="zoom"                      
+                      data-title="Devright"
+                    >
+                      <img className="h-100" src="img/portfolio/devrightport-thumb.jpeg" />
+                    </a></Link>
+                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                    <div
+                      className="abs_img"
+                      data-bg-img="img/portfolio/devrightport-thumb.jpeg"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li className="masonry_in">
+                <div className="item">
+                  <div className="title_holder">
+                    <h3>
+                      <Link href="#"><a
+                        className="fn__link zoom"
+                        
+                        data-title="The Defining Point"
+                      >
+                        The Defining Point
+                      </a></Link>
+                    </h3>
+                    <p>Custom SEO Campaign</p>
+                  </div>
+                  <div className="img_holder">
+                    <Link href="img/portfolio/definingpoint-port.jpeg"><a
+                      className="zoom"                      
+                      data-title="The Defining Point"
+                    >
+                      <img className="h-100" src="img/portfolio/definingpoint-port.jpeg" />
+                    </a></Link>
+                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                    <div
+                      className="abs_img"
+                      data-bg-img="img/portfolio/definingpoint-port.jpeg"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li className="masonry_in">
+                <div className="item">
+                  <div className="title_holder">
+                    <h3>
+                      <Link href="#"><a
+                        className="fn__link zoom"
+                        
+                        data-title="On Site Boat Care"
+                      >
+                        On Site Boat Care
+                      </a></Link>
+                    </h3>
+                    <p>Custom SEO Campaign</p>
+                  </div>
+                  <div className="img_holder">
+                    <Link href="img/portfolio/onsiteboatcare-port.jpeg"><a
+                      className="zoom"                      
+                      data-title="On Site Boat Care"
+                    >
+                      <img className="h-100" src="img/portfolio/onsiteboatcare-port.jpeg" />
+                    </a></Link>
+                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                    <div
+                      className="abs_img"
+                      data-bg-img="img/portfolio/onsiteboatcare-port.jpeg"
+                    />
+                  </div>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
