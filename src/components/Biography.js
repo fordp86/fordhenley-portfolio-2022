@@ -13,7 +13,7 @@ const Biography = () => {
           <p>
             {`I'm a Full Stack Developer & Digital Marketer with over 10 years of
                     experience. I'm from Fort Walton Beach, FL and currently reside in Austin,TX. 
-                    I code and create websites for amazing people around the world. I like to learn new skills and take challenges headon.`}
+                    I code and create websites for amazing people around the world. I like to learn new skills and take challenges head on.`}
           </p>
         </div>
       </div>
