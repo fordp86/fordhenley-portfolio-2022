@@ -111,7 +111,7 @@ const Biography = () => {
                           <h5>Sport Clips - Franchise</h5>
                           <span>( 2015 — Today )</span>
                         </div>
-                        <h3>Director of Business Development</h3>
+                        <h3>Digital Strategist</h3>
                         <ul>
                           <li>- Lead business development activities, research current and future target markets.</li>
                           <li>- Work with Team Leader to manage marketing projects and improve business

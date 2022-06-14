@@ -62,24 +62,24 @@ const Portfolio = () => {
                       <Link href="#"><a
                         className="fn__link zoom"
                         
-                        data-title="Revolution Book"
+                        data-title="Chris Hughes Blog"
                       >
-                        Revolution Book
+                        Chris Hughes Blog
                       </a></Link>
                     </h3>
-                    <p>illustration, design</p>
+                    <p>Custom WordPress Theme, Bootstrap 4</p>
                   </div>
                   <div className="img_holder">
-                    <Link href="img/portfolio/2.jpg"><a
+                    <Link href="img/portfolio/chrishughes-port.jpeg"><a
                       className="zoom"                      
-                      data-title="Revolution Book"
+                      data-title="Chris Hughes Blog"
                     >
-                      <img className="h-100" src="img/portfolio/2.jpg" />
+                      <img className="h-100" src="img/portfolio/chrishughes-port.jpeg" alt="Chris Hughes Blog" />
                     </a></Link>
                     {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
                     <div
                       className="abs_img"
-                      data-bg-img="img/portfolio/2.jpg"
+                      data-bg-img="img/portfolio/chrishughes-port.jpeg"
                     />
                   </div>
                 </div>
@@ -90,24 +90,24 @@ const Portfolio = () => {
                     <h3>
                       <Link href="#"><a
                         className="fn__link zoom"                        
-                        data-title="Dreamers Logo"
+                        data-title="Lauryn Henley Freedom Coach"
                       >
-                        Dreamers Logo
+                       Lauryn Henley Freedom Coach"
                       </a></Link>
                     </h3>
-                    <p>illustration, design</p>
+                    <p>WordPress Theme, Front End Dev, WP Elementor</p>
                   </div>
                   <div className="img_holder">
-                    <Link href="img/portfolio/3.jpg"><a
+                    <Link href="img/portfolio/laurynhenleyport.jpeg"><a
                       className="zoom"                      
-                      data-title="Dreamers Logo"
+                      data-title="Lauryn Henley Freedom Coach"
                     >
-                      <img className="h-100" src="img/portfolio/3.jpg" />
+                      <img className="h-100" src="img/portfolio/laurynhenleyport.jpeg" alt="Lauryn Henley Freedom Coach" />
                     </a></Link>
                     {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
                     <div
                       className="abs_img"
-                      data-bg-img="img/portfolio/3.jpg"
+                      data-bg-img="img/portfolio/laurynhenleyport.jpeg"
                     />
                   </div>
                 </div>
@@ -119,24 +119,24 @@ const Portfolio = () => {
                       <Link href="#"><a
                         className="fn__link zoom"
                         
-                        data-title="Reductive Design"
+                        data-title="Destin Music"
                       >
-                        Reductive Design
+                        Destin Music
                       </a></Link>
                     </h3>
-                    <p>illustration, design</p>
+                    <p>Custom Drupal 7 Theme, Bootstrap 4</p>
                   </div>
                   <div className="img_holder">
-                    <Link href="img/portfolio/4.jpg"><a
+                    <Link href="img/portfolio/destinmusichiphop-port.jpeg"><a
                       className="zoom"                      
-                      data-title="Reductive Design"
+                      data-title="Destin Music"
                     >
-                      <img className="h-100" src="img/portfolio/4.jpg" />
+                      <img className="h-100" src="img/portfolio/destinmusichiphop-port.jpeg" />
                     </a></Link>
                     {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
                     <div
                       className="abs_img"
-                      data-bg-img="img/portfolio/4.jpg"
+                      data-bg-img="img/portfolio/destinmusichiphop-port.jpeg"
                     />
                   </div>
                 </div>
