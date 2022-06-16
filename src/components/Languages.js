@@ -3,7 +3,7 @@ import SwiperCore, { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fab, github } from '@fortawesome/free-brands-svg-icons';
+import { brands } from '@fortawesome/fontawesome-svg-core/import.macro';
 
 
 SwiperCore.use([Navigation, Autoplay]);
@@ -34,42 +34,42 @@ const Languages = () => {
           <ul>
             <li>
               <Link href="#"><a>
-                <FontAwesomeIcon icon={["fab", "github"]} />
+                <FontAwesomeIcon icon={brands('twitter')} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-                <FontAwesomeIcon icon={["fab", "fa-githubs"]} />
+                <FontAwesomeIcon icon={brands('twitter')} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-                <FontAwesomeIcon icon={["fab", "fa-githubs"]} />
+                <FontAwesomeIcon icon={brands('twitter')} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-                <FontAwesomeIcon icon={["fab", "fa-githubs"]} />
+               <FontAwesomeIcon icon={brands('twitter')} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-                <FontAwesomeIcon icon={["fab", "fa-githubs"]} />
+              <FontAwesomeIcon icon={brands('twitter')} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-                <FontAwesomeIcon icon={["fab", "fa-githubs"]} />
+              <FontAwesomeIcon icon={brands('twitter')} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-                <FontAwesomeIcon icon={["fab", "fa-githubs"]} />
+              <FontAwesomeIcon icon={brands('twitter')} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-                <FontAwesomeIcon icon={["fab", "fa-githubs"]} />
+              <FontAwesomeIcon icon={brands('twitter')} />
               </a></Link>
             </li>
           </ul>
