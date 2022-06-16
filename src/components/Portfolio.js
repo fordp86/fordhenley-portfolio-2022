@@ -435,7 +435,7 @@ const Portfolio = () => {
                 <div className="item">
                   <div className="title_holder">
                     <h3>
-                      <Link href="https://fordhenley-todoproject.netlify.app/"><a
+                      <Link target="_blank" href="https://fordhenley-todoproject.netlify.app/"><a
                         className="fn__link zoom"
                         
                         data-title="Coder Foundry ToDo"
@@ -464,7 +464,7 @@ const Portfolio = () => {
                 <div className="item">
                   <div className="title_holder">
                     <h3>
-                      <Link href="https://guessfordsnumber.netlify.app/"><a
+                      <Link target="_blank" href="https://guessfordsnumber.netlify.app/"><a
                         className="fn__link zoom"
                         
                         data-title="Bethel Tech Bootcamp Guessing Game"

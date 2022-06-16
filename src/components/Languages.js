@@ -1,7 +1,9 @@
 // import Swiper from "swiper";
 import SwiperCore, { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Link from 'next/link'
+import Link from 'next/link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { fab, github } from '@fortawesome/free-brands-svg-icons';
 
 
 SwiperCore.use([Navigation, Autoplay]);
@@ -37,37 +39,37 @@ const Languages = () => {
             </li>
             <li>
               <Link href="#"><a>
-                <FontAwesomeIcon icon={["fab", "github"]} />
+                <FontAwesomeIcon icon={["fab", "fa-githubs"]} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-                <FontAwesomeIcon icon={["fab", "github"]} />
+                <FontAwesomeIcon icon={["fab", "fa-githubs"]} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-                <FontAwesomeIcon icon={["fab", "github"]} />
+                <FontAwesomeIcon icon={["fab", "fa-githubs"]} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-                <FontAwesomeIcon icon={["fab", "github"]} />
+                <FontAwesomeIcon icon={["fab", "fa-githubs"]} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-                <FontAwesomeIcon icon={["fab", "github"]} />
+                <FontAwesomeIcon icon={["fab", "fa-githubs"]} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-                <FontAwesomeIcon icon={["fab", "github"]} />
+                <FontAwesomeIcon icon={["fab", "fa-githubs"]} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-                <FontAwesomeIcon icon={["fab", "github"]} />
+                <FontAwesomeIcon icon={["fab", "fa-githubs"]} />
               </a></Link>
             </li>
           </ul>
