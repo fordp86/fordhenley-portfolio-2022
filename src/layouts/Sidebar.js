@@ -106,7 +106,7 @@ const Sidebar = () => {
           <div className="social">
             <ul>
               <li>
-                <a href="#">
+                <a href="https://twitter.com/fordalorian">
                   <img
                     src="svg/social/twitter.svg"
                     alt="image"
@@ -115,7 +115,7 @@ const Sidebar = () => {
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://instagram.com/fordalorian">
                   <img
                     src="svg/social/instagram.svg"
                     alt="image"
@@ -124,7 +124,7 @@ const Sidebar = () => {
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.youtube.com/channel/UC8n_yVZvKd_P_e5RlhBbohQ/videos">
                   <img
                     src="svg/social/youtube.svg"
                     alt="image"
