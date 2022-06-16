@@ -1,3 +1,4 @@
+import React from "react";
 import { useEffect } from "react";
 import About from "../src/components/About";
 import Biography from "../src/components/Biography";

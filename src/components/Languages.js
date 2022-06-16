@@ -1,4 +1,4 @@
-// import Swiper from "swiper";
+import React from "react";
 import SwiperCore, { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from 'next/link';

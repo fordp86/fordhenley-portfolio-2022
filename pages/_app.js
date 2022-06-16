@@ -1,3 +1,4 @@
+import React from "react";
 import Head from "next/head";
 import SimpleReactLightbox from "simple-react-lightbox";
 import "swiper/css";

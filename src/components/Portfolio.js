@@ -1,3 +1,4 @@
+import React from "react";
 import { useEffect } from "react";
 import { SRLWrapper } from "simple-react-lightbox";
 import { isotopLayout } from "../utils";
