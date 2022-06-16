@@ -32,42 +32,42 @@ const Languages = () => {
           <ul>
             <li>
               <Link href="#"><a>
-                <img src="img/partners/1.png" alt="image" />
+                <FontAwesomeIcon icon={["fab", "github"]} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-                <img src="img/partners/2.png" alt="image" />
+                <FontAwesomeIcon icon={["fab", "github"]} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-                <img src="img/partners/3.png" alt="image" />
+                <FontAwesomeIcon icon={["fab", "github"]} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-                <img src="img/partners/4.png" alt="image" />
+                <FontAwesomeIcon icon={["fab", "github"]} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-                <img src="img/partners/5.png" alt="image" />
+                <FontAwesomeIcon icon={["fab", "github"]} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-                <img src="img/partners/6.png" alt="image" />
+                <FontAwesomeIcon icon={["fab", "github"]} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-                <img src="img/partners/7.png" alt="image" />
+                <FontAwesomeIcon icon={["fab", "github"]} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-                <img src="img/partners/8.png" alt="image" />
+                <FontAwesomeIcon icon={["fab", "github"]} />
               </a></Link>
             </li>
           </ul>

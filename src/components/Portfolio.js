@@ -218,7 +218,7 @@ const Portfolio = () => {
                       className="zoom"                      
                       data-title="2 Tall Women"
                     >
-                      <img className="h-100" src="img/portfolio/2-tall-port-img-1-1.jpeg" />
+                      <img className="h-100" src="img/portfolio/2-tall-port-img-1-1.jpeg" alt="2 Tall Women" />
                     </a></Link>
                     {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
                     <div
@@ -247,7 +247,7 @@ const Portfolio = () => {
                       className="zoom"                      
                       data-title="Randall’s Adventure"
                     >
-                      <img className="h-100" src="img/portfolio/randallsadventure.jpeg" />
+                      <img className="h-100" src="img/portfolio/randallsadventure.jpeg" alt="Randall’s Adventure" />
                     </a></Link>
                     {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
                     <div
@@ -276,7 +276,7 @@ const Portfolio = () => {
                       className="zoom"                      
                       data-title="Echols Metal Roofing"
                     >
-                      <img className="h-100" src="img/portfolio/echols-thumbnail.jpeg" />
+                      <img className="h-100" src="img/portfolio/echols-thumbnail.jpeg" alt="Echols Metal Roofing" />
                     </a></Link>
                     {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
                     <div
@@ -305,7 +305,7 @@ const Portfolio = () => {
                       className="zoom"                      
                       data-title="46 Logistics"
                     >
-                      <img className="h-100" src="img/portfolio/46logistics.jpeg" />
+                      <img className="h-100" src="img/portfolio/46logistics.jpeg" alt="46 Logistics" />
                     </a></Link>
                     {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
                     <div
@@ -334,7 +334,7 @@ const Portfolio = () => {
                       className="zoom"                      
                       data-title="Sherman & Briscoe Orthodontics"
                     >
-                      <img className="h-100" src="img/portfolio/bracesbysb-port.jpeg" />
+                      <img className="h-100" src="img/portfolio/bracesbysb-port.jpeg" alt="Sherman & Briscoe Orthodontics" />
                     </a></Link>
                     {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
                     <div
@@ -363,7 +363,7 @@ const Portfolio = () => {
                       className="zoom"                      
                       data-title="Devright"
                     >
-                      <img className="h-100" src="img/portfolio/devrightport-thumb.jpeg" />
+                      <img className="h-100" src="img/portfolio/devrightport-thumb.jpeg" alt="Devright" />
                     </a></Link>
                     {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
                     <div
@@ -392,7 +392,7 @@ const Portfolio = () => {
                       className="zoom"                      
                       data-title="The Defining Point"
                     >
-                      <img className="h-100" src="img/portfolio/definingpoint-port.jpeg" />
+                      <img className="h-100" src="img/portfolio/definingpoint-port.jpeg" alt="The Defining Point" />
                     </a></Link>
                     {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
                     <div
@@ -421,12 +421,70 @@ const Portfolio = () => {
                       className="zoom"                      
                       data-title="On Site Boat Care"
                     >
-                      <img className="h-100" src="img/portfolio/onsiteboatcare-port.jpeg" />
+                      <img className="h-100" src="img/portfolio/onsiteboatcare-port.jpeg" alt="On Site Boat Care" />
                     </a></Link>
                     {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
                     <div
                       className="abs_img"
                       data-bg-img="img/portfolio/onsiteboatcare-port.jpeg"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li className="masonry_in">
+                <div className="item">
+                  <div className="title_holder">
+                    <h3>
+                      <Link href="https://fordhenley-todoproject.netlify.app/"><a
+                        className="fn__link zoom"
+                        
+                        data-title="Coder Foundry ToDo"
+                      >
+                        Coder Foundry ToDo
+                      </a></Link>
+                    </h3>
+                    <p>Basic ToDo List from Coder Foundry Bootcamp hosted on Netlify</p>
+                  </div>
+                  <div className="img_holder">
+                    <Link href="img/portfolio/todo-coderfoundry.png"><a
+                      className="zoom"                      
+                      data-title="Coder Foundry ToDo"
+                    >
+                      <img className="h-100" src="img/portfolio/todo-coderfoundry.png" alt="Coder Foundry ToDo"/>
+                    </a></Link>
+                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                    <div
+                      className="abs_img"
+                      data-bg-img="img/portfolio/todo-coderfoundry.png"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li className="masonry_in">
+                <div className="item">
+                  <div className="title_holder">
+                    <h3>
+                      <Link href="https://guessfordsnumber.netlify.app/"><a
+                        className="fn__link zoom"
+                        
+                        data-title="Bethel Tech Bootcamp Guessing Game"
+                      >
+                        Bethel Tech Bootcamp Guessing Game
+                      </a></Link>
+                    </h3>
+                    <p>Guessing game built in React.js and React Bootstrap hosted on Netlify</p>
+                  </div>
+                  <div className="img_holder">
+                    <Link href="img/portfolio/guessing-bethel.png"><a
+                      className="zoom"                      
+                      data-title="Bethel Tech Bootcamp Guessing Game"
+                    >
+                      <img className="h-100" src="img/portfolio/guessing-bethel.png" />
+                    </a></Link>
+                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                    <div
+                      className="abs_img"
+                      data-bg-img="img/portfolio/guessing-bethel.png"
                     />
                   </div>
                 </div>
