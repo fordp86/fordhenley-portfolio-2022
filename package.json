@@ -12,7 +12,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.1.18",
     "isotope-layout": "^3.0.6",
-    "next": "12.0.3",
+    "next": "^12.1.6",
     "parallax-js": "^3.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
