@@ -89,7 +89,7 @@ const Portfolio = () => {
                 <div className="item">
                   <div className="title_holder">
                     <h3>
-                      <Link href="https://2020.laurynhenley.com/"><a
+                      <Link href="#"><a
                         className="fn__link zoom"                        
                         data-title="Lauryn Henley Freedom Coach"
                       >
