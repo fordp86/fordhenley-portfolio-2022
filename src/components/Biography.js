@@ -82,19 +82,19 @@ const Biography = () => {
                   onClick={() => setActive("tab1")}
                   className={activeCls("tab1")}
                 >
-                  <Link href="#"><a>Experience</a></Link>
+                  <Link href="#tab1"><a>Experience</a></Link>
                 </li>
                 <li
                   onClick={() => setActive("tab2")}
                   className={activeCls("tab2")}
                 >
-                  <Link href="#"><a>Education</a></Link>
+                  <Link href="#tab2"><a>Education</a></Link>
                 </li>
                 <li
                   onClick={() => setActive("tab3")}
                   className={activeCls("tab3")}
                 >
-                  <Link href="#"><a>Skills</a></Link>
+                  <Link href="#tab3"><a>Skills</a></Link>
                 </li>
               </ul>
             </div>
