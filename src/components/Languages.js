@@ -31,7 +31,6 @@ const Languages = () => {
       <div className="container">
         {/* Partners */}
         <div className="fn_cs_partners">
-        <p>Comming Soon</p>
           <ul>
             <li>
               <Link href="#"><a>
@@ -40,37 +39,67 @@ const Languages = () => {
             </li>
             <li>
               <Link href="#"><a>
-                <FontAwesomeIcon icon={brands('twitter')} />
+                <FontAwesomeIcon icon={brands('drupal')} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-                <FontAwesomeIcon icon={brands('twitter')} />
+                <FontAwesomeIcon icon={brands('wordpress')} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-               <FontAwesomeIcon icon={brands('twitter')} />
+               <FontAwesomeIcon icon={brands('js')} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-              <FontAwesomeIcon icon={brands('twitter')} />
+              <FontAwesomeIcon icon={brands('react')} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-              <FontAwesomeIcon icon={brands('twitter')} />
+              <FontAwesomeIcon icon={brands('angular')} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-              <FontAwesomeIcon icon={brands('twitter')} />
+              <FontAwesomeIcon icon={brands('aws')} />
               </a></Link>
             </li>
             <li>
               <Link href="#"><a>
-              <FontAwesomeIcon icon={brands('twitter')} />
+              <FontAwesomeIcon icon={brands('sass')} />
+              </a></Link>
+            </li>
+            <li>
+              <Link href="#"><a>
+              <FontAwesomeIcon icon={brands('bootstrap')} />
+              </a></Link>
+            </li>
+            <li>
+              <Link href="#"><a>
+              <FontAwesomeIcon icon={brands('css3')} />
+              </a></Link>
+            </li>
+            <li>
+              <Link href="#"><a>
+              <FontAwesomeIcon icon={brands('git-alt')} />
+              </a></Link>
+            </li>
+            <li>
+              <Link href="#"><a>
+              <FontAwesomeIcon icon={brands('html5')} />
+              </a></Link>
+            </li>
+            <li>
+              <Link href="#"><a>
+              <FontAwesomeIcon icon={brands('npm')} />
+              </a></Link>
+            </li>
+            <li>
+              <Link href="#"><a>
+              <FontAwesomeIcon icon={brands('php')} />
               </a></Link>
             </li>
           </ul>
