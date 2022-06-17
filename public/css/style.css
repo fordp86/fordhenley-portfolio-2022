@@ -1201,7 +1201,7 @@ section{
 	height: 400px;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: top center;
 	transition: all 1s ease;
 	transform: scale(1.2);
 }
