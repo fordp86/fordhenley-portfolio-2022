@@ -465,6 +465,64 @@ const Portfolio = () => {
                 <div className="item">
                   <div className="title_holder">
                     <h3>
+                      <Link target="_blank" href="https://ford-bootstrapgrids.netlify.app/"><a
+                        className="fn__link zoom"
+                        
+                        data-title="Coder Foundry Bootstrap Grids Lab"
+                      >
+                        Coder Foundry Bootstrap Grids Lab
+                      </a></Link>
+                    </h3>
+                    <p>Bootcamp project testing out different ways to use bootstrap grids</p>
+                  </div>
+                  <div className="img_holder">
+                    <Link href="img/portfolio/bootstrapgrids-coderfoundry.jpg"><a
+                      className="zoom"                      
+                      data-title="Coder Foundry Bootstrap Grids Lab"
+                    >
+                      <img className="h-100" src="img/portfolio/bootstrapgrids-coderfoundry.jpg" alt="Coder Foundry Bootstrap Grids Lab" />
+                    </a></Link>
+                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                    <div
+                      className="abs_img"
+                      data-bg-img="img/portfolio/bootstrapgrids-coderfoundry.jpg"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li className="masonry_in">
+                <div className="item">
+                  <div className="title_holder">
+                    <h3>
+                      <Link target="_blank" href="https://ford-bootstraplab.netlify.app/"><a
+                        className="fn__link zoom"
+                        
+                        data-title="Coder Foundry Bootstrap Layouts Lab"
+                      >
+                        Coder Foundry Bootstrap Layouts Lab
+                      </a></Link>
+                    </h3>
+                    <p>Bootcamp project testing out different ways to use Bootstrap to layout Forms</p>
+                  </div>
+                  <div className="img_holder">
+                    <Link href="img/portfolio/bpptstraplab-coderfoundry.jpg"><a
+                      className="zoom"                      
+                      data-title="Coder Foundry Bootstrap Layouts Lab"
+                    >
+                      <img className="h-100" src="img/portfolio/bpptstraplab-coderfoundry.jpg" alt="Coder Foundry Bootstrap Layouts Lab" />
+                    </a></Link>
+                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                    <div
+                      className="abs_img"
+                      data-bg-img="img/portfolio/bpptstraplab-coderfoundry.jpg"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li className="masonry_in">
+                <div className="item">
+                  <div className="title_holder">
+                    <h3>
                       <Link target="_blank" href="https://guessfordsnumber.netlify.app/"><a
                         className="fn__link zoom"
                         
