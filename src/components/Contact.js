@@ -36,7 +36,7 @@ const Contact = () => {
       <div className="rewall_fn_contact">
         <div className="container max880">
           {/* Contact Form */}
-          <form method="POST" data-netlify="true" className="contact_form" onSubmit={(e) => onSubmit(e)}>
+          <form data-netlify="true" className="contact_form" onSubmit={(e) => onSubmit(e)}>
             <div
               className="success"
               data-success="Your message has been received, we will contact you soon."
