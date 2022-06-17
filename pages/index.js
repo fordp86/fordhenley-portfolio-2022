@@ -2,7 +2,6 @@ import React from "react";
 import { useEffect } from "react";
 import About from "../src/components/About";
 import Biography from "../src/components/Biography";
-import Blog from "../src/components/Blog";
 import Contact from "../src/components/Contact";
 import Languages from "../src/components/Languages";
 import NextSection from "../src/components/NextSection";
