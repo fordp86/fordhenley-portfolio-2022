@@ -151,6 +151,38 @@ const Biography = () => {
                         </ul>
                       </div>
                     </li>
+                    <li>
+                      <div className="item">
+                        <div className="item_top">
+                          <h5>Student Life</h5>
+                          <span>( 2012 — 2014 )</span>
+                        </div>
+                        <h3>Front-End Web Developer</h3>
+                        <ul>
+                          <li>- Collaborated with creative teams and project managers to align priorities, organize duties, and implement new marketing campaigns with front end development.</li>
+                          <li>- Converted all company websites to Twitter Bootstrap-based mobile-friendly sites to boost sales and traffic.</li>
+                          <li>- Reduced monthly email marketing costs by 50% and increased efficiencies by migrating services from Constant Contact to Mailchimp.</li>
+                          <li>- Worked alongside the lead developer to create custom landing pages and content for company programs such as their Student Life Conference and Summer Camps.</li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="item">
+                        <div className="item_top">
+                          <h5>ProctorU</h5>
+                          <span>( 2011 — 2012 )</span>
+                        </div>
+                        <h3>Internet Media Associate</h3>
+                        <ul>
+                          <li>- Promoted to Lead Tech Support Proctor within first two months.</li>
+                          <li>- Worked with CTO and CEO to develop ProctorU, Inc.’s initial internet marketing strategy as the first member of the web development team.</li>
+                          <li>- Optimized their website to overtake existing competitors for the number one spot on Google for the highly competitive keywords: Online Proctoring and Virtual Proctoring.</li>
+                          <li>- Made ProctorU, Inc. 508 ADA accessibility compliant.</li>
+                          <li>- Partnered with the University of Illinois Accessibility program to make all of ProctorU, Inc.’s client facing web applications accessible to the visually impaired.</li>
+                          <li>- Developed a custom lead generation funnel to help separate new customers between the sales team and the support team.</li>
+                        </ul>
+                      </div>
+                    </li>
                   </ul>
                 </div>
                 {/* /Boxed List */}
@@ -171,6 +203,19 @@ const Biography = () => {
                         <p>
                           I have and will learn JavaScript, TypeScript, React,
                           MySql, React Native and more.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="item">
+                        <div className="item_top">
+                          <h5>Coder Foundry</h5>
+                          <span>( Fall 2022 )</span>
+                        </div>
+                        <h3>.Net Web Development</h3>
+                        <p>
+                          I have and will learn JavaScript, .Net,
+                          MySql, and more.
                         </p>
                       </div>
                     </li>
