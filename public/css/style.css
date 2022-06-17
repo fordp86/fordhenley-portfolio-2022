@@ -1269,6 +1269,68 @@ section{
 	justify-content: center;
 }
 
+/* Language Colors */
+.github-color{
+	color: #222222;
+}
+
+.drupal-color{
+	color: #0E7AD5;
+}
+
+.wordpress-color{
+	color: #C5BFBF;
+}
+
+.js-color{
+	color: #E1D81C;
+}
+
+.react-color{
+	color: #11AAE4;
+}
+
+.angular-color{
+	color: #C61313;
+}
+
+.aws-color{
+	color: #E1A110;
+}
+
+.sass-color{
+	color: #E06EE4;
+}
+
+.bootstrap-color{
+	color: #A06EE4;
+}
+
+.css-color{
+	color: #186CCE;
+}
+
+.git-color{
+	color: #EA5C06;
+}
+
+.node-color{
+	color: #1BCF28;
+}
+
+.html5-color{
+	color: #F37431;
+}
+
+.npm-color{
+	color: #C93837;
+}
+
+.php-color{
+	color: #777BB3;
+}
+
+
 
 /* Testimonials */
 .fn_cs_testimonials{

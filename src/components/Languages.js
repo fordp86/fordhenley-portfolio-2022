@@ -32,72 +32,72 @@ const Languages = () => {
         {/* Partners */}
         <div className="fn_cs_partners">
           <ul>
-            <li>
+            <li className="github-color">
               <Link href="#"><a>
               <FontAwesomeIcon icon={brands('github')} />
               </a></Link>
             </li>
-            <li>
+            <li className="drupal-color">
               <Link href="#"><a>
                 <FontAwesomeIcon icon={brands('drupal')} />
               </a></Link>
             </li>
-            <li>
+            <li className="wordpress-color">
               <Link href="#"><a>
                 <FontAwesomeIcon icon={brands('wordpress')} />
               </a></Link>
             </li>
-            <li>
+            <li className="js-color">
               <Link href="#"><a>
                <FontAwesomeIcon icon={brands('js')} />
               </a></Link>
             </li>
-            <li>
+            <li className="react-color">
               <Link href="#"><a>
               <FontAwesomeIcon icon={brands('react')} />
               </a></Link>
             </li>
-            <li>
+            <li className="angular-color">
               <Link href="#"><a>
               <FontAwesomeIcon icon={brands('angular')} />
               </a></Link>
             </li>
-            <li>
+            <li className="aws-color">
               <Link href="#"><a>
               <FontAwesomeIcon icon={brands('aws')} />
               </a></Link>
             </li>
-            <li>
+            <li className="sass-color">
               <Link href="#"><a>
               <FontAwesomeIcon icon={brands('sass')} />
               </a></Link>
             </li>
-            <li>
+            <li className="bootstrap-color">
               <Link href="#"><a>
               <FontAwesomeIcon icon={brands('bootstrap')} />
               </a></Link>
             </li>
-            <li>
+            <li className="css-color">
               <Link href="#"><a>
               <FontAwesomeIcon icon={brands('css3')} />
               </a></Link>
             </li>
-            <li>
+            <li className="git-color">
               <Link href="#"><a>
               <FontAwesomeIcon icon={brands('git-alt')} />
               </a></Link>
             </li>
-            <li>
+            <li className="html5-color">
               <Link href="#"><a>
               <FontAwesomeIcon icon={brands('html5')} />
               </a></Link>
             </li>
-            <li>
+            <li className="npm-color">
               <Link href="#"><a>
               <FontAwesomeIcon icon={brands('npm')} />
               </a></Link>
             </li>
-            <li>
+            <li className="php-color">
               <Link href="#"><a>
               <FontAwesomeIcon icon={brands('php')} />
               </a></Link>
