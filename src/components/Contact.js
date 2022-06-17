@@ -36,7 +36,7 @@ const Contact = () => {
       <div className="rewall_fn_contact">
         <div className="container max880">
           {/* Contact Form */}
-          <form className="contact_form" onSubmit={(e) => onSubmit(e)}>
+          <form method="POST" data-netlify="true" className="contact_form" onSubmit={(e) => onSubmit(e)}>
             <div
               className="success"
               data-success="Your message has been received, we will contact you soon."
@@ -121,6 +121,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="item">
+                  <input type="hidden" name="form-name" value="contact_form" />
                   <input type="submit" id="send_message" value="Send Message" />
                 </div>
               </div>
@@ -130,7 +131,7 @@ const Contact = () => {
           {/* Contact Info */}
           <div className="fn_cs_contact_info">
             <p>
-              <Link href="mailto:trendycoder.com@gmail.com"><a className="fn__link">
+              <Link href="mailto:fordp86@gmail.com"><a className="fn__link">
               fordp86<span>@</span>gmail.com
               </a></Link>
             </p>
