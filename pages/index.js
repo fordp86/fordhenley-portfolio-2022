@@ -9,6 +9,7 @@ import NextSection from "../src/components/NextSection";
 import Portfolio from "../src/components/Portfolio";
 import MobileMenu from "../src/layouts/MobileMenu";
 import Sidebar from "../src/layouts/Sidebar";
+import '@fortawesome/fontawesome-svg-core/styles.css';
 import { animation, aTagClick, dataImage, parallax } from "../src/utils";
 
 const Index = () => {
