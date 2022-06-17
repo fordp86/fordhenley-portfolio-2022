@@ -1270,63 +1270,63 @@ section{
 }
 
 /* Language Colors */
-.github-color{
+.github-color a{
 	color: #222222;
 }
 
-.drupal-color{
+.drupal-color a{
 	color: #0E7AD5;
 }
 
-.wordpress-color{
+.wordpress-color a{
 	color: #C5BFBF;
 }
 
-.js-color{
+.js-color a{
 	color: #E1D81C;
 }
 
-.react-color{
+.react-color a{
 	color: #11AAE4;
 }
 
-.angular-color{
+.angular-color a{
 	color: #C61313;
 }
 
-.aws-color{
+.aws-color a{
 	color: #E1A110;
 }
 
-.sass-color{
+.sass-color a{
 	color: #E06EE4;
 }
 
-.bootstrap-color{
+.bootstrap-color a{
 	color: #A06EE4;
 }
 
-.css-color{
+.css-color a{
 	color: #186CCE;
 }
 
-.git-color{
+.git-color a{
 	color: #EA5C06;
 }
 
-.node-color{
+.node-color a{
 	color: #1BCF28;
 }
 
-.html5-color{
+.html5-color a{
 	color: #F37431;
 }
 
-.npm-color{
+.npm-color a{
 	color: #C93837;
 }
 
-.php-color{
+.php-color a{
 	color: #777BB3;
 }
 
