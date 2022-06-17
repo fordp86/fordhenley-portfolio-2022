@@ -20,7 +20,7 @@ const Languages = () => {
     speed: 800,
   };
   return (
-    <section className="customer" id="customer">
+    <section className="customer" id="languages">
       {/* Main Title */}
       <div className="main_title center">
         <div className="container max880">

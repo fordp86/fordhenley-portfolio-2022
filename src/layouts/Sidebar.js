@@ -91,14 +91,9 @@ const Sidebar = () => {
                 spy={true}
                 smooth={true}
                 activeClass="current"
-                to="customer"
+                to="languages"
               >
                 Languages
-              </Link>
-            </li>
-            <li>
-              <Link spy={true} smooth={true} activeClass="current" to="contact">
-                Contact
               </Link>
             </li>
           </ul>

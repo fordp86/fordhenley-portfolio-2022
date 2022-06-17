@@ -2,7 +2,6 @@ import React from "react";
 import { useEffect } from "react";
 import About from "../src/components/About";
 import Biography from "../src/components/Biography";
-import Contact from "../src/components/Contact";
 import Languages from "../src/components/Languages";
 import NextSection from "../src/components/NextSection";
 import Portfolio from "../src/components/Portfolio";
@@ -49,12 +48,6 @@ const Index = () => {
             <Languages />
             {/* /Languages Section */}
             {/* Scroll to next section */}
-
-            <NextSection mainUrl="contact" upUrl="languages" />
-            {/* /Scroll to next section */}
-            {/* Contact Section */}
-            <Contact />
-            {/* /Contact Section */}
           </div>
         </div>
         {/* Main Content */}

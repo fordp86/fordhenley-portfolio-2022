@@ -43,16 +43,7 @@ const MobileMenu = () => {
               <a href="#portfolio">Portfolio</a>
             </li>
             <li>
-              <a href="#service">Services</a>
-            </li>
-            <li>
-              <a href="#customer">Customers</a>
-            </li>
-            <li>
-              <a href="#blog">News &amp; Tips</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
+              <a href="#languages">Languages</a>
             </li>
           </ul>
         </div>
