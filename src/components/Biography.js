@@ -131,7 +131,7 @@ const Biography = () => {
                         <h3>President</h3>
                         <ul>
                           <li>- Provide clients with custom designed solutions to drive revenue, create consistent branding, and streamline workflows.</li>
-                          <li>- Gather requirements for digital marketing initiatives and plan project scope. • Design, launch, test, and deliver websites, while providing key updates to
+                          <li>- Gather requirements for digital marketing initiatives and plan project scope. Design, launch, test, and deliver websites, while providing key updates to
   stakeholders and clients along with optimizing for searching engines.</li>
                           <li>- Manage all small business operations, including marketing, contract negotiations, and finances.</li>
                         </ul>
