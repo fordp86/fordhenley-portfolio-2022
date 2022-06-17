@@ -17,9 +17,6 @@ const Portfolio = () => {
           <p>
             Below are a few samples of the many sites I have worked on over the years. These sites were built on many different CMS platforms, frameworks and languages.
           </p>
-          <div className="main_button">
-            <Link href="#contact"><a>If you are interested, Get in Touch With Me</a></Link>
-          </div>
         </div>
       </div>
       {/* /Main Title */}
