@@ -31,7 +31,7 @@ const Portfolio = () => {
                 <div className="item">
                   <div className="title_holder">
                     <h3>
-                      <Link href="#"><a
+                      <Link href="https://sunsetpdi.com/"><a
                         className="fn__link zoom"
                         
                         data-title="Sunset PDI"
@@ -60,7 +60,7 @@ const Portfolio = () => {
                 <div className="item">
                   <div className="title_holder">
                     <h3>
-                      <Link href="#"><a
+                      <Link href="https://chrishughes.com/"><a
                         className="fn__link zoom"
                         
                         data-title="Chris Hughes Blog"
@@ -89,7 +89,7 @@ const Portfolio = () => {
                 <div className="item">
                   <div className="title_holder">
                     <h3>
-                      <Link href="#"><a
+                      <Link href="https://2020.laurynhenley.com/"><a
                         className="fn__link zoom"                        
                         data-title="Lauryn Henley Freedom Coach"
                       >
@@ -117,7 +117,7 @@ const Portfolio = () => {
                 <div className="item">
                   <div className="title_holder">
                     <h3>
-                      <Link href="#"><a
+                      <Link href="https://www.destinmusichiphop.com/"><a
                         className="fn__link zoom"
                         
                         data-title="Destin Music"
@@ -146,7 +146,7 @@ const Portfolio = () => {
                 <div className="item">
                   <div className="title_holder">
                     <h3>
-                      <Link href="#"><a
+                      <Link href="https://allsportsassociation.org/"><a
                         className="fn__link zoom"
                         
                         data-title="Emerald Coast All Sports Association"
@@ -175,7 +175,7 @@ const Portfolio = () => {
                 <div className="item">
                   <div className="title_holder">
                     <h3>
-                      <Link href="#"><a
+                      <Link href="https://fortwaltonbeachhealthinsurance.com/"><a
                         className="fn__link zoom"
                         
                         data-title="Cornerstone Medicare"
@@ -233,7 +233,7 @@ const Portfolio = () => {
                 <div className="item">
                   <div className="title_holder">
                     <h3>
-                      <Link href="#"><a
+                      <Link href="https://www.randallsadventure.com/"><a
                         className="fn__link zoom"
                         
                         data-title="Randall’s Adventure"
@@ -262,7 +262,7 @@ const Portfolio = () => {
                 <div className="item">
                   <div className="title_holder">
                     <h3>
-                      <Link href="#"><a
+                      <Link href="http://echols.territory3dev.com/"><a
                         className="fn__link zoom"
                         
                         data-title="Echols Metal Roofing"
@@ -291,7 +291,7 @@ const Portfolio = () => {
                 <div className="item">
                   <div className="title_holder">
                     <h3>
-                      <Link href="#"><a
+                      <Link href="https://www.46logistics.com/"><a
                         className="fn__link zoom"
                         
                         data-title="46 Logistics"
@@ -320,7 +320,7 @@ const Portfolio = () => {
                 <div className="item">
                   <div className="title_holder">
                     <h3>
-                      <Link href="#"><a
+                      <Link href="https://bracesbysb.com/"><a
                         className="fn__link zoom"
                         
                         data-title="Sherman & Briscoe Orthodontics"
@@ -349,7 +349,7 @@ const Portfolio = () => {
                 <div className="item">
                   <div className="title_holder">
                     <h3>
-                      <Link href="#"><a
+                      <Link href="https://devright.com/"><a
                         className="fn__link zoom"
                         
                         data-title="Devright"
@@ -378,7 +378,7 @@ const Portfolio = () => {
                 <div className="item">
                   <div className="title_holder">
                     <h3>
-                      <Link href="#"><a
+                      <Link href="https://thedefiningpoint.com/"><a
                         className="fn__link zoom"
                         
                         data-title="The Defining Point"
@@ -407,7 +407,7 @@ const Portfolio = () => {
                 <div className="item">
                   <div className="title_holder">
                     <h3>
-                      <Link href="#"><a
+                      <Link href="https://onsiteboatcare.com/"><a
                         className="fn__link zoom"
                         
                         data-title="On Site Boat Care"
