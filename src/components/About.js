@@ -17,7 +17,7 @@ const About = () => {
                 </div>
                 <div className="img_holder layer" data-depth="0.3">
                   <img src="img/thumb/450-550.jpg" alt="image" />
-                  <div className="abs_img" data-bg-img="img/about.jpeg" />
+                  <div className="abs_img" data-bg-img="img/about.jpg" />
                 </div>
                 <div
                   className="dots layer"
@@ -32,7 +32,7 @@ const About = () => {
                 <h3>Ford Henley</h3>
                 <p>
                   Professional Full Stack Developer and Digital Marketer located in Austin, TX.
-                  I enjoy rugby, reading and spending time with family. I am a self moviated and lifetime learner looking to make an impact in your business.
+                  I enjoy rugby, reading and spending time with family. I am a self motivated and lifetime learner looking to make an impact in your business.
                 </p>
               </div>
               {/* /Main Title */}
