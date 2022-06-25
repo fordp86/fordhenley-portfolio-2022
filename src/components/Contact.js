@@ -125,6 +125,7 @@ const Contact = () => {
                   <input type="submit" name="submit" id="send_message" value="Send Message" />
                 </div>
               </div>
+              
             </div>
           </form>
           {/* /Contact Form */}
