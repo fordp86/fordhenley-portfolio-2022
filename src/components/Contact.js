@@ -122,7 +122,7 @@ const Contact = () => {
                 </div>
                 <div className="item">
                   <input type="hidden" name="contact_form" value="contact_form" />
-                  <input type="submit" id="send_message" value="Send Message" />
+                  <input type="submit" name="submit" id="send_message" value="Send Message" />
                 </div>
               </div>
             </div>
