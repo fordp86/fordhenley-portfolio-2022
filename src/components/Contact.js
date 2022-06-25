@@ -11,18 +11,18 @@ const Contact = () => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
   const { email, name, phone, msg } = form;
-  const onSubmit = (e) => {
-    e.preventDefault();
-    console.log("hi");
-    if (email && name && phone && msg) {
-      console.log("Ok");
-    } else {
-      setError(true);
-      setTimeout(() => {
-        setError(false);
-      }, 2000);
-    }
-  };
+  // const onSubmit = (e) => {
+  //   e.preventDefault();
+  //   console.log("hi");
+  //   if (email && name && phone && msg) {
+  //     console.log("Ok");
+  //   } else {
+  //     setError(true);
+  //     setTimeout(() => {
+  //       setError(false);
+  //     }, 2000);
+  //   }
+  // };
   return (
     <section className="contact" id="contact">
       {/* Main Title */}
@@ -36,7 +36,7 @@ const Contact = () => {
       <div className="rewall_fn_contact">
         <div className="container max880">
           {/* Contact Form */}
-          <form netlify data-netlify="true" className="contact_form" onSubmit={(e) => onSubmit(e)}>
+          <form name="contact" data-netlify="true" className="contact_form" method="post">
             <div
               className="success"
               data-success="Your message has been received, we will contact you soon."

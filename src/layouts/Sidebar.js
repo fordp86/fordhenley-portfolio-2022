@@ -96,6 +96,16 @@ const Sidebar = () => {
                 Languages
               </Link>
             </li>
+            <li>
+              <Link
+                spy={true}
+                smooth={true}
+                activeClass="current"
+                to="contact"
+              >
+                Contact
+              </Link>
+            </li>
           </ul>
         </div>
         <div className="copyright">
