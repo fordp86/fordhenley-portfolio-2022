@@ -683,14 +683,14 @@ const Portfolio = () => {
                     </p>
                   </div>
                   <div className="img_holder">
-                    <Link href="img/portfolio/allthewayup-thumb.jpg">
+                    <Link href="img/portfolio/allthewayup-thumb.jpeg">
                       <a
                         className="zoom"
                         data-title="Coder Foundry Bootcamp All The Way Up Game"
                       >
                         <img
                           className="h-100"
-                          src="img/portfolio/allthewayup-thumb.jpg"
+                          src="img/portfolio/allthewayup-thumb.jpeg"
                           alt="Coder Foundry Bootcamp All The Way Up Game"
                         />
                       </a>
@@ -698,7 +698,48 @@ const Portfolio = () => {
                     {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
                     <div
                       className="abs_img"
-                      data-bg-img="img/portfolio/allthewayup-thumb.jpg"
+                      data-bg-img="img/portfolio/allthewayup-thumb.jpeg"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li className="masonry_in">
+                <div className="item">
+                  <div className="title_holder">
+                    <h3>
+                      <Link
+                        target="_blank"
+                        href="https://fordsflipper.netlify.app"
+                      >
+                        <a
+                          className="fn__link zoom"
+                          data-title="Reverse A String With Flipper"
+                        >
+                          Coder Foundry: Flipper
+                        </a>
+                      </Link>
+                    </h3>
+                    <p>
+                      Game to reverse a string with JavaScript.
+                    </p>
+                  </div>
+                  <div className="img_holder">
+                    <Link href="img/portfolio/flipper-thumb.jpeg">
+                      <a
+                        className="zoom"
+                        data-title="Coder Foundry: Flipper"
+                      >
+                        <img
+                          className="h-100"
+                          src="img/portfolio/flipper-thumb.jpeg"
+                          alt="Coder Foundry: Flipper"
+                        />
+                      </a>
+                    </Link>
+                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                    <div
+                      className="abs_img"
+                      data-bg-img="img/portfolio/flipper-thumb.jpeg"
                     />
                   </div>
                 </div>
