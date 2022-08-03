@@ -673,13 +673,14 @@ const Portfolio = () => {
                           className="fn__link zoom"
                           data-title="All The Way Up Game"
                         >
-                          All The Way Up
+                          Coder Foundry: All The Way Up
                         </a>
                       </Link>
                     </h3>
                     <p>
-                      Game to count numbers up to 100 and display the results in
-                      a table. Built with Bootstrap hosted on Netlify
+                      Coder Foundry game to count numbers up to 100 and display
+                      the results in a table. Built with Bootstrap hosted on
+                      Netlify
                     </p>
                   </div>
                   <div className="img_holder">
@@ -720,15 +721,12 @@ const Portfolio = () => {
                       </Link>
                     </h3>
                     <p>
-                      Game to reverse a string with JavaScript.
+                      Coder Foundry game to reverse a string with JavaScript.
                     </p>
                   </div>
                   <div className="img_holder">
                     <Link href="img/portfolio/flipper-thumb.jpeg">
-                      <a
-                        className="zoom"
-                        data-title="Coder Foundry: Flipper"
-                      >
+                      <a className="zoom" data-title="Coder Foundry: Flipper">
                         <img
                           className="h-100"
                           src="img/portfolio/flipper-thumb.jpeg"
