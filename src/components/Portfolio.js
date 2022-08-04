@@ -778,6 +778,45 @@ const Portfolio = () => {
                   </div>
                 </div>
               </li>
+              <li className="masonry_in">
+                <div className="item">
+                  <div className="title_holder">
+                    <h3>
+                      <Link
+                        target="_blank"
+                        href="https://fordstacocat.netlify.app"
+                      >
+                        <a
+                          className="fn__link zoom"
+                          data-title="Coder Foundry: Taco Cat"
+                        >
+                          Coder Foundry: Taco Cat
+                        </a>
+                      </Link>
+                    </h3>
+                    <p>
+                      Coder Foundry Javascript program to reverse a string and
+                      check if it is a palindrome.
+                    </p>
+                  </div>
+                  <div className="img_holder">
+                    <Link href="img/portfolio/tacocat-thumb.jpeg">
+                      <a className="zoom" data-title="Coder Foundry: Taco Cat">
+                        <img
+                          className="h-100"
+                          src="img/portfolio/tacocat-thumb.jpeg"
+                          alt="Coder Foundry: Taco Cat"
+                        />
+                      </a>
+                    </Link>
+                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                    <div
+                      className="abs_img"
+                      data-bg-img="img/portfolio/tacocat-thumb.jpeg"
+                    />
+                  </div>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
