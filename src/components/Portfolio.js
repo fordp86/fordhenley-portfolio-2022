@@ -30,7 +30,7 @@ const Portfolio = () => {
                 <div className="item">
                   <div className="title_holder">
                     <h3>
-                      <Link target="_blank" href="https://sunsetpdi.com/">
+                      <Link target="_blank" to="https://sunsetpdi.com/">
                         <a className="fn__link zoom" data-title="Sunset PDI">
                           Sunset Pointe Development
                         </a>
