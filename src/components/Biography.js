@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import Link from 'next/link';
+import Link from "next/link";
 
 const Biography = () => {
   const [active, setActive] = useState("tab1");
@@ -43,9 +43,9 @@ const Biography = () => {
                 <p>
                   Email:{" "}
                   <span>
-                    <Link href="mailto:fordp86@gmail.com"><a>
-                      fordp86@gmail.com
-                    </a></Link>
+                    <Link href="mailto:fordp86@gmail.com">
+                      <a>fordp86@gmail.com</a>
+                    </Link>
                   </span>
                 </p>
               </li>
@@ -61,13 +61,22 @@ const Biography = () => {
           <span className="line bottom_hover" />
           <span className="line top" />
           <span className="line bottom" />
-          <Link href="download/PatrickFordHenley_Resume_2022.pdf" target="_blank"><a download>
-            <span className="icon">
-              <img src="svg/inbox.svg" alt="image" className="fn__svg" />
-              <img src="svg/arrow.svg" alt="image" className="fn__svg arrow" />
-            </span>
-            <span>Download CV</span>
-          </a></Link>
+          <Link
+            href="download/PatrickFordHenley_Resume_2022.pdf"
+            target="_blank"
+          >
+            <a download>
+              <span className="icon">
+                <img src="svg/inbox.svg" alt="image" className="fn__svg" />
+                <img
+                  src="svg/arrow.svg"
+                  alt="image"
+                  className="fn__svg arrow"
+                />
+              </span>
+              <span>Download Resume</span>
+            </a>
+          </Link>
         </div>
       </div>
       {/* /Download CV Button */}
@@ -82,19 +91,25 @@ const Biography = () => {
                   onClick={() => setActive("tab1")}
                   className={activeCls("tab1")}
                 >
-                  <Link href="#tab1"><a>Experience</a></Link>
+                  <Link href="#tab1">
+                    <a>Experience</a>
+                  </Link>
                 </li>
                 <li
                   onClick={() => setActive("tab2")}
                   className={activeCls("tab2")}
                 >
-                  <Link href="#tab2"><a>Education</a></Link>
+                  <Link href="#tab2">
+                    <a>Education</a>
+                  </Link>
                 </li>
                 <li
                   onClick={() => setActive("tab3")}
                   className={activeCls("tab3")}
                 >
-                  <Link href="#tab3"><a>Skills</a></Link>
+                  <Link href="#tab3">
+                    <a>Skills</a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -114,11 +129,24 @@ const Biography = () => {
                         </div>
                         <h3>Digital Strategist</h3>
                         <ul>
-                          <li>- Lead business development activities, research current and future target markets.</li>
-                          <li>- Work with Team Leader to manage marketing projects and improve business
-                            efficiency through using automations and technology.</li>
-                          <li>- Headed creation of support ticket systems to manage multistore issues and standardize monthly store success checks for quality assurance.</li>
-                          <li>- Increased Destin location sales by 10% with strategic marketing partnerships to drive more traffic to the tourist-heavy economy via online advertising & social media.</li>
+                          <li>
+                            - Lead business development activities, and research
+                            current/future target markets across 3 stores.
+                          </li>
+                          <li>
+                            - Guide Team Leader in managing marketing projects
+                            and improving business efficiency through updated
+                            automations and technology.
+                          </li>
+                          <li>
+                            - Manage processes for each store manager with over
+                            30 employees.
+                          </li>
+                          <li>
+                            - Develop strategies to boost store performance to
+                            generate $1 million in revenue across our 3
+                            locations.
+                          </li>
                         </ul>
                       </div>
                     </li>
@@ -126,14 +154,31 @@ const Biography = () => {
                       <div className="item">
                         <div className="item_top">
                           <h5>Ford's Web Help</h5>
-                          <span>( 2017 — 2022)</span>
+                          <span>( 2010 — Present)</span>
                         </div>
                         <h3>President</h3>
                         <ul>
-                          <li>- Provide clients with custom designed solutions to drive revenue, create consistent branding, and streamline workflows.</li>
-                          <li>- Gather requirements for digital marketing initiatives and plan project scope. Design, launch, test, and deliver websites, while providing key updates to
-  stakeholders and clients along with optimizing for searching engines.</li>
-                          <li>- Manage all small business operations, including marketing, contract negotiations, and finances.</li>
+                          <li>
+                            - Partner with 20 small business clients to boost
+                            their online presence with web development & digital
+                            marketing.
+                          </li>
+                          <li>
+                            - Gather requirements for digital marketing
+                            initiatives and plan project scope.
+                          </li>
+                          <li>
+                            - Design, launch, test, and deliver websites, while
+                            providing key updates to stakeholders and clients
+                            along with optimizing for searching engines.
+                          </li>
+                          <li>
+                            - Direct outside vendors on project deliverables.
+                          </li>
+                          <li>
+                            - Manage all small business operations, including
+                            marketing, contract negotiations, and finances.
+                          </li>
                         </ul>
                       </div>
                     </li>
@@ -145,9 +190,15 @@ const Biography = () => {
                         </div>
                         <h3>Marketing Director</h3>
                         <ul>
-                          <li>- Worked collaboratively with the rental unit manager to incorporate modern technology and develop a competitive web presence in all tenant stores.</li>
-                          <li>- Developed New Brand Identity: created a new logo and website for the Shops at Wright Plaza.</li>
-                          <li>- Coordinated digital displays with new tenant promotional information for monthly advertising on billboards and store reader-boards.</li>
+                          <li>
+                            - Developed New Brand Identity: created a new logo
+                            and website for the Shops at Wright Plaza.
+                          </li>
+                          <li>
+                            - Designed digital displays with new tenant
+                            promotional information for monthly advertising on
+                            billboards and store reader-boards.
+                          </li>
                         </ul>
                       </div>
                     </li>
@@ -159,10 +210,27 @@ const Biography = () => {
                         </div>
                         <h3>Front-End Web Developer</h3>
                         <ul>
-                          <li>- Collaborated with creative teams and project managers to align priorities, organize duties, and implement new marketing campaigns with front end development.</li>
-                          <li>- Converted all company websites to Twitter Bootstrap-based mobile-friendly sites to boost sales and traffic.</li>
-                          <li>- Reduced monthly email marketing costs by 50% and increased efficiencies by migrating services from Constant Contact to Mailchimp.</li>
-                          <li>- Worked alongside the lead developer to create custom landing pages and content for company programs such as their Student Life Conference and Summer Camps.</li>
+                          <li>
+                            - Collaborated with creative teams and project
+                            managers to implement new marketing campaigns with
+                            front end development.
+                          </li>
+                          <li>
+                            - Converted all company websites to Twitter
+                            Bootstrap-based mobile-friendly sites to boost sales
+                            and traffic.
+                          </li>
+                          <li>
+                            - Reduced monthly email marketing costs by 50% and
+                            increased efficiencies by migrating services from
+                            Constant Contact to Mailchimp.
+                          </li>
+                          <li>
+                            - Worked alongside the lead developer to create
+                            custom landing pages and content for company
+                            programs such as their Student Life Conference and
+                            Summer Camps.
+                          </li>
                         </ul>
                       </div>
                     </li>
@@ -174,12 +242,32 @@ const Biography = () => {
                         </div>
                         <h3>Internet Media Associate</h3>
                         <ul>
-                          <li>- Promoted to Lead Tech Support Proctor within first two months.</li>
-                          <li>- Worked with CTO and CEO to develop ProctorU, Inc.’s initial internet marketing strategy as the first member of the web development team.</li>
-                          <li>- Optimized their website to overtake existing competitors for the number one spot on Google for the highly competitive keywords: Online Proctoring and Virtual Proctoring.</li>
-                          <li>- Made ProctorU, Inc. 508 ADA accessibility compliant.</li>
-                          <li>- Partnered with the University of Illinois Accessibility program to make all of ProctorU, Inc.’s client facing web applications accessible to the visually impaired.</li>
-                          <li>- Developed a custom lead generation funnel to help separate new customers between the sales team and the support team.</li>
+                          <li>
+                            - Promoted to Lead Tech Support Proctor within first
+                            2 months and Internet Media Associate after 5
+                            months.
+                          </li>
+                          <li>
+                            - Worked with CTO & CEO to develop initial internet
+                            marketing strategy as the 1st member of the web
+                            team.
+                          </li>
+                          <li>
+                            - Optimized proctoru.com to overtake existing
+                            competitors for the number one on Google for the
+                            highly competitive keywords: Online Proctoring &
+                            Virtual Proctoring.
+                          </li>
+                          <li>
+                            - Partnered with the University of Illinois
+                            Accessibility program to make all client facing web
+                            applications 508 ADA compliant.
+                          </li>
+                          <li>
+                            - Developed a custom lead generation funnel to
+                            navigate customers between the sales team and the
+                            support team.
+                          </li>
                         </ul>
                       </div>
                     </li>
@@ -201,8 +289,8 @@ const Biography = () => {
                         </div>
                         <h3>Full Stack Web Development</h3>
                         <p>
-                          I have and will learn JavaScript, TypeScript, React,
-                          MySql, React Native and more.
+                          JavaScript, TypeScript, React, MySql, React Native and
+                          more.
                         </p>
                       </div>
                     </li>
@@ -213,10 +301,7 @@ const Biography = () => {
                           <span>( Fall 2022 )</span>
                         </div>
                         <h3>.Net Web Development</h3>
-                        <p>
-                          I have and will learn JavaScript, .Net,
-                          MySql, and more.
-                        </p>
+                        <p>JavaScript, .Net, MySql, and more.</p>
                       </div>
                     </li>
                     <li>
@@ -226,9 +311,7 @@ const Biography = () => {
                           <span>( 2018)</span>
                         </div>
                         <h3>Front End Web Development</h3>
-                        <p>
-                         I learned HTML, CSS, JavaScript and Python
-                        </p>
+                        <p>I learned HTML, CSS, JavaScript and Python</p>
                       </div>
                     </li>
                     <li>
@@ -239,7 +322,8 @@ const Biography = () => {
                         </div>
                         <h3>Masters Certificate - Digital Marketing</h3>
                         <p>
-                          I learned how to create and manage digital marketing campaigns.
+                          I learned how to create and manage digital marketing
+                          campaigns.
                         </p>
                       </div>
                     </li>
@@ -250,9 +334,7 @@ const Biography = () => {
                           <span>( 2005-2009 )</span>
                         </div>
                         <h3>Bachelors - Marketing</h3>
-                        <p>
-                          I completed my major requirements with a 4.0.
-                        </p>
+                        <p>I completed my major requirements with a 4.0.</p>
                       </div>
                     </li>
                   </ul>
