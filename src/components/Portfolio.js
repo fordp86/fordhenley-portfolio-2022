@@ -30,7 +30,7 @@ const Portfolio = () => {
                 <div className="item">
                   <div className="title_holder">
                     <h3>
-                      <Link target="_blank" to="https://sunsetpdi.com/">
+                      <Link target="_blank" to="#">
                         <a className="fn__link zoom" data-title="Sunset PDI">
                           Sunset Pointe Development
                         </a>
@@ -60,7 +60,7 @@ const Portfolio = () => {
                 <div className="item">
                   <div className="title_holder">
                     <h3>
-                      <Link target="_blank" href="https://chrishughes.com/">
+                      <Link target="_blank" href="#">
                         <a
                           className="fn__link zoom"
                           data-title="Chris Hughes Blog"
@@ -129,10 +129,7 @@ const Portfolio = () => {
                 <div className="item">
                   <div className="title_holder">
                     <h3>
-                      <Link
-                        target="_blank"
-                        href="https://www.destinmusichiphop.com/"
-                      >
+                      <Link target="_blank" href="#">
                         <a className="fn__link zoom" data-title="Destin Music">
                           Destin Music
                         </a>
