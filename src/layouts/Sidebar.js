@@ -96,16 +96,6 @@ const Sidebar = () => {
                 Languages
               </Link>
             </li>
-            <li>
-              <Link
-                spy={true}
-                smooth={true}
-                activeClass="current"
-                to="contact"
-              >
-                Contact
-              </Link>
-            </li>
           </ul>
         </div>
         <div className="copyright">
@@ -130,7 +120,10 @@ const Sidebar = () => {
                 </a>
               </li>
               <li>
-                <a target="_blank" href="https://www.youtube.com/channel/UC8n_yVZvKd_P_e5RlhBbohQ/videos">
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/channel/UC8n_yVZvKd_P_e5RlhBbohQ/videos"
+                >
                   <img
                     src="svg/social/youtube.svg"
                     alt="image"
@@ -141,9 +134,7 @@ const Sidebar = () => {
             </ul>
           </div>
           <div className="desc">
-            <p>
-              © 2022 Ford Henley
-            </p>
+            <p>© 2022 Ford Henley</p>
           </div>
         </div>
       </div>
