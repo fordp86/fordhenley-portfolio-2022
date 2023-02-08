@@ -63,7 +63,7 @@ const Index = () => {
     upUrl: "biography"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_src_components_Portfolio__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_src_components_NextSection__WEBPACK_IMPORTED_MODULE_4__/* ["default"] */ .Z, {
     mainUrl: "languages",
-    upUrl: "service"
+    upUrl: "portfolio"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_src_components_Languages__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, null)))));
 };
 
