@@ -1,9 +1,15 @@
 "use client";
 
 import React from "react";
+import { useEffect } from "react";
 import Link from "next/link";
+import { isActive } from "../../src/utils";
 
 export default function MobileMenu({ children }) {
+  useEffect(() => {
+    isActive();
+  });
+
   const onClick = () => {
     document
       .querySelector(".rewall_fn_wrapper_all")
@@ -62,18 +68,26 @@ export default function MobileMenu({ children }) {
           </Link>
         </div>
         <div className="navigation">
-          <ul className="anchor_nav">
+          <ul id="nav" className="anchor_nav">
             <li>
-              <Link href="/">Home</Link>
+              <Link className="btn" href="/">
+                Home
+              </Link>
             </li>
             <li>
-              <Link href="/biography">Biography</Link>
+              <Link className="btn" href="/biography">
+                Biography
+              </Link>
             </li>
             <li>
-              <Link href="/portfolio">Portfolio</Link>
+              <Link className="btn" href="/portfolio">
+                Portfolio
+              </Link>
             </li>
             <li>
-              <Link href="/programming">Languages</Link>
+              <Link className="btn" href="/programming">
+                Languages
+              </Link>
             </li>
           </ul>
         </div>

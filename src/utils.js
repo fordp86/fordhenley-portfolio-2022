@@ -57,6 +57,17 @@ export const isotopLayout = (container, item) => {
   }, 0);
 };
 
+export const isActive = () => {
+  document.querySelectorAll("#nav li").forEach((item) => {
+    item.addEventListener("click", (event) => {
+      document.querySelectorAll("#nav li").forEach((i) => {
+        i.classList.remove("current");
+      });
+      item.classList.add("current");
+    });
+  });
+};
+
 // Colo change
 // export const colorChange = () => {
 //   const colors = document.querySelectorAll("#color_box ul li.item a");
