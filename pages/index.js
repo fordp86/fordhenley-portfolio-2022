@@ -7,9 +7,8 @@ import NextSection from "../src/components/NextSection";
 import Portfolio from "../src/components/Portfolio";
 import MobileMenu from "../src/layouts/MobileMenu";
 import Sidebar from "../src/layouts/Sidebar";
-import '@fortawesome/fontawesome-svg-core/styles.css';
+import "@fortawesome/fontawesome-svg-core/styles.css";
 import { animation, aTagClick, dataImage, parallax } from "../src/utils";
-import Contact from "../src/components/Contact";
 
 const Index = () => {
   useEffect(() => {
@@ -43,15 +42,13 @@ const Index = () => {
             <Portfolio />
             {/* /Portfolio Section */}
             {/* /Scroll to next section */}
-            <NextSection mainUrl="languages" upUrl="service" />
+            <NextSection mainUrl="languages" upUrl="portfolio" />
             {/* /Scroll to next section */}
             {/* Languages Section */}
             <Languages />
             {/* /Languages Section */}
             {/* Scroll to next section */}
             {/* Languages Section */}
-            <Contact />
-            {/* /Contact Section */}
             {/* Scroll to next section */}
           </div>
         </div>

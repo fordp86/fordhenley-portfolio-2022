@@ -1,5 +1,5 @@
 {
-  "name": "rewall-react",
+  "name": "ford-henley",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -21,7 +21,6 @@
     "react-dom": "18.2.0",
     "react-scroll": "^1.8.9",
     "react-single-page-navigation": "^1.0.1",
-    "simple-react-lightbox": "^3.6.9-0",
     "swiper": "^8.4.6",
     "wowjs": "^1.1.3"
   },
