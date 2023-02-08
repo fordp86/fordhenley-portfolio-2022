@@ -28,7 +28,6 @@ var swiper_min = __webpack_require__(8722);
 var globals = __webpack_require__(6764);
 ;// CONCATENATED MODULE: ./pages/_app.js
 
- // import SimpleReactLightbox from "simple-react-lightbox";
 
 
 
@@ -51,7 +50,7 @@ function MyApp({
   }), /*#__PURE__*/external_react_default().createElement("link", {
     rel: "icon",
     href: "img/favicon.ico"
-  })), /*#__PURE__*/external_react_default().createElement(SimpleReactLightbox, null, /*#__PURE__*/external_react_default().createElement(Component, pageProps), " "));
+  })));
 }
 
 /* harmony default export */ const _app = (MyApp);
