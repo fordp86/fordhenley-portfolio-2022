@@ -21,15 +21,12 @@ const Index = () => {
     <div className="rewall_fn_wrapper_all" data-nav-skin="transdark">
       {/* Wrapper */}
       <div className="rewall_fn_wrapper">
-        {/* <ColorScheme /> */}
         <MobileMenu />
         <Sidebar />
-
         <div className="rewall_fn_content">
           <div className="fn__page">
             <About />
             {/* Scroll to next section */}
-
             <NextSection mainUrl="biography" upUrl="about" />
             {/* /Scroll to next section */}
             {/* Biography Section */}
@@ -47,8 +44,6 @@ const Index = () => {
             {/* Languages Section */}
             <Languages />
             {/* /Languages Section */}
-            {/* Scroll to next section */}
-            {/* Languages Section */}
             {/* Scroll to next section */}
           </div>
         </div>

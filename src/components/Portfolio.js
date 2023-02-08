@@ -22,802 +22,795 @@ const Portfolio = () => {
         </div>
       </div>
       {/* /Main Title */}
-      <SRLWrapper>
-        <div className="portfolio_list">
-          <div className="container">
-            <ul className="fn__masonry gallery_zoom">
-              <li className="masonry_in">
-                <div className="item">
-                  <div className="title_holder">
-                    <h3>
-                      <Link target="_blank" to="#">
-                        <a className="fn__link zoom" data-title="Sunset PDI">
-                          Sunset Pointe Development
-                        </a>
-                      </Link>
-                    </h3>
-                    <p>WordPress</p>
-                  </div>
-                  <div className="img_holder">
-                    <Link href="img/portfolio/sunsetpdi-thumb.jpeg">
-                      <a className="zoom" data-title="Sunset PDI">
-                        <img
-                          className="h-100"
-                          src="img/portfolio/sunsetpdi-thumb.jpeg"
-                          alt="Sunset PDI Website"
-                        />
+      <div className="portfolio_list">
+        <div className="container">
+          <ul className="fn__masonry gallery_zoom">
+            <li className="masonry_in">
+              <div className="item">
+                <div className="title_holder">
+                  <h3>
+                    <Link target="_blank" to="#">
+                      <a className="fn__link zoom" data-title="Sunset PDI">
+                        Sunset Pointe Development
                       </a>
                     </Link>
-                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
-                    <div
-                      className="abs_img"
-                      data-bg-img="img/portfolio/sunsetpdi-thumb.jpeg"
-                    />
-                  </div>
+                  </h3>
+                  <p>WordPress</p>
                 </div>
-              </li>
-              <li className="masonry_in">
-                <div className="item">
-                  <div className="title_holder">
-                    <h3>
-                      <Link target="_blank" href="#">
-                        <a
-                          className="fn__link zoom"
-                          data-title="Chris Hughes Blog"
-                        >
-                          Chris Hughes Blog
-                        </a>
-                      </Link>
-                    </h3>
-                    <p>Custom WordPress Theme, Bootstrap 4</p>
-                  </div>
-                  <div className="img_holder">
-                    <Link href="img/portfolio/chrishughes-port.jpeg">
-                      <a className="zoom" data-title="Chris Hughes Blog">
-                        <img
-                          className="h-100"
-                          src="img/portfolio/chrishughes-port.jpeg"
-                          alt="Chris Hughes Blog"
-                        />
-                      </a>
-                    </Link>
-                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
-                    <div
-                      className="abs_img"
-                      data-bg-img="img/portfolio/chrishughes-port.jpeg"
-                    />
-                  </div>
+                <div className="img_holder">
+                  <Link href="img/portfolio/sunsetpdi-thumb.jpeg">
+                    <a className="zoom" data-title="Sunset PDI">
+                      <img
+                        className="h-100"
+                        src="img/portfolio/sunsetpdi-thumb.jpeg"
+                        alt="Sunset PDI Website"
+                      />
+                    </a>
+                  </Link>
+                  {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                  <div
+                    className="abs_img"
+                    data-bg-img="img/portfolio/sunsetpdi-thumb.jpeg"
+                  />
                 </div>
-              </li>
-              <li className="masonry_in">
-                <div className="item">
-                  <div className="title_holder">
-                    <h3>
-                      <Link href="#">
-                        <a
-                          className="fn__link zoom"
-                          data-title="Lauryn Henley Freedom Coach"
-                        >
-                          Lauryn Henley Freedom Coach
-                        </a>
-                      </Link>
-                    </h3>
-                    <p>WordPress Theme, Front End Dev, WP Elementor</p>
-                  </div>
-                  <div className="img_holder">
-                    <Link href="img/portfolio/laurynhenleyport.jpeg">
+              </div>
+            </li>
+            <li className="masonry_in">
+              <div className="item">
+                <div className="title_holder">
+                  <h3>
+                    <Link target="_blank" href="#">
                       <a
-                        className="zoom"
+                        className="fn__link zoom"
+                        data-title="Chris Hughes Blog"
+                      >
+                        Chris Hughes Blog
+                      </a>
+                    </Link>
+                  </h3>
+                  <p>Custom WordPress Theme, Bootstrap 4</p>
+                </div>
+                <div className="img_holder">
+                  <Link href="img/portfolio/chrishughes-port.jpeg">
+                    <a className="zoom" data-title="Chris Hughes Blog">
+                      <img
+                        className="h-100"
+                        src="img/portfolio/chrishughes-port.jpeg"
+                        alt="Chris Hughes Blog"
+                      />
+                    </a>
+                  </Link>
+                  {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                  <div
+                    className="abs_img"
+                    data-bg-img="img/portfolio/chrishughes-port.jpeg"
+                  />
+                </div>
+              </div>
+            </li>
+            <li className="masonry_in">
+              <div className="item">
+                <div className="title_holder">
+                  <h3>
+                    <Link href="#">
+                      <a
+                        className="fn__link zoom"
                         data-title="Lauryn Henley Freedom Coach"
                       >
-                        <img
-                          className="h-100"
-                          src="img/portfolio/laurynhenleyport.jpeg"
-                          alt="Lauryn Henley Freedom Coach"
-                        />
+                        Lauryn Henley Freedom Coach
                       </a>
                     </Link>
-                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
-                    <div
-                      className="abs_img"
-                      data-bg-img="img/portfolio/laurynhenleyport.jpeg"
-                    />
-                  </div>
+                  </h3>
+                  <p>WordPress Theme, Front End Dev, WP Elementor</p>
                 </div>
-              </li>
-              <li className="masonry_in">
-                <div className="item">
-                  <div className="title_holder">
-                    <h3>
-                      <Link target="_blank" href="#">
-                        <a className="fn__link zoom" data-title="Destin Music">
-                          Destin Music
-                        </a>
-                      </Link>
-                    </h3>
-                    <p>Custom Drupal 7 Theme, Bootstrap 4</p>
-                  </div>
-                  <div className="img_holder">
-                    <Link href="img/portfolio/destinmusichiphop-port.jpeg">
-                      <a className="zoom" data-title="Destin Music">
-                        <img
-                          className="h-100"
-                          src="img/portfolio/destinmusichiphop-port.jpeg"
-                          alt="Destin Music"
-                        />
+                <div className="img_holder">
+                  <Link href="img/portfolio/laurynhenleyport.jpeg">
+                    <a
+                      className="zoom"
+                      data-title="Lauryn Henley Freedom Coach"
+                    >
+                      <img
+                        className="h-100"
+                        src="img/portfolio/laurynhenleyport.jpeg"
+                        alt="Lauryn Henley Freedom Coach"
+                      />
+                    </a>
+                  </Link>
+                  {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                  <div
+                    className="abs_img"
+                    data-bg-img="img/portfolio/laurynhenleyport.jpeg"
+                  />
+                </div>
+              </div>
+            </li>
+            <li className="masonry_in">
+              <div className="item">
+                <div className="title_holder">
+                  <h3>
+                    <Link target="_blank" href="#">
+                      <a className="fn__link zoom" data-title="Destin Music">
+                        Destin Music
                       </a>
                     </Link>
-                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
-                    <div
-                      className="abs_img"
-                      data-bg-img="img/portfolio/destinmusichiphop-port.jpeg"
-                    />
-                  </div>
+                  </h3>
+                  <p>Custom Drupal 7 Theme, Bootstrap 4</p>
                 </div>
-              </li>
-              <li className="masonry_in">
-                <div className="item">
-                  <div className="title_holder">
-                    <h3>
-                      <Link href="#">
-                        <a
-                          className="fn__link zoom"
-                          data-title="Emerald Coast All Sports Association"
-                        >
-                          Emerald Coast All Sports Association
-                        </a>
-                      </Link>
-                    </h3>
-                    <p>Custom WordPress Theme, Bootstrap 5</p>
-                  </div>
-                  <div className="img_holder">
-                    <Link href="img/portfolio/asa-port-img-1.jpeg">
+                <div className="img_holder">
+                  <Link href="img/portfolio/destinmusichiphop-port.jpeg">
+                    <a className="zoom" data-title="Destin Music">
+                      <img
+                        className="h-100"
+                        src="img/portfolio/destinmusichiphop-port.jpeg"
+                        alt="Destin Music"
+                      />
+                    </a>
+                  </Link>
+                  {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                  <div
+                    className="abs_img"
+                    data-bg-img="img/portfolio/destinmusichiphop-port.jpeg"
+                  />
+                </div>
+              </div>
+            </li>
+            <li className="masonry_in">
+              <div className="item">
+                <div className="title_holder">
+                  <h3>
+                    <Link href="#">
                       <a
-                        className="zoom"
+                        className="fn__link zoom"
                         data-title="Emerald Coast All Sports Association"
                       >
-                        <img
-                          className="h-100"
-                          src="img/portfolio/asa-port-img-1.jpeg"
-                          alt="Emerald Coast All Sports Association"
-                        />
+                        Emerald Coast All Sports Association
                       </a>
                     </Link>
-                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
-                    <div
-                      className="abs_img"
-                      data-bg-img="img/portfolio/asa-port-img-1.jpeg"
-                    />
-                  </div>
+                  </h3>
+                  <p>Custom WordPress Theme, Bootstrap 5</p>
                 </div>
-              </li>
-              <li className="masonry_in">
-                <div className="item">
-                  <div className="title_holder">
-                    <h3>
-                      <Link
-                        target="_blank"
-                        href="https://fortwaltonbeachhealthinsurance.com/"
-                      >
-                        <a
-                          className="fn__link zoom"
-                          data-title="Cornerstone Medicare"
-                        >
-                          Cornerstone Medicare
-                        </a>
-                      </Link>
-                    </h3>
-                    <p>Custom WordPress Theme, Bootstrap 4</p>
-                  </div>
-                  <div className="img_holder">
-                    <Link href="img/portfolio/cornertstone-port-img-1.jpeg">
-                      <a className="zoom" data-title="Cornerstone Medicare">
-                        <img
-                          className="h-100"
-                          src="img/portfolio/cornertstone-port-img-1.jpeg"
-                          alt="Cornerstone Medicare"
-                        />
-                      </a>
-                    </Link>
-                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
-                    <div
-                      className="abs_img"
-                      data-bg-img="img/portfolio/cornertstone-port-img-1.jpeg"
-                    />
-                  </div>
+                <div className="img_holder">
+                  <Link href="img/portfolio/asa-port-img-1.jpeg">
+                    <a
+                      className="zoom"
+                      data-title="Emerald Coast All Sports Association"
+                    >
+                      <img
+                        className="h-100"
+                        src="img/portfolio/asa-port-img-1.jpeg"
+                        alt="Emerald Coast All Sports Association"
+                      />
+                    </a>
+                  </Link>
+                  {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                  <div
+                    className="abs_img"
+                    data-bg-img="img/portfolio/asa-port-img-1.jpeg"
+                  />
                 </div>
-              </li>
-              <li className="masonry_in">
-                <div className="item">
-                  <div className="title_holder">
-                    <h3>
-                      <Link href="#">
-                        <a className="fn__link zoom" data-title="2 Tall Women">
-                          2 Tall Women
-                        </a>
-                      </Link>
-                    </h3>
-                    <p>WordPress Elementor Theme Customization</p>
-                  </div>
-                  <div className="img_holder">
-                    <Link href="img/portfolio/2-tall-port-img-1-1.jpeg">
-                      <a className="zoom" data-title="2 Tall Women">
-                        <img
-                          className="h-100"
-                          src="img/portfolio/2-tall-port-img-1-1.jpeg"
-                          alt="2 Tall Women"
-                        />
-                      </a>
-                    </Link>
-                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
-                    <div
-                      className="abs_img"
-                      data-bg-img="img/portfolio/2-tall-port-img-1-1.jpeg"
-                    />
-                  </div>
-                </div>
-              </li>
-              <li className="masonry_in">
-                <div className="item">
-                  <div className="title_holder">
-                    <h3>
-                      <Link
-                        target="_blank"
-                        href="https://www.randallsadventure.com/"
-                      >
-                        <a
-                          className="fn__link zoom"
-                          data-title="Randall’s Adventure"
-                        >
-                          Randall’s Adventure
-                        </a>
-                      </Link>
-                    </h3>
-                    <p>Drupal 7, Drupal Commerce</p>
-                  </div>
-                  <div className="img_holder">
-                    <Link href="img/portfolio/randallsadventure.jpeg">
-                      <a className="zoom" data-title="Randall’s Adventure">
-                        <img
-                          className="h-100"
-                          src="img/portfolio/randallsadventure.jpeg"
-                          alt="Randall’s Adventure"
-                        />
-                      </a>
-                    </Link>
-                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
-                    <div
-                      className="abs_img"
-                      data-bg-img="img/portfolio/randallsadventure.jpeg"
-                    />
-                  </div>
-                </div>
-              </li>
-              <li className="masonry_in">
-                <div className="item">
-                  <div className="title_holder">
-                    <h3>
-                      <Link
-                        target="_blank"
-                        href="http://echols.territory3dev.com/"
-                      >
-                        <a
-                          className="fn__link zoom"
-                          data-title="Echols Metal Roofing"
-                        >
-                          Echols Metal Roofing
-                        </a>
-                      </Link>
-                    </h3>
-                    <p>Custom WordPress Theme, Bootstrap 5</p>
-                  </div>
-                  <div className="img_holder">
-                    <Link href="img/portfolio/echols-thumbnail.jpeg">
-                      <a className="zoom" data-title="Echols Metal Roofing">
-                        <img
-                          className="h-100"
-                          src="img/portfolio/echols-thumbnail.jpeg"
-                          alt="Echols Metal Roofing"
-                        />
-                      </a>
-                    </Link>
-                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
-                    <div
-                      className="abs_img"
-                      data-bg-img="img/portfolio/echols-thumbnail.jpeg"
-                    />
-                  </div>
-                </div>
-              </li>
-              <li className="masonry_in">
-                <div className="item">
-                  <div className="title_holder">
-                    <h3>
-                      <Link target="_blank" href="https://www.46logistics.com/">
-                        <a className="fn__link zoom" data-title="46 Logistics">
-                          46 Logistics
-                        </a>
-                      </Link>
-                    </h3>
-                    <p>Custom SEO Campaign</p>
-                  </div>
-                  <div className="img_holder">
-                    <Link href="img/portfolio/46logistics.jpeg">
-                      <a className="zoom" data-title="46 Logistics">
-                        <img
-                          className="h-100"
-                          src="img/portfolio/46logistics.jpeg"
-                          alt="46 Logistics"
-                        />
-                      </a>
-                    </Link>
-                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
-                    <div
-                      className="abs_img"
-                      data-bg-img="img/portfolio/46logistics.jpeg"
-                    />
-                  </div>
-                </div>
-              </li>
-              <li className="masonry_in">
-                <div className="item">
-                  <div className="title_holder">
-                    <h3>
-                      <Link target="_blank" href="https://bracesbysb.com/">
-                        <a
-                          className="fn__link zoom"
-                          data-title="Sherman & Briscoe Orthodontics"
-                        >
-                          Sherman & Briscoe Orthodontics
-                        </a>
-                      </Link>
-                    </h3>
-                    <p>Custom WordPress Bootstrap Theme, Custom SEO Campaign</p>
-                  </div>
-                  <div className="img_holder">
-                    <Link href="img/portfolio/bracesbysb-port.jpeg">
+              </div>
+            </li>
+            <li className="masonry_in">
+              <div className="item">
+                <div className="title_holder">
+                  <h3>
+                    <Link
+                      target="_blank"
+                      href="https://fortwaltonbeachhealthinsurance.com/"
+                    >
                       <a
-                        className="zoom"
+                        className="fn__link zoom"
+                        data-title="Cornerstone Medicare"
+                      >
+                        Cornerstone Medicare
+                      </a>
+                    </Link>
+                  </h3>
+                  <p>Custom WordPress Theme, Bootstrap 4</p>
+                </div>
+                <div className="img_holder">
+                  <Link href="img/portfolio/cornertstone-port-img-1.jpeg">
+                    <a className="zoom" data-title="Cornerstone Medicare">
+                      <img
+                        className="h-100"
+                        src="img/portfolio/cornertstone-port-img-1.jpeg"
+                        alt="Cornerstone Medicare"
+                      />
+                    </a>
+                  </Link>
+                  {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                  <div
+                    className="abs_img"
+                    data-bg-img="img/portfolio/cornertstone-port-img-1.jpeg"
+                  />
+                </div>
+              </div>
+            </li>
+            <li className="masonry_in">
+              <div className="item">
+                <div className="title_holder">
+                  <h3>
+                    <Link href="#">
+                      <a className="fn__link zoom" data-title="2 Tall Women">
+                        2 Tall Women
+                      </a>
+                    </Link>
+                  </h3>
+                  <p>WordPress Elementor Theme Customization</p>
+                </div>
+                <div className="img_holder">
+                  <Link href="img/portfolio/2-tall-port-img-1-1.jpeg">
+                    <a className="zoom" data-title="2 Tall Women">
+                      <img
+                        className="h-100"
+                        src="img/portfolio/2-tall-port-img-1-1.jpeg"
+                        alt="2 Tall Women"
+                      />
+                    </a>
+                  </Link>
+                  {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                  <div
+                    className="abs_img"
+                    data-bg-img="img/portfolio/2-tall-port-img-1-1.jpeg"
+                  />
+                </div>
+              </div>
+            </li>
+            <li className="masonry_in">
+              <div className="item">
+                <div className="title_holder">
+                  <h3>
+                    <Link
+                      target="_blank"
+                      href="https://www.randallsadventure.com/"
+                    >
+                      <a
+                        className="fn__link zoom"
+                        data-title="Randall’s Adventure"
+                      >
+                        Randall’s Adventure
+                      </a>
+                    </Link>
+                  </h3>
+                  <p>Drupal 7, Drupal Commerce</p>
+                </div>
+                <div className="img_holder">
+                  <Link href="img/portfolio/randallsadventure.jpeg">
+                    <a className="zoom" data-title="Randall’s Adventure">
+                      <img
+                        className="h-100"
+                        src="img/portfolio/randallsadventure.jpeg"
+                        alt="Randall’s Adventure"
+                      />
+                    </a>
+                  </Link>
+                  {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                  <div
+                    className="abs_img"
+                    data-bg-img="img/portfolio/randallsadventure.jpeg"
+                  />
+                </div>
+              </div>
+            </li>
+            <li className="masonry_in">
+              <div className="item">
+                <div className="title_holder">
+                  <h3>
+                    <Link
+                      target="_blank"
+                      href="http://echols.territory3dev.com/"
+                    >
+                      <a
+                        className="fn__link zoom"
+                        data-title="Echols Metal Roofing"
+                      >
+                        Echols Metal Roofing
+                      </a>
+                    </Link>
+                  </h3>
+                  <p>Custom WordPress Theme, Bootstrap 5</p>
+                </div>
+                <div className="img_holder">
+                  <Link href="img/portfolio/echols-thumbnail.jpeg">
+                    <a className="zoom" data-title="Echols Metal Roofing">
+                      <img
+                        className="h-100"
+                        src="img/portfolio/echols-thumbnail.jpeg"
+                        alt="Echols Metal Roofing"
+                      />
+                    </a>
+                  </Link>
+                  {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                  <div
+                    className="abs_img"
+                    data-bg-img="img/portfolio/echols-thumbnail.jpeg"
+                  />
+                </div>
+              </div>
+            </li>
+            <li className="masonry_in">
+              <div className="item">
+                <div className="title_holder">
+                  <h3>
+                    <Link target="_blank" href="https://www.46logistics.com/">
+                      <a className="fn__link zoom" data-title="46 Logistics">
+                        46 Logistics
+                      </a>
+                    </Link>
+                  </h3>
+                  <p>Custom SEO Campaign</p>
+                </div>
+                <div className="img_holder">
+                  <Link href="img/portfolio/46logistics.jpeg">
+                    <a className="zoom" data-title="46 Logistics">
+                      <img
+                        className="h-100"
+                        src="img/portfolio/46logistics.jpeg"
+                        alt="46 Logistics"
+                      />
+                    </a>
+                  </Link>
+                  {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                  <div
+                    className="abs_img"
+                    data-bg-img="img/portfolio/46logistics.jpeg"
+                  />
+                </div>
+              </div>
+            </li>
+            <li className="masonry_in">
+              <div className="item">
+                <div className="title_holder">
+                  <h3>
+                    <Link target="_blank" href="https://bracesbysb.com/">
+                      <a
+                        className="fn__link zoom"
                         data-title="Sherman & Briscoe Orthodontics"
                       >
-                        <img
-                          className="h-100"
-                          src="img/portfolio/bracesbysb-port.jpeg"
-                          alt="Sherman & Briscoe Orthodontics"
-                        />
+                        Sherman & Briscoe Orthodontics
                       </a>
                     </Link>
-                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
-                    <div
-                      className="abs_img"
-                      data-bg-img="img/portfolio/bracesbysb-port.jpeg"
-                    />
-                  </div>
+                  </h3>
+                  <p>Custom WordPress Bootstrap Theme, Custom SEO Campaign</p>
                 </div>
-              </li>
-              <li className="masonry_in">
-                <div className="item">
-                  <div className="title_holder">
-                    <h3>
-                      <Link target="_blank" href="https://devright.com/">
-                        <a className="fn__link zoom" data-title="Devright">
-                          Devright
-                        </a>
-                      </Link>
-                    </h3>
-                    <p>Custom SEO Campaign and WordPress Elementor Theme</p>
-                  </div>
-                  <div className="img_holder">
-                    <Link href="img/portfolio/devrightport-thumb.jpeg">
-                      <a className="zoom" data-title="Devright">
-                        <img
-                          className="h-100"
-                          src="img/portfolio/devrightport-thumb.jpeg"
-                          alt="Devright"
-                        />
+                <div className="img_holder">
+                  <Link href="img/portfolio/bracesbysb-port.jpeg">
+                    <a
+                      className="zoom"
+                      data-title="Sherman & Briscoe Orthodontics"
+                    >
+                      <img
+                        className="h-100"
+                        src="img/portfolio/bracesbysb-port.jpeg"
+                        alt="Sherman & Briscoe Orthodontics"
+                      />
+                    </a>
+                  </Link>
+                  {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                  <div
+                    className="abs_img"
+                    data-bg-img="img/portfolio/bracesbysb-port.jpeg"
+                  />
+                </div>
+              </div>
+            </li>
+            <li className="masonry_in">
+              <div className="item">
+                <div className="title_holder">
+                  <h3>
+                    <Link target="_blank" href="https://devright.com/">
+                      <a className="fn__link zoom" data-title="Devright">
+                        Devright
                       </a>
                     </Link>
-                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
-                    <div
-                      className="abs_img"
-                      data-bg-img="img/portfolio/devrightport-thumb.jpeg"
-                    />
-                  </div>
+                  </h3>
+                  <p>Custom SEO Campaign and WordPress Elementor Theme</p>
                 </div>
-              </li>
-              <li className="masonry_in">
-                <div className="item">
-                  <div className="title_holder">
-                    <h3>
-                      <Link
-                        target="_blank"
-                        href="https://thedefiningpoint.com/"
-                      >
-                        <a
-                          className="fn__link zoom"
-                          data-title="The Defining Point"
-                        >
-                          The Defining Point
-                        </a>
-                      </Link>
-                    </h3>
-                    <p>Custom SEO Campaign</p>
-                  </div>
-                  <div className="img_holder">
-                    <Link href="img/portfolio/definingpoint-port.jpeg">
-                      <a className="zoom" data-title="The Defining Point">
-                        <img
-                          className="h-100"
-                          src="img/portfolio/definingpoint-port.jpeg"
-                          alt="The Defining Point"
-                        />
-                      </a>
-                    </Link>
-                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
-                    <div
-                      className="abs_img"
-                      data-bg-img="img/portfolio/definingpoint-port.jpeg"
-                    />
-                  </div>
+                <div className="img_holder">
+                  <Link href="img/portfolio/devrightport-thumb.jpeg">
+                    <a className="zoom" data-title="Devright">
+                      <img
+                        className="h-100"
+                        src="img/portfolio/devrightport-thumb.jpeg"
+                        alt="Devright"
+                      />
+                    </a>
+                  </Link>
+                  {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                  <div
+                    className="abs_img"
+                    data-bg-img="img/portfolio/devrightport-thumb.jpeg"
+                  />
                 </div>
-              </li>
-              <li className="masonry_in">
-                <div className="item">
-                  <div className="title_holder">
-                    <h3>
-                      <Link target="_blank" href="https://onsiteboatcare.com/">
-                        <a
-                          className="fn__link zoom"
-                          data-title="On Site Boat Care"
-                        >
-                          On Site Boat Care
-                        </a>
-                      </Link>
-                    </h3>
-                    <p>Custom SEO Campaign</p>
-                  </div>
-                  <div className="img_holder">
-                    <Link href="img/portfolio/onsiteboatcare-port.jpeg">
-                      <a className="zoom" data-title="On Site Boat Care">
-                        <img
-                          className="h-100"
-                          src="img/portfolio/onsiteboatcare-port.jpeg"
-                          alt="On Site Boat Care"
-                        />
-                      </a>
-                    </Link>
-                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
-                    <div
-                      className="abs_img"
-                      data-bg-img="img/portfolio/onsiteboatcare-port.jpeg"
-                    />
-                  </div>
-                </div>
-              </li>
-              <li className="masonry_in">
-                <div className="item">
-                  <div className="title_holder">
-                    <h3>
-                      <Link
-                        target="_blank"
-                        href="https://fordhenley-todoproject.netlify.app/"
-                      >
-                        <a
-                          className="fn__link zoom"
-                          data-title="Coder Foundry ToDo"
-                        >
-                          Coder Foundry ToDo
-                        </a>
-                      </Link>
-                    </h3>
-                    <p>
-                      Basic ToDo List from Coder Foundry Bootcamp hosted on
-                      Netlify
-                    </p>
-                  </div>
-                  <div className="img_holder">
-                    <Link href="img/portfolio/todo-coderfoundry.png">
-                      <a className="zoom" data-title="Coder Foundry ToDo">
-                        <img
-                          className="h-100"
-                          src="img/portfolio/todo-coderfoundry.png"
-                          alt="Coder Foundry ToDo"
-                        />
-                      </a>
-                    </Link>
-                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
-                    <div
-                      className="abs_img"
-                      data-bg-img="img/portfolio/todo-coderfoundry.png"
-                    />
-                  </div>
-                </div>
-              </li>
-              <li className="masonry_in">
-                <div className="item">
-                  <div className="title_holder">
-                    <h3>
-                      <Link
-                        target="_blank"
-                        href="https://ford-bootstrapgrids.netlify.app/"
-                      >
-                        <a
-                          className="fn__link zoom"
-                          data-title="Coder Foundry Bootstrap Grids Lab"
-                        >
-                          Coder Foundry Bootstrap Grids Lab
-                        </a>
-                      </Link>
-                    </h3>
-                    <p>
-                      Bootcamp project testing out different ways to use
-                      bootstrap grids
-                    </p>
-                  </div>
-                  <div className="img_holder">
-                    <Link href="img/portfolio/bootstrapgrids-coderfoundry.jpg">
+              </div>
+            </li>
+            <li className="masonry_in">
+              <div className="item">
+                <div className="title_holder">
+                  <h3>
+                    <Link target="_blank" href="https://thedefiningpoint.com/">
                       <a
-                        className="zoom"
+                        className="fn__link zoom"
+                        data-title="The Defining Point"
+                      >
+                        The Defining Point
+                      </a>
+                    </Link>
+                  </h3>
+                  <p>Custom SEO Campaign</p>
+                </div>
+                <div className="img_holder">
+                  <Link href="img/portfolio/definingpoint-port.jpeg">
+                    <a className="zoom" data-title="The Defining Point">
+                      <img
+                        className="h-100"
+                        src="img/portfolio/definingpoint-port.jpeg"
+                        alt="The Defining Point"
+                      />
+                    </a>
+                  </Link>
+                  {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                  <div
+                    className="abs_img"
+                    data-bg-img="img/portfolio/definingpoint-port.jpeg"
+                  />
+                </div>
+              </div>
+            </li>
+            <li className="masonry_in">
+              <div className="item">
+                <div className="title_holder">
+                  <h3>
+                    <Link target="_blank" href="https://onsiteboatcare.com/">
+                      <a
+                        className="fn__link zoom"
+                        data-title="On Site Boat Care"
+                      >
+                        On Site Boat Care
+                      </a>
+                    </Link>
+                  </h3>
+                  <p>Custom SEO Campaign</p>
+                </div>
+                <div className="img_holder">
+                  <Link href="img/portfolio/onsiteboatcare-port.jpeg">
+                    <a className="zoom" data-title="On Site Boat Care">
+                      <img
+                        className="h-100"
+                        src="img/portfolio/onsiteboatcare-port.jpeg"
+                        alt="On Site Boat Care"
+                      />
+                    </a>
+                  </Link>
+                  {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                  <div
+                    className="abs_img"
+                    data-bg-img="img/portfolio/onsiteboatcare-port.jpeg"
+                  />
+                </div>
+              </div>
+            </li>
+            <li className="masonry_in">
+              <div className="item">
+                <div className="title_holder">
+                  <h3>
+                    <Link
+                      target="_blank"
+                      href="https://fordhenley-todoproject.netlify.app/"
+                    >
+                      <a
+                        className="fn__link zoom"
+                        data-title="Coder Foundry ToDo"
+                      >
+                        Coder Foundry ToDo
+                      </a>
+                    </Link>
+                  </h3>
+                  <p>
+                    Basic ToDo List from Coder Foundry Bootcamp hosted on
+                    Netlify
+                  </p>
+                </div>
+                <div className="img_holder">
+                  <Link href="img/portfolio/todo-coderfoundry.png">
+                    <a className="zoom" data-title="Coder Foundry ToDo">
+                      <img
+                        className="h-100"
+                        src="img/portfolio/todo-coderfoundry.png"
+                        alt="Coder Foundry ToDo"
+                      />
+                    </a>
+                  </Link>
+                  {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                  <div
+                    className="abs_img"
+                    data-bg-img="img/portfolio/todo-coderfoundry.png"
+                  />
+                </div>
+              </div>
+            </li>
+            <li className="masonry_in">
+              <div className="item">
+                <div className="title_holder">
+                  <h3>
+                    <Link
+                      target="_blank"
+                      href="https://ford-bootstrapgrids.netlify.app/"
+                    >
+                      <a
+                        className="fn__link zoom"
                         data-title="Coder Foundry Bootstrap Grids Lab"
                       >
-                        <img
-                          className="h-100"
-                          src="img/portfolio/bootstrapgrids-coderfoundry.jpg"
-                          alt="Coder Foundry Bootstrap Grids Lab"
-                        />
+                        Coder Foundry Bootstrap Grids Lab
                       </a>
                     </Link>
-                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
-                    <div
-                      className="abs_img"
-                      data-bg-img="img/portfolio/bootstrapgrids-coderfoundry.jpg"
-                    />
-                  </div>
+                  </h3>
+                  <p>
+                    Bootcamp project testing out different ways to use bootstrap
+                    grids
+                  </p>
                 </div>
-              </li>
-              <li className="masonry_in">
-                <div className="item">
-                  <div className="title_holder">
-                    <h3>
-                      <Link
-                        target="_blank"
-                        href="https://ford-bootstraplab.netlify.app/"
-                      >
-                        <a
-                          className="fn__link zoom"
-                          data-title="Coder Foundry Bootstrap Layouts Lab"
-                        >
-                          Coder Foundry Bootstrap Layouts Lab
-                        </a>
-                      </Link>
-                    </h3>
-                    <p>
-                      Bootcamp project testing out different ways to use
-                      Bootstrap to layout Forms
-                    </p>
-                  </div>
-                  <div className="img_holder">
-                    <Link href="img/portfolio/bpptstraplab-coderfoundry.jpg">
+                <div className="img_holder">
+                  <Link href="img/portfolio/bootstrapgrids-coderfoundry.jpg">
+                    <a
+                      className="zoom"
+                      data-title="Coder Foundry Bootstrap Grids Lab"
+                    >
+                      <img
+                        className="h-100"
+                        src="img/portfolio/bootstrapgrids-coderfoundry.jpg"
+                        alt="Coder Foundry Bootstrap Grids Lab"
+                      />
+                    </a>
+                  </Link>
+                  {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                  <div
+                    className="abs_img"
+                    data-bg-img="img/portfolio/bootstrapgrids-coderfoundry.jpg"
+                  />
+                </div>
+              </div>
+            </li>
+            <li className="masonry_in">
+              <div className="item">
+                <div className="title_holder">
+                  <h3>
+                    <Link
+                      target="_blank"
+                      href="https://ford-bootstraplab.netlify.app/"
+                    >
                       <a
-                        className="zoom"
+                        className="fn__link zoom"
                         data-title="Coder Foundry Bootstrap Layouts Lab"
                       >
-                        <img
-                          className="h-100"
-                          src="img/portfolio/bpptstraplab-coderfoundry.jpg"
-                          alt="Coder Foundry Bootstrap Layouts Lab"
-                        />
+                        Coder Foundry Bootstrap Layouts Lab
                       </a>
                     </Link>
-                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
-                    <div
-                      className="abs_img"
-                      data-bg-img="img/portfolio/bpptstraplab-coderfoundry.jpg"
-                    />
-                  </div>
+                  </h3>
+                  <p>
+                    Bootcamp project testing out different ways to use Bootstrap
+                    to layout Forms
+                  </p>
                 </div>
-              </li>
-              <li className="masonry_in">
-                <div className="item">
-                  <div className="title_holder">
-                    <h3>
-                      <Link
-                        target="_blank"
-                        href="https://guessfordsnumber.netlify.app/"
-                      >
-                        <a
-                          className="fn__link zoom"
-                          data-title="Bethel Tech Bootcamp Guessing Game"
-                        >
-                          Bethel Tech Bootcamp Guessing Game
-                        </a>
-                      </Link>
-                    </h3>
-                    <p>
-                      Guessing game built in React.js and React Bootstrap hosted
-                      on Netlify
-                    </p>
-                  </div>
-                  <div className="img_holder">
-                    <Link href="img/portfolio/guessing-bethel.png">
+                <div className="img_holder">
+                  <Link href="img/portfolio/bpptstraplab-coderfoundry.jpg">
+                    <a
+                      className="zoom"
+                      data-title="Coder Foundry Bootstrap Layouts Lab"
+                    >
+                      <img
+                        className="h-100"
+                        src="img/portfolio/bpptstraplab-coderfoundry.jpg"
+                        alt="Coder Foundry Bootstrap Layouts Lab"
+                      />
+                    </a>
+                  </Link>
+                  {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                  <div
+                    className="abs_img"
+                    data-bg-img="img/portfolio/bpptstraplab-coderfoundry.jpg"
+                  />
+                </div>
+              </div>
+            </li>
+            <li className="masonry_in">
+              <div className="item">
+                <div className="title_holder">
+                  <h3>
+                    <Link
+                      target="_blank"
+                      href="https://guessfordsnumber.netlify.app/"
+                    >
                       <a
-                        className="zoom"
+                        className="fn__link zoom"
                         data-title="Bethel Tech Bootcamp Guessing Game"
                       >
-                        <img
-                          className="h-100"
-                          src="img/portfolio/guessing-bethel.png"
-                        />
+                        Bethel Tech Bootcamp Guessing Game
                       </a>
                     </Link>
-                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
-                    <div
-                      className="abs_img"
-                      data-bg-img="img/portfolio/guessing-bethel.png"
-                    />
-                  </div>
+                  </h3>
+                  <p>
+                    Guessing game built in React.js and React Bootstrap hosted
+                    on Netlify
+                  </p>
                 </div>
-              </li>
-              <li className="masonry_in">
-                <div className="item">
-                  <div className="title_holder">
-                    <h3>
-                      <Link
-                        target="_blank"
-                        href="https://allthewayup2100.netlify.app"
-                      >
-                        <a
-                          className="fn__link zoom"
-                          data-title="All The Way Up Game"
-                        >
-                          Coder Foundry: All The Way Up
-                        </a>
-                      </Link>
-                    </h3>
-                    <p>
-                      Coder Foundry game to count numbers up to 100 and display
-                      the results in a table. Built with Bootstrap hosted on
-                      Netlify
-                    </p>
-                  </div>
-                  <div className="img_holder">
-                    <Link href="img/portfolio/allthewayup-thumb.jpeg">
+                <div className="img_holder">
+                  <Link href="img/portfolio/guessing-bethel.png">
+                    <a
+                      className="zoom"
+                      data-title="Bethel Tech Bootcamp Guessing Game"
+                    >
+                      <img
+                        className="h-100"
+                        src="img/portfolio/guessing-bethel.png"
+                      />
+                    </a>
+                  </Link>
+                  {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                  <div
+                    className="abs_img"
+                    data-bg-img="img/portfolio/guessing-bethel.png"
+                  />
+                </div>
+              </div>
+            </li>
+            <li className="masonry_in">
+              <div className="item">
+                <div className="title_holder">
+                  <h3>
+                    <Link
+                      target="_blank"
+                      href="https://allthewayup2100.netlify.app"
+                    >
                       <a
-                        className="zoom"
-                        data-title="Coder Foundry Bootcamp All The Way Up Game"
+                        className="fn__link zoom"
+                        data-title="All The Way Up Game"
                       >
-                        <img
-                          className="h-100"
-                          src="img/portfolio/allthewayup-thumb.jpeg"
-                          alt="Coder Foundry Bootcamp All The Way Up Game"
-                        />
+                        Coder Foundry: All The Way Up
                       </a>
                     </Link>
-                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
-                    <div
-                      className="abs_img"
-                      data-bg-img="img/portfolio/allthewayup-thumb.jpeg"
-                    />
-                  </div>
+                  </h3>
+                  <p>
+                    Coder Foundry game to count numbers up to 100 and display
+                    the results in a table. Built with Bootstrap hosted on
+                    Netlify
+                  </p>
                 </div>
-              </li>
-              <li className="masonry_in">
-                <div className="item">
-                  <div className="title_holder">
-                    <h3>
-                      <Link
-                        target="_blank"
-                        href="https://fordsflipper.netlify.app"
+                <div className="img_holder">
+                  <Link href="img/portfolio/allthewayup-thumb.jpeg">
+                    <a
+                      className="zoom"
+                      data-title="Coder Foundry Bootcamp All The Way Up Game"
+                    >
+                      <img
+                        className="h-100"
+                        src="img/portfolio/allthewayup-thumb.jpeg"
+                        alt="Coder Foundry Bootcamp All The Way Up Game"
+                      />
+                    </a>
+                  </Link>
+                  {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                  <div
+                    className="abs_img"
+                    data-bg-img="img/portfolio/allthewayup-thumb.jpeg"
+                  />
+                </div>
+              </div>
+            </li>
+            <li className="masonry_in">
+              <div className="item">
+                <div className="title_holder">
+                  <h3>
+                    <Link
+                      target="_blank"
+                      href="https://fordsflipper.netlify.app"
+                    >
+                      <a
+                        className="fn__link zoom"
+                        data-title="Reverse A String With Flipper"
                       >
-                        <a
-                          className="fn__link zoom"
-                          data-title="Reverse A String With Flipper"
-                        >
-                          Coder Foundry: Flipper
-                        </a>
-                      </Link>
-                    </h3>
-                    <p>
-                      Coder Foundry game to reverse a string with JavaScript.
-                    </p>
-                  </div>
-                  <div className="img_holder">
-                    <Link href="img/portfolio/flipper-thumb.jpeg">
-                      <a className="zoom" data-title="Coder Foundry: Flipper">
-                        <img
-                          className="h-100"
-                          src="img/portfolio/flipper-thumb.jpeg"
-                          alt="Coder Foundry: Flipper"
-                        />
+                        Coder Foundry: Flipper
                       </a>
                     </Link>
-                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
-                    <div
-                      className="abs_img"
-                      data-bg-img="img/portfolio/flipper-thumb.jpeg"
-                    />
-                  </div>
+                  </h3>
+                  <p>Coder Foundry game to reverse a string with JavaScript.</p>
                 </div>
-              </li>
-              <li className="masonry_in">
-                <div className="item">
-                  <div className="title_holder">
-                    <h3>
-                      <Link
-                        target="_blank"
-                        href="https://fordsfizzbuzz.netlify.app"
+                <div className="img_holder">
+                  <Link href="img/portfolio/flipper-thumb.jpeg">
+                    <a className="zoom" data-title="Coder Foundry: Flipper">
+                      <img
+                        className="h-100"
+                        src="img/portfolio/flipper-thumb.jpeg"
+                        alt="Coder Foundry: Flipper"
+                      />
+                    </a>
+                  </Link>
+                  {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                  <div
+                    className="abs_img"
+                    data-bg-img="img/portfolio/flipper-thumb.jpeg"
+                  />
+                </div>
+              </div>
+            </li>
+            <li className="masonry_in">
+              <div className="item">
+                <div className="title_holder">
+                  <h3>
+                    <Link
+                      target="_blank"
+                      href="https://fordsfizzbuzz.netlify.app"
+                    >
+                      <a
+                        className="fn__link zoom"
+                        data-title="A FizzBuzz Example"
                       >
-                        <a
-                          className="fn__link zoom"
-                          data-title="A FizzBuzz Example"
-                        >
-                          Coder Foundry: FizzBuzz
-                        </a>
-                      </Link>
-                    </h3>
-                    <p>Coder Foundry Javascript FizzBuzz program.</p>
-                  </div>
-                  <div className="img_holder">
-                    <Link href="img/portfolio/fizzbuzz-thumb.jpeg">
-                      <a className="zoom" data-title="Coder Foundry: FizzBuzz">
-                        <img
-                          className="h-100"
-                          src="img/portfolio/fizzbuzz-thumb.jpeg"
-                          alt="Coder Foundry: FizzBuzz"
-                        />
+                        Coder Foundry: FizzBuzz
                       </a>
                     </Link>
-                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
-                    <div
-                      className="abs_img"
-                      data-bg-img="img/portfolio/fizzbuzz-thumb.jpeg"
-                    />
-                  </div>
+                  </h3>
+                  <p>Coder Foundry Javascript FizzBuzz program.</p>
                 </div>
-              </li>
-              <li className="masonry_in">
-                <div className="item">
-                  <div className="title_holder">
-                    <h3>
-                      <Link
-                        target="_blank"
-                        href="https://fordstacocat.netlify.app"
+                <div className="img_holder">
+                  <Link href="img/portfolio/fizzbuzz-thumb.jpeg">
+                    <a className="zoom" data-title="Coder Foundry: FizzBuzz">
+                      <img
+                        className="h-100"
+                        src="img/portfolio/fizzbuzz-thumb.jpeg"
+                        alt="Coder Foundry: FizzBuzz"
+                      />
+                    </a>
+                  </Link>
+                  {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                  <div
+                    className="abs_img"
+                    data-bg-img="img/portfolio/fizzbuzz-thumb.jpeg"
+                  />
+                </div>
+              </div>
+            </li>
+            <li className="masonry_in">
+              <div className="item">
+                <div className="title_holder">
+                  <h3>
+                    <Link
+                      target="_blank"
+                      href="https://fordstacocat.netlify.app"
+                    >
+                      <a
+                        className="fn__link zoom"
+                        data-title="Coder Foundry: Taco Cat"
                       >
-                        <a
-                          className="fn__link zoom"
-                          data-title="Coder Foundry: Taco Cat"
-                        >
-                          Coder Foundry: Taco Cat
-                        </a>
-                      </Link>
-                    </h3>
-                    <p>
-                      Coder Foundry Javascript program to reverse a string and
-                      check if it is a palindrome.
-                    </p>
-                  </div>
-                  <div className="img_holder">
-                    <Link href="img/portfolio/tacocat-thumb.jpeg">
-                      <a className="zoom" data-title="Coder Foundry: Taco Cat">
-                        <img
-                          className="h-100"
-                          src="img/portfolio/tacocat-thumb.jpeg"
-                          alt="Coder Foundry: Taco Cat"
-                        />
+                        Coder Foundry: Taco Cat
                       </a>
                     </Link>
-                    {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
-                    <div
-                      className="abs_img"
-                      data-bg-img="img/portfolio/tacocat-thumb.jpeg"
-                    />
-                  </div>
+                  </h3>
+                  <p>
+                    Coder Foundry Javascript program to reverse a string and
+                    check if it is a palindrome.
+                  </p>
                 </div>
-              </li>
-            </ul>
-          </div>
+                <div className="img_holder">
+                  <Link href="img/portfolio/tacocat-thumb.jpeg">
+                    <a className="zoom" data-title="Coder Foundry: Taco Cat">
+                      <img
+                        className="h-100"
+                        src="img/portfolio/tacocat-thumb.jpeg"
+                        alt="Coder Foundry: Taco Cat"
+                      />
+                    </a>
+                  </Link>
+                  {/* <img src="img/thumb/square.jpg" className="d-none" alt="image" /> */}
+                  <div
+                    className="abs_img"
+                    data-bg-img="img/portfolio/tacocat-thumb.jpeg"
+                  />
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
-      </SRLWrapper>
+      </div>
     </section>
   );
 };
