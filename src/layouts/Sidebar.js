@@ -69,17 +69,17 @@ export default function MobileMenu({ children }) {
               </Link>
             </li>
             <li>
-              <Link activeClass="current" href="biography">
+              <Link href="/biography">
                 Biography
               </Link>
             </li>
             <li>
-              <Link activeClass="current" href="portfolio">
+              <Link href="/portfolio">
                 Portfolio
               </Link>
             </li>
             <li>
-              <Link activeClass="current" href="languages">
+              <Link  href="/languages">
                 Languages
               </Link>
             </li>
