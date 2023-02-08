@@ -34,16 +34,16 @@ export default function MobileMenu({ children }) {
         <div>
           <ul className="anchor_nav vert_menu_list">
             <li className="current">
-              <a href="#about">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="#biography">Biography</a>
+              <a href="/biography">Biography</a>
             </li>
             <li>
-              <a href="#portfolio">Portfolio</a>
+              <a href="/portfolio">Portfolio</a>
             </li>
             <li>
-              <a href="#languages">Languages</a>
+              <a href="/programming">Languages</a>
             </li>
           </ul>
         </div>
