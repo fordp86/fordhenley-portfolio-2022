@@ -16,15 +16,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/portfolio/page.js"
     ],
-    "/biography/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/biography/page.js"
-    ],
     "/programming/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/programming/page.js"
+    ],
+    "/biography/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/biography/page.js"
     ]
   }
 }

@@ -1,3 +1,9 @@
+import Router from "next/router";
+
+export const forceReloadUtil = () => {
+  Router.reload();
+};
+
 export const dataImage = () => {
   let d = document.querySelectorAll("[data-bg-img");
   for (let i = 0; i < d.length; i++) {

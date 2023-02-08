@@ -1,8 +1,8 @@
 self.__RSC_MANIFEST={
   "__ssr_module_mapping__": {
-    "(app-client)/./app/page.js": {
+    "(app-client)/./src/components/Scene.js": {
       "": {
-        "id": "(sc_client)/./app/page.js",
+        "id": "(sc_client)/./src/components/Scene.js",
         "name": "",
         "chunks": [
           "app/page:app/page"
@@ -10,7 +10,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./app/page.js",
+        "id": "(sc_client)/./src/components/Scene.js",
         "name": "*",
         "chunks": [
           "app/page:app/page"
@@ -18,7 +18,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/page.js",
+        "id": "(sc_client)/./src/components/Scene.js",
         "name": "default",
         "chunks": [
           "app/page:app/page"
@@ -182,32 +182,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/biography/page.js": {
-      "": {
-        "id": "(sc_client)/./app/biography/page.js",
-        "name": "",
-        "chunks": [
-          "app/biography/page:app/biography/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/biography/page.js",
-        "name": "*",
-        "chunks": [
-          "app/biography/page:app/biography/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/biography/page.js",
-        "name": "default",
-        "chunks": [
-          "app/biography/page:app/biography/page"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./app/programming/page.js": {
       "": {
         "id": "(sc_client)/./app/programming/page.js",
@@ -233,6 +207,32 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
+    },
+    "(app-client)/./app/biography/page.js": {
+      "": {
+        "id": "(sc_client)/./app/biography/page.js",
+        "name": "",
+        "chunks": [
+          "app/biography/page:app/biography/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/biography/page.js",
+        "name": "*",
+        "chunks": [
+          "app/biography/page:app/biography/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/biography/page.js",
+        "name": "default",
+        "chunks": [
+          "app/biography/page:app/biography/page"
+        ],
+        "async": false
+      }
     }
   },
   "__edge_ssr_module_mapping__": {},
@@ -241,9 +241,9 @@ self.__RSC_MANIFEST={
       "static/css/app/layout.css"
     ]
   },
-  "/Users/patrickfhenley/Documents/GitHub/fordhenley-portfolio-2022/app/page.js": {
+  "/Users/patrickfhenley/Documents/GitHub/fordhenley-portfolio-2022/src/components/Scene.js": {
     "": {
-      "id": "(app-client)/./app/page.js",
+      "id": "(app-client)/./src/components/Scene.js",
       "name": "",
       "chunks": [
         "app/page:app/page"
@@ -251,7 +251,7 @@ self.__RSC_MANIFEST={
       "async": false
     },
     "*": {
-      "id": "(app-client)/./app/page.js",
+      "id": "(app-client)/./src/components/Scene.js",
       "name": "*",
       "chunks": [
         "app/page:app/page"
@@ -259,7 +259,7 @@ self.__RSC_MANIFEST={
       "async": false
     },
     "default": {
-      "id": "(app-client)/./app/page.js",
+      "id": "(app-client)/./src/components/Scene.js",
       "name": "default",
       "chunks": [
         "app/page:app/page"
@@ -590,32 +590,6 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/patrickfhenley/Documents/GitHub/fordhenley-portfolio-2022/app/biography/page.js": {
-    "": {
-      "id": "(app-client)/./app/biography/page.js",
-      "name": "",
-      "chunks": [
-        "app/biography/page:app/biography/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/biography/page.js",
-      "name": "*",
-      "chunks": [
-        "app/biography/page:app/biography/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/biography/page.js",
-      "name": "default",
-      "chunks": [
-        "app/biography/page:app/biography/page"
-      ],
-      "async": false
-    }
-  },
   "/Users/patrickfhenley/Documents/GitHub/fordhenley-portfolio-2022/app/programming/page.js": {
     "": {
       "id": "(app-client)/./app/programming/page.js",
@@ -638,6 +612,32 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/programming/page:app/programming/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/patrickfhenley/Documents/GitHub/fordhenley-portfolio-2022/app/biography/page.js": {
+    "": {
+      "id": "(app-client)/./app/biography/page.js",
+      "name": "",
+      "chunks": [
+        "app/biography/page:app/biography/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/biography/page.js",
+      "name": "*",
+      "chunks": [
+        "app/biography/page:app/biography/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/biography/page.js",
+      "name": "default",
+      "chunks": [
+        "app/biography/page:app/biography/page"
       ],
       "async": false
     }

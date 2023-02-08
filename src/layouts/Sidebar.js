@@ -3,7 +3,7 @@
 import React from "react";
 import { useEffect } from "react";
 import Link from "next/link";
-import { isActive } from "../../src/utils";
+import { forceReloadUtil, isActive } from "../../src/utils";
 
 export default function MobileMenu({ children }) {
   useEffect(() => {
@@ -63,29 +63,33 @@ export default function MobileMenu({ children }) {
       {/* Sidebar: content */}
       <div className="sidebar_in">
         <div className="logo">
-          <Link href="/">
+          <Link href="/" onClick={forceReloadUtil}>
             <img src="img/logo.png" alt="Logo" />
           </Link>
         </div>
         <div className="navigation">
           <ul id="nav" className="anchor_nav">
             <li>
-              <Link className="btn" href="/">
+              <Link className="btn" href="/" onClick={forceReloadUtil}>
                 Home
               </Link>
             </li>
             <li>
-              <Link className="btn" href="/biography">
+              <Link className="btn" href="/biography" onClick={forceReloadUtil}>
                 Biography
               </Link>
             </li>
             <li>
-              <Link className="btn" href="/portfolio">
+              <Link className="btn" href="/portfolio" onClick={forceReloadUtil}>
                 Portfolio
               </Link>
             </li>
             <li>
-              <Link className="btn" href="/programming">
+              <Link
+                className="btn"
+                href="/programming"
+                onClick={forceReloadUtil}
+              >
                 Languages
               </Link>
             </li>
