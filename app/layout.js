@@ -7,12 +7,11 @@ import "../styles/globals.css";
 import MobileMenu from "../src/layouts/MobileMenu";
 import Sidebar from "../src/layouts/Sidebar";
 import "@fortawesome/fontawesome-svg-core/styles.css";
-import { animation, aTagClick, dataImage, parallax } from "../src/utils";
+import { animation, aTagClick, dataImage } from "../src/utils";
 
 export default function RootLayout({ children }) {
   useEffect(() => {
     dataImage();
-    parallax();
     animation();
     aTagClick();
   });

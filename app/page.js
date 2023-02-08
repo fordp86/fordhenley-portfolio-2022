@@ -1,6 +1,13 @@
+"use client";
+
 import React from "react";
+import { useEffect } from "react";
+import { parallax } from "../src/utils";
 
 export default function About() {
+  useEffect(() => {
+    parallax();
+  });
   return (
     <section className="about" id="about">
       {/* About Modern Shortcode */}

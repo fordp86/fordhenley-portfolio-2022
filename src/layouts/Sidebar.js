@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Link } from "react-scroll";
+import Link from "next/link";
 
 export default function MobileMenu({ children }) {
   const onClick = () => {
@@ -57,31 +57,23 @@ export default function MobileMenu({ children }) {
       {/* Sidebar: content */}
       <div className="sidebar_in">
         <div className="logo">
-          <Link spy={true} smooth={true} activeClass="current" to="about">
+          <Link href="/">
             <img src="img/logo.png" alt="Logo" />
           </Link>
         </div>
         <div className="navigation">
           <ul className="anchor_nav">
             <li>
-              <Link activeClass="current" href="/">
-                Home
-              </Link>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/biography">
-                Biography
-              </Link>
+              <Link href="/biography">Biography</Link>
             </li>
             <li>
-              <Link href="/portfolio">
-                Portfolio
-              </Link>
+              <Link href="/portfolio">Portfolio</Link>
             </li>
             <li>
-              <Link  href="/languages">
-                Languages
-              </Link>
+              <Link href="/programming">Languages</Link>
             </li>
           </ul>
         </div>
@@ -89,25 +81,25 @@ export default function MobileMenu({ children }) {
           <div className="social">
             <ul>
               <li>
-                <a target="_blank" href="https://twitter.com/fordalorian">
+                <Link target="_blank" href="https://twitter.com/fordalorian">
                   <img
                     src="svg/social/twitter.svg"
                     alt="image"
                     className="fn__svg"
                   />
-                </a>
+                </Link>
               </li>
               <li>
-                <a target="_blank" href="https://instagram.com/fordalorian">
+                <Link target="_blank" href="https://instagram.com/fordalorian">
                   <img
                     src="svg/social/instagram.svg"
                     alt="image"
                     className="fn__svg"
                   />
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   target="_blank"
                   href="https://www.youtube.com/channel/UC8n_yVZvKd_P_e5RlhBbohQ/videos"
                 >
@@ -116,7 +108,7 @@ export default function MobileMenu({ children }) {
                     alt="image"
                     className="fn__svg"
                   />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

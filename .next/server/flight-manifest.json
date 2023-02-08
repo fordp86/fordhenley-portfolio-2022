@@ -1,5 +1,31 @@
 {
   "__ssr_module_mapping__": {
+    "(app-client)/./app/page.js": {
+      "": {
+        "id": "(sc_client)/./app/page.js",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/page.js",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/page.js",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./app/layout.js": {
       "": {
         "id": "(sc_client)/./app/layout.js",
@@ -130,6 +156,32 @@
         "async": false
       }
     },
+    "(app-client)/./app/portfolio/page.js": {
+      "": {
+        "id": "(sc_client)/./app/portfolio/page.js",
+        "name": "",
+        "chunks": [
+          "app/portfolio/page:app/portfolio/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/portfolio/page.js",
+        "name": "*",
+        "chunks": [
+          "app/portfolio/page:app/portfolio/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/portfolio/page.js",
+        "name": "default",
+        "chunks": [
+          "app/portfolio/page:app/portfolio/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./app/biography/page.js": {
       "": {
         "id": "(sc_client)/./app/biography/page.js",
@@ -156,28 +208,28 @@
         "async": false
       }
     },
-    "(app-client)/./app/portfolio/page.js": {
+    "(app-client)/./app/programming/page.js": {
       "": {
-        "id": "(sc_client)/./app/portfolio/page.js",
+        "id": "(sc_client)/./app/programming/page.js",
         "name": "",
         "chunks": [
-          "app/portfolio/page:app/portfolio/page"
+          "app/programming/page:app/programming/page"
         ],
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./app/portfolio/page.js",
+        "id": "(sc_client)/./app/programming/page.js",
         "name": "*",
         "chunks": [
-          "app/portfolio/page:app/portfolio/page"
+          "app/programming/page:app/programming/page"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/portfolio/page.js",
+        "id": "(sc_client)/./app/programming/page.js",
         "name": "default",
         "chunks": [
-          "app/portfolio/page:app/portfolio/page"
+          "app/programming/page:app/programming/page"
         ],
         "async": false
       }
@@ -188,6 +240,32 @@
     "/Users/patrickfhenley/Documents/GitHub/fordhenley-portfolio-2022/app/layout": [
       "static/css/app/layout.css"
     ]
+  },
+  "/Users/patrickfhenley/Documents/GitHub/fordhenley-portfolio-2022/app/page.js": {
+    "": {
+      "id": "(app-client)/./app/page.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/page.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/page.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
   },
   "/Users/patrickfhenley/Documents/GitHub/fordhenley-portfolio-2022/node_modules/@fortawesome/fontawesome-svg-core/styles.css": {
     "default": {
@@ -486,6 +564,32 @@
       "async": false
     }
   },
+  "/Users/patrickfhenley/Documents/GitHub/fordhenley-portfolio-2022/app/portfolio/page.js": {
+    "": {
+      "id": "(app-client)/./app/portfolio/page.js",
+      "name": "",
+      "chunks": [
+        "app/portfolio/page:app/portfolio/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/portfolio/page.js",
+      "name": "*",
+      "chunks": [
+        "app/portfolio/page:app/portfolio/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/portfolio/page.js",
+      "name": "default",
+      "chunks": [
+        "app/portfolio/page:app/portfolio/page"
+      ],
+      "async": false
+    }
+  },
   "/Users/patrickfhenley/Documents/GitHub/fordhenley-portfolio-2022/app/biography/page.js": {
     "": {
       "id": "(app-client)/./app/biography/page.js",
@@ -512,28 +616,28 @@
       "async": false
     }
   },
-  "/Users/patrickfhenley/Documents/GitHub/fordhenley-portfolio-2022/app/portfolio/page.js": {
+  "/Users/patrickfhenley/Documents/GitHub/fordhenley-portfolio-2022/app/programming/page.js": {
     "": {
-      "id": "(app-client)/./app/portfolio/page.js",
+      "id": "(app-client)/./app/programming/page.js",
       "name": "",
       "chunks": [
-        "app/portfolio/page:app/portfolio/page"
+        "app/programming/page:app/programming/page"
       ],
       "async": false
     },
     "*": {
-      "id": "(app-client)/./app/portfolio/page.js",
+      "id": "(app-client)/./app/programming/page.js",
       "name": "*",
       "chunks": [
-        "app/portfolio/page:app/portfolio/page"
+        "app/programming/page:app/programming/page"
       ],
       "async": false
     },
     "default": {
-      "id": "(app-client)/./app/portfolio/page.js",
+      "id": "(app-client)/./app/programming/page.js",
       "name": "default",
       "chunks": [
-        "app/portfolio/page:app/portfolio/page"
+        "app/programming/page:app/programming/page"
       ],
       "async": false
     }
