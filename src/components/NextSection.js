@@ -1,6 +1,5 @@
 import React from "react";
-import Link from 'next/link'
-
+import Link from "next/link";
 
 const NextSection = ({ mainUrl, upUrl }) => {
   return (
@@ -8,7 +7,7 @@ const NextSection = ({ mainUrl, upUrl }) => {
       <div className="container">
         <span />
       </div>
-      <Link href={`#${mainUrl}`}><a>
+      <Link href={`#${mainUrl}`}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -44,7 +43,7 @@ const NextSection = ({ mainUrl, upUrl }) => {
         </svg>
 
         <span className="fn__tooltip">Click to scroll section</span>
-      </a></Link>
+      </Link>
     </div>
   );
 };

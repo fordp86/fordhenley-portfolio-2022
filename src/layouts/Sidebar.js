@@ -1,7 +1,9 @@
+"use client";
+
 import React from "react";
 import { Link } from "react-scroll";
 
-const Sidebar = () => {
+export default function MobileMenu({ children }) {
   const onClick = () => {
     document
       .querySelector(".rewall_fn_wrapper_all")
@@ -62,37 +64,22 @@ const Sidebar = () => {
         <div className="navigation">
           <ul className="anchor_nav">
             <li>
-              <Link spy={true} smooth={true} activeClass="current" to="about">
+              <Link activeClass="current" href="/">
                 Home
               </Link>
             </li>
             <li>
-              <Link
-                spy={true}
-                smooth={true}
-                activeClass="current"
-                to="biography"
-              >
+              <Link activeClass="current" href="biography">
                 Biography
               </Link>
             </li>
             <li>
-              <Link
-                spy={true}
-                smooth={true}
-                activeClass="current"
-                to="portfolio"
-              >
+              <Link activeClass="current" href="portfolio">
                 Portfolio
               </Link>
             </li>
             <li>
-              <Link
-                spy={true}
-                smooth={true}
-                activeClass="current"
-                to="languages"
-              >
+              <Link activeClass="current" href="languages">
                 Languages
               </Link>
             </li>
@@ -141,6 +128,4 @@ const Sidebar = () => {
       {/* Sidebar: content */}
     </div>
   );
-};
-
-export default Sidebar;
+}

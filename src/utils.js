@@ -18,7 +18,7 @@ export const dataImage = () => {
 export const parallax = () => {
   var Parallax = require("parallax-js");
   var scene = document.getElementById("scene");
-  new Parallax(scene);
+  // new Parallax(scene);
 };
 
 export const animation = () => {

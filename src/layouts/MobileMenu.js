@@ -1,8 +1,10 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
 import { useState } from "react";
 
-const MobileMenu = () => {
+export default function MobileMenu({ children }) {
   const [toggle, setToggle] = useState(false);
   return (
     <div className="rewall_fn_mobilemenu_wrap">
@@ -11,9 +13,7 @@ const MobileMenu = () => {
         <div className="in">
           <div className="menu_logo">
             <Link href="/">
-              <a>
-                <img src="img/logo-light.png" alt="Logo" />
-              </a>
+              <img src="img/logo-light.png" alt="Logo" />
             </Link>
           </div>
           <div
@@ -51,6 +51,4 @@ const MobileMenu = () => {
       {/* /MOBILE DROPDOWN MENU */}
     </div>
   );
-};
-
-export default MobileMenu;
+}

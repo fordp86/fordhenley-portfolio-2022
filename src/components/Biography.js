@@ -44,7 +44,9 @@ const Biography = () => {
                   Email:{" "}
                   <span>
                     <Link href="mailto:fordp86@gmail.com">
-                      <a>fordp86@gmail.com</a>
+                      <a>
+                        fordp86<span>@</span>gmail.com
+                      </a>
                     </Link>
                   </span>
                 </p>
@@ -65,17 +67,11 @@ const Biography = () => {
             href="download/PatrickFordHenley_Resume_2022.pdf"
             target="_blank"
           >
-            <a download>
-              <span className="icon">
-                <img src="svg/inbox.svg" alt="image" className="fn__svg" />
-                <img
-                  src="svg/arrow.svg"
-                  alt="image"
-                  className="fn__svg arrow"
-                />
-              </span>
-              <span>Download Resume</span>
-            </a>
+            <span className="icon">
+              <img src="svg/inbox.svg" alt="image" className="fn__svg" />
+              <img src="svg/arrow.svg" alt="image" className="fn__svg arrow" />
+            </span>
+            <span>Download Resume</span>
           </Link>
         </div>
       </div>
@@ -91,25 +87,19 @@ const Biography = () => {
                   onClick={() => setActive("tab1")}
                   className={activeCls("tab1")}
                 >
-                  <Link href="#tab1">
-                    <a>Experience</a>
-                  </Link>
+                  <Link href="#tab1">Experience</Link>
                 </li>
                 <li
                   onClick={() => setActive("tab2")}
                   className={activeCls("tab2")}
                 >
-                  <Link href="#tab2">
-                    <a>Education</a>
-                  </Link>
+                  <Link href="#tab2">Education</Link>
                 </li>
                 <li
                   onClick={() => setActive("tab3")}
                   className={activeCls("tab3")}
                 >
-                  <Link href="#tab3">
-                    <a>Skills</a>
-                  </Link>
+                  <Link href="#tab3">Skills</Link>
                 </li>
               </ul>
             </div>

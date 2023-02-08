@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 const Service = () => {
   return (
@@ -37,17 +37,17 @@ const Service = () => {
                           final coded design. We don't just hand off static
                           designs, but enjoy working directly in the browser (♥
                           CSS) as much as with design tools such a`}{" "}
-                  <Link href="#"><a className="fn__link">
+                  <Link className="fn__link" href="#">
                     Figma
-                  </a></Link>
+                  </Link>
                   . We use can also setup complete sites in{" "}
-                  <Link href="#"><a className="fn__link">
+                  <Link className="fn__link" href="#">
                     Statamic
-                  </a></Link>{" "}
+                  </Link>{" "}
                   and{" "}
-                  <Link href="#"><a className="fn__link">
+                  <Link className="fn__link" href="#">
                     Kirby
-                  </a></Link>{" "}
+                  </Link>{" "}
                   and work alongside front-end developers to provide a complete
                   service.
                 </p>
@@ -66,9 +66,9 @@ const Service = () => {
                 <h3>Brand Identity</h3>
                 <p>
                   From a single logomark to{" "}
-                  <Link href="#"><a className="fn__link">
+                  <Link className="fn__link" href="#">
                     a full branding system
-                  </a></Link>
+                  </Link>
                   . A brand new logo may not be the answer for you, we strongly
                   believe in refining and updating existing logos to increase
                   effectiveness without losing brand equity.
