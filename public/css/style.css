@@ -1260,7 +1260,7 @@ section {
   opacity: 0;
   min-width: 100%;
 }
-.portfolio_list .img_holder a {
+.portfolio_list .img_holder div.zoom {
   z-index: 10;
   position: absolute;
   top: 0;
