@@ -84,6 +84,11 @@ export default function MobileMenu({ children }) {
                 Portfolio
               </Link>
             </li>
+             <li>
+              <Link className="btn" href="/sideprojects" onClick={forceReloadUtil}>
+                Side Projects
+              </Link>
+            </li>
             <li>
               <Link
                 className="btn"
