@@ -212,7 +212,7 @@ export default function SideProjects() {
                     src="img/portfolio/echols-thumbnail.jpeg"
                     alt="Echols Metal Roofing"
                   />
-                </d>
+                </div>
                 <div
                   className="abs_img"
                   data-bg-img="img/portfolio/echols-thumbnail.jpeg"
