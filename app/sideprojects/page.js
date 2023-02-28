@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import SideProjects from "../../src/components/SideProjects.js";
+import SideProjects from "../../src/components/SideProjects";
 
 export default function Portfolio() {
   return (
