@@ -5,7 +5,7 @@ import CodeChallenges from "../../src/components/CodeChallenges";
 
 export default function Portfolio() {
   return (
-    <section className="challenges" id="challenges">
+    <section className="portfolio" id="portfolio">
       {/* Main Title */}
       <div className="main_title center">
         <div className="container max880">

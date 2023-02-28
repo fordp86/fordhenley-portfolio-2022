@@ -28,13 +28,13 @@ export default function PortfolioBox() {
                 <p>WordPress</p>
               </div>
               <div className="img_holder">
-                <Link className="zoom" href="https://sunsetpdi.com">
+                <div className="zoom" href="https://sunsetpdi.com">
                   <img
                     className="h-100"
                     src="img/portfolio/sunsetpdi-thumb.jpeg"
                     alt="Sunset PDI Website"
                   />
-                </Link>
+                </div>
                 <div
                   className="abs_img"
                   data-bg-img="img/portfolio/sunsetpdi-thumb.jpeg"
@@ -58,7 +58,7 @@ export default function PortfolioBox() {
                 <p>Custom WordPress Theme, Bootstrap 4</p>
               </div>
               <div className="img_holder">
-                <Link
+                <div
                   className="zoom"
                   href="img/portfolio/cornertstone-port-img-1.jpeg"
                 >
@@ -67,7 +67,7 @@ export default function PortfolioBox() {
                     src="img/portfolio/cornertstone-port-img-1.jpeg"
                     alt="Cornerstone Medicare"
                   />
-                </Link>
+                </div>
                 <div
                   className="abs_img"
                   data-bg-img="img/portfolio/cornertstone-port-img-1.jpeg"
@@ -91,16 +91,13 @@ export default function PortfolioBox() {
                 <p>Custom WordPress Bootstrap Theme, Custom SEO Campaign</p>
               </div>
               <div className="img_holder">
-                <Link
-                  className="zoom"
-                  href="img/portfolio/bracesbysb-port.jpeg"
-                >
+                <div className="zoom" href="img/portfolio/bracesbysb-port.jpeg">
                   <img
                     className="h-100"
                     src="img/portfolio/bracesbysb-port.jpeg"
                     alt="Sherman & Briscoe Orthodontics"
                   />
-                </Link>
+                </div>
                 <div
                   className="abs_img"
                   data-bg-img="img/portfolio/bracesbysb-port.jpeg"
@@ -123,13 +120,13 @@ export default function PortfolioBox() {
                 <p>Custom SEO Campaign</p>
               </div>
               <div className="img_holder">
-                <Link className="zoom" href="img/portfolio/46logistics.jpeg">
+                <div className="zoom" href="img/portfolio/46logistics.jpeg">
                   <img
                     className="h-100"
                     src="img/portfolio/46logistics.jpeg"
                     alt="46 Logistics"
                   />
-                </Link>
+                </div>
                 <div
                   className="abs_img"
                   data-bg-img="img/portfolio/46logistics.jpeg"
@@ -152,7 +149,7 @@ export default function PortfolioBox() {
                 <p>Custom SEO Campaign and WordPress Elementor Theme</p>
               </div>
               <div className="img_holder">
-                <Link
+                <div
                   className="zoom"
                   href="img/portfolio/devrightport-thumb.jpeg"
                 >
@@ -161,7 +158,7 @@ export default function PortfolioBox() {
                     src="img/portfolio/devrightport-thumb.jpeg"
                     alt="Devright"
                   />
-                </Link>
+                </div>
                 <div
                   className="abs_img"
                   data-bg-img="img/portfolio/devrightport-thumb.jpeg"
@@ -184,7 +181,7 @@ export default function PortfolioBox() {
                 <p>Custom SEO Campaign</p>
               </div>
               <div className="img_holder">
-                <Link
+                <div
                   className="zoom"
                   href="img/portfolio/definingpoint-port.jpeg"
                 >
@@ -193,7 +190,7 @@ export default function PortfolioBox() {
                     src="img/portfolio/definingpoint-port.jpeg"
                     alt="The Defining Point"
                   />
-                </Link>
+                </div>
                 <div
                   className="abs_img"
                   data-bg-img="img/portfolio/definingpoint-port.jpeg"
@@ -216,7 +213,7 @@ export default function PortfolioBox() {
                 <p>Custom SEO Campaign</p>
               </div>
               <div className="img_holder">
-                <Link
+                <div
                   className="zoom"
                   href="img/portfolio/onsiteboatcare-port.jpeg"
                 >
@@ -225,7 +222,7 @@ export default function PortfolioBox() {
                     src="img/portfolio/onsiteboatcare-port.jpeg"
                     alt="On Site Boat Care"
                   />
-                </Link>
+                </div>
                 <div
                   className="abs_img"
                   data-bg-img="img/portfolio/onsiteboatcare-port.jpeg"

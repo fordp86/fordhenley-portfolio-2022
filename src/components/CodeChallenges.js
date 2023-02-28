@@ -65,7 +65,7 @@ export default function CodeChallenges() {
                 </p>
               </div>
               <div className="img_holder">
-                <Link
+                <div
                   className="zoom"
                   href="img/portfolio/bootstrapgrids-coderfoundry.jpg"
                 >
@@ -74,7 +74,7 @@ export default function CodeChallenges() {
                     src="img/portfolio/bootstrapgrids-coderfoundry.jpg"
                     alt="Coder Foundry Bootstrap Grids Lab"
                   />
-                </Link>
+                </div>
                 <div
                   className="abs_img"
                   data-bg-img="img/portfolio/bootstrapgrids-coderfoundry.jpg"
@@ -100,7 +100,7 @@ export default function CodeChallenges() {
                 </p>
               </div>
               <div className="img_holder">
-                <Link
+                <div
                   className="zoom"
                   href="img/portfolio/bpptstraplab-coderfoundry.jpg"
                 >
@@ -109,7 +109,7 @@ export default function CodeChallenges() {
                     src="img/portfolio/bpptstraplab-coderfoundry.jpg"
                     alt="Coder Foundry Bootstrap Layouts Lab"
                   />
-                </Link>
+                </div>
                 <div
                   className="abs_img"
                   data-bg-img="img/portfolio/bpptstraplab-coderfoundry.jpg"
@@ -135,12 +135,12 @@ export default function CodeChallenges() {
                 </p>
               </div>
               <div className="img_holder">
-                <Link className="zoom" href="img/portfolio/guessing-bethel.png">
+                <div className="zoom" href="img/portfolio/guessing-bethel.png">
                   <img
                     className="h-100"
                     src="img/portfolio/guessing-bethel.png"
                   />
-                </Link>
+                </div>
                 <div
                   className="abs_img"
                   data-bg-img="img/portfolio/guessing-bethel.png"
@@ -166,7 +166,7 @@ export default function CodeChallenges() {
                 </p>
               </div>
               <div className="img_holder">
-                <Link
+                <div
                   className="zoom"
                   href="img/portfolio/allthewayup-thumb.jpeg"
                 >
@@ -175,7 +175,7 @@ export default function CodeChallenges() {
                     src="img/portfolio/allthewayup-thumb.jpeg"
                     alt="Coder Foundry Bootcamp All The Way Up Game"
                   />
-                </Link>
+                </div>
                 <div
                   className="abs_img"
                   data-bg-img="img/portfolio/allthewayup-thumb.jpeg"
@@ -198,13 +198,13 @@ export default function CodeChallenges() {
                 <p>Coder Foundry game to reverse a string with JavaScript.</p>
               </div>
               <div className="img_holder">
-                <Link className="zoom" href="img/portfolio/flipper-thumb.jpeg">
+                <div className="zoom" href="img/portfolio/flipper-thumb.jpeg">
                   <img
                     className="h-100"
                     src="img/portfolio/flipper-thumb.jpeg"
                     alt="Coder Foundry: Flipper"
                   />
-                </Link>
+                </div>
                 <div
                   className="abs_img"
                   data-bg-img="img/portfolio/flipper-thumb.jpeg"
@@ -227,13 +227,13 @@ export default function CodeChallenges() {
                 <p>Coder Foundry Javascript FizzBuzz program.</p>
               </div>
               <div className="img_holder">
-                <Link className="zoom" href="img/portfolio/fizzbuzz-thumb.jpeg">
+                <div className="zoom" href="img/portfolio/fizzbuzz-thumb.jpeg">
                   <img
                     className="h-100"
                     src="img/portfolio/fizzbuzz-thumb.jpeg"
                     alt="Coder Foundry: FizzBuzz"
                   />
-                </Link>
+                </div>
                 <div
                   className="abs_img"
                   data-bg-img="img/portfolio/fizzbuzz-thumb.jpeg"
@@ -259,13 +259,13 @@ export default function CodeChallenges() {
                 </p>
               </div>
               <div className="img_holder">
-                <Link className="zoom" href="img/portfolio/tacocat-thumb.jpeg">
+                <div className="zoom" href="img/portfolio/tacocat-thumb.jpeg">
                   <img
                     className="h-100"
                     src="img/portfolio/tacocat-thumb.jpeg"
                     alt="Coder Foundry: Taco Cat"
                   />
-                </Link>
+                </div>
                 <div
                   className="abs_img"
                   data-bg-img="img/portfolio/tacocat-thumb.jpeg"

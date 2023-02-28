@@ -28,13 +28,13 @@ export default function SideProjects() {
                 <p>Custom WordPress Theme, Bootstrap 4</p>
               </div>
               <div className="img_holder">
-                <Link target="_blank" className="zoom" href="#">
+                <div target="_blank" className="zoom" href="#">
                   <img
                     className="h-100"
                     src="img/portfolio/chrishughes-port.jpeg"
                     alt="Chris Hughes Blog"
                   />
-                </Link>
+                </div>
                 <div
                   className="abs_img"
                   data-bg-img="img/portfolio/chrishughes-port.jpeg"
@@ -53,7 +53,7 @@ export default function SideProjects() {
                 <p>WordPress Theme, Front End Dev, WP Elementor</p>
               </div>
               <div className="img_holder">
-                <Link
+                <div
                   className="zoom"
                   href="img/portfolio/laurynhenleyport.jpeg"
                 >
@@ -62,7 +62,7 @@ export default function SideProjects() {
                     src="img/portfolio/laurynhenleyport.jpeg"
                     alt="Lauryn Henley Freedom Coach"
                   />
-                </Link>
+                </div>
                 <div
                   className="abs_img"
                   data-bg-img="img/portfolio/laurynhenleyport.jpeg"
@@ -81,7 +81,7 @@ export default function SideProjects() {
                 <p>Custom Drupal 7 Theme, Bootstrap 4</p>
               </div>
               <div className="img_holder">
-                <Link
+                <div
                   className="zoom"
                   href="img/portfolio/destinmusichiphop-port.jpeg"
                 >
@@ -90,7 +90,7 @@ export default function SideProjects() {
                     src="img/portfolio/destinmusichiphop-port.jpeg"
                     alt="Destin Music"
                   />
-                </Link>
+                </div>
                 <div
                   className="abs_img"
                   data-bg-img="img/portfolio/destinmusichiphop-port.jpeg"
@@ -113,13 +113,13 @@ export default function SideProjects() {
                 <p>Custom WordPress Theme, Bootstrap 5</p>
               </div>
               <div className="img_holder">
-                <Link className="zoom" href="img/portfolio/asa-port-img-1.jpeg">
+                <div className="zoom" href="img/portfolio/asa-port-img-1.jpeg">
                   <img
                     className="h-100"
                     src="img/portfolio/asa-port-img-1.jpeg"
                     alt="Emerald Coast All Sports Association"
                   />
-                </Link>
+                </div>
                 <div
                   className="abs_img"
                   data-bg-img="img/portfolio/asa-port-img-1.jpeg"
@@ -139,7 +139,7 @@ export default function SideProjects() {
                 <p>WordPress Elementor Theme Customization</p>
               </div>
               <div className="img_holder">
-                <Link
+                <div
                   className="zoom"
                   href="img/portfolio/2-tall-port-img-1-1.jpeg"
                 >
@@ -148,7 +148,7 @@ export default function SideProjects() {
                     src="img/portfolio/2-tall-port-img-1-1.jpeg"
                     alt="2 Tall Women"
                   />
-                </Link>
+                </div>
                 <div
                   className="abs_img"
                   data-bg-img="img/portfolio/2-tall-port-img-1-1.jpeg"
@@ -171,7 +171,7 @@ export default function SideProjects() {
                 <p>Drupal 7, Drupal Commerce</p>
               </div>
               <div className="img_holder">
-                <Link
+                <div
                   className="zoom"
                   href="img/portfolio/randallsadventure.jpeg"
                 >
@@ -180,7 +180,7 @@ export default function SideProjects() {
                     src="img/portfolio/randallsadventure.jpeg"
                     alt="Randall’s Adventure"
                   />
-                </Link>
+                </div>
                 <div
                   className="abs_img"
                   data-bg-img="img/portfolio/randallsadventure.jpeg"
@@ -203,7 +203,7 @@ export default function SideProjects() {
                 <p>Custom WordPress Theme, Bootstrap 5</p>
               </div>
               <div className="img_holder">
-                <Link
+                <div
                   className="zoom"
                   href="img/portfolio/echols-thumbnail.jpeg"
                 >
@@ -212,7 +212,7 @@ export default function SideProjects() {
                     src="img/portfolio/echols-thumbnail.jpeg"
                     alt="Echols Metal Roofing"
                   />
-                </Link>
+                </d>
                 <div
                   className="abs_img"
                   data-bg-img="img/portfolio/echols-thumbnail.jpeg"
