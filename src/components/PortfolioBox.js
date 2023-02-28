@@ -17,13 +17,13 @@ export default function PortfolioBox() {
             <div className="item">
               <div className="title_holder">
                 <h3>
-                  <Link
+                  <a
                     className="fn__link zoom"
                     target="_blank"
                     href="https://sunsetpdi.com"
                   >
                     Sunset Pointe Development
-                  </Link>
+                  </a>
                 </h3>
                 <p>WordPress</p>
               </div>
@@ -47,13 +47,13 @@ export default function PortfolioBox() {
             <div className="item">
               <div className="title_holder">
                 <h3>
-                  <Link
+                  <a
                     className="fn__link zoom"
                     target="_blank"
                     href="https://fortwaltonbeachhealthinsurance.com/"
                   >
                     Cornerstone Medicare
-                  </Link>
+                  </a>
                 </h3>
                 <p>Custom WordPress Theme, Bootstrap 4</p>
               </div>
@@ -80,13 +80,13 @@ export default function PortfolioBox() {
             <div className="item">
               <div className="title_holder">
                 <h3>
-                  <Link
+                  <a
                     className="fn__link zoom"
                     target="_blank"
                     href="https://bracesbysb.com/"
                   >
                     Sherman & Briscoe Orthodontics
-                  </Link>
+                  </a>
                 </h3>
                 <p>Custom WordPress Bootstrap Theme, Custom SEO Campaign</p>
               </div>
@@ -112,13 +112,13 @@ export default function PortfolioBox() {
             <div className="item">
               <div className="title_holder">
                 <h3>
-                  <Link
+                  <a
                     className="fn__link zoom"
                     target="_blank"
                     href="https://www.46logistics.com/"
                   >
                     46 Logistics
-                  </Link>
+                  </a>
                 </h3>
                 <p>Custom SEO Campaign</p>
               </div>
@@ -141,13 +141,13 @@ export default function PortfolioBox() {
             <div className="item">
               <div className="title_holder">
                 <h3>
-                  <Link
+                  <a
                     className="fn__link zoom"
                     target="_blank"
                     href="https://devright.com/"
                   >
                     Devright
-                  </Link>
+                  </a>
                 </h3>
                 <p>Custom SEO Campaign and WordPress Elementor Theme</p>
               </div>
@@ -173,13 +173,13 @@ export default function PortfolioBox() {
             <div className="item">
               <div className="title_holder">
                 <h3>
-                  <Link
+                  <a
                     className="fn__link zoom"
                     target="_blank"
                     href="https://thedefiningpoint.com/"
                   >
                     The Defining Point
-                  </Link>
+                  </a>
                 </h3>
                 <p>Custom SEO Campaign</p>
               </div>
@@ -205,13 +205,13 @@ export default function PortfolioBox() {
             <div className="item">
               <div className="title_holder">
                 <h3>
-                  <Link
+                  <a
                     className="fn__link zoom"
                     target="_blank"
                     href="https://onsiteboatcare.com/"
                   >
                     On Site Boat Care
-                  </Link>
+                  </a>
                 </h3>
                 <p>Custom SEO Campaign</p>
               </div>

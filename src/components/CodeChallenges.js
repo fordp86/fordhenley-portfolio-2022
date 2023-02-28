@@ -17,13 +17,13 @@ export default function CodeChallenges() {
             <div className="item">
               <div className="title_holder">
                 <h3>
-                  <Link
+                  <a
                     className="fn__link zoom"
                     target="_blank"
                     href="https://fordhenley-todoproject.netlify.app/"
                   >
                     Coder Foundry ToDo
-                  </Link>
+                  </a>
                 </h3>
                 <p>
                   Basic ToDo List from Coder Foundry Bootcamp hosted on Netlify
@@ -51,13 +51,13 @@ export default function CodeChallenges() {
             <div className="item">
               <div className="title_holder">
                 <h3>
-                  <Link
+                  <a
                     className="fn__link zoom"
                     target="_blank"
                     href="https://ford-bootstrapgrids.netlify.app/"
                   >
                     Coder Foundry Bootstrap Grids Lab
-                  </Link>
+                  </a>
                 </h3>
                 <p>
                   Bootcamp project testing out different ways to use bootstrap
@@ -86,13 +86,13 @@ export default function CodeChallenges() {
             <div className="item">
               <div className="title_holder">
                 <h3>
-                  <Link
+                  <a
                     className="fn__link zoom"
                     target="_blank"
                     href="https://ford-bootstraplab.netlify.app/"
                   >
                     Coder Foundry Bootstrap Layouts Lab
-                  </Link>
+                  </a>
                 </h3>
                 <p>
                   Bootcamp project testing out different ways to use Bootstrap
@@ -121,13 +121,13 @@ export default function CodeChallenges() {
             <div className="item">
               <div className="title_holder">
                 <h3>
-                  <Link
+                  <a
                     className="fn__link zoom"
                     target="_blank"
                     href="https://guessfordsnumber.netlify.app/"
                   >
                     Bethel Tech Bootcamp Guessing Game
-                  </Link>
+                  </a>
                 </h3>
                 <p>
                   Guessing game built in React.js and React Bootstrap hosted on
@@ -152,13 +152,13 @@ export default function CodeChallenges() {
             <div className="item">
               <div className="title_holder">
                 <h3>
-                  <Link
+                  <a
                     className="fn__link zoom"
                     target="_blank"
                     href="https://allthewayup2100.netlify.app"
                   >
                     Coder Foundry: All The Way Up
-                  </Link>
+                  </a>
                 </h3>
                 <p>
                   Coder Foundry game to count numbers up to 100 and display the
@@ -187,13 +187,13 @@ export default function CodeChallenges() {
             <div className="item">
               <div className="title_holder">
                 <h3>
-                  <Link
+                  <a
                     className="fn__link zoom"
                     target="_blank"
                     href="https://fordsflipper.netlify.app"
                   >
                     Coder Foundry: Flipper
-                  </Link>
+                  </a>
                 </h3>
                 <p>Coder Foundry game to reverse a string with JavaScript.</p>
               </div>
@@ -216,13 +216,13 @@ export default function CodeChallenges() {
             <div className="item">
               <div className="title_holder">
                 <h3>
-                  <Link
+                  <a
                     className="fn__link zoom"
                     target="_blank"
                     href="https://fordsfizzbuzz.netlify.app"
                   >
                     Coder Foundry: FizzBuzz
-                  </Link>
+                  </a>
                 </h3>
                 <p>Coder Foundry Javascript FizzBuzz program.</p>
               </div>
@@ -245,13 +245,13 @@ export default function CodeChallenges() {
             <div className="item">
               <div className="title_holder">
                 <h3>
-                  <Link
+                  <a
                     className="fn__link zoom"
                     target="_blank"
                     href="https://fordstacocat.netlify.app"
                   >
                     Coder Foundry: Taco Cat
-                  </Link>
+                  </a>
                 </h3>
                 <p>
                   Coder Foundry Javascript program to reverse a string and check

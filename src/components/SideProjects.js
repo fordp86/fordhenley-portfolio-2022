@@ -17,18 +17,18 @@ export default function SideProjects() {
             <div className="item">
               <div className="title_holder">
                 <h3>
-                  <Link
+                  <a
                     className="fn__link zoom"
                     target="_blank"
                     href="https://chrishughes.com"
                   >
                     Chris Hughes Blog
-                  </Link>
+                  </a>
                 </h3>
                 <p>Custom WordPress Theme, Bootstrap 4</p>
               </div>
               <div className="img_holder">
-                <Link className="zoom" href="https://chrishughes.com">
+                <Link target="_blank" className="zoom" href="#">
                   <img
                     className="h-100"
                     src="img/portfolio/chrishughes-port.jpeg"
@@ -46,9 +46,9 @@ export default function SideProjects() {
             <div className="item">
               <div className="title_holder">
                 <h3>
-                  <Link className="fn__link zoom" href="#">
+                  <a className="fn__link zoom" href="#">
                     Lauryn Henley Freedom Coach
-                  </Link>
+                  </a>
                 </h3>
                 <p>WordPress Theme, Front End Dev, WP Elementor</p>
               </div>
@@ -74,9 +74,9 @@ export default function SideProjects() {
             <div className="item">
               <div className="title_holder">
                 <h3>
-                  <Link className="fn__link zoom" target="_blank" href="#">
+                  <a className="fn__link zoom" target="_blank" href="#">
                     Destin Music
-                  </Link>
+                  </a>
                 </h3>
                 <p>Custom Drupal 7 Theme, Bootstrap 4</p>
               </div>
@@ -102,9 +102,13 @@ export default function SideProjects() {
             <div className="item">
               <div className="title_holder">
                 <h3>
-                  <Link className="fn__link zoom" href="#">
+                  <a
+                    target="_blank"
+                    className="fn__link zoom"
+                    href="https://allsportsassociation.com"
+                  >
                     Emerald Coast All Sports Association
-                  </Link>
+                  </a>
                 </h3>
                 <p>Custom WordPress Theme, Bootstrap 5</p>
               </div>
@@ -156,13 +160,13 @@ export default function SideProjects() {
             <div className="item">
               <div className="title_holder">
                 <h3>
-                  <Link
+                  <a
                     className="fn__link zoom"
                     target="_blank"
                     href="https://www.randallsadventure.com/"
                   >
                     Randall’s Adventure
-                  </Link>
+                  </a>
                 </h3>
                 <p>Drupal 7, Drupal Commerce</p>
               </div>
@@ -188,13 +192,13 @@ export default function SideProjects() {
             <div className="item">
               <div className="title_holder">
                 <h3>
-                  <Link
+                  <a
                     className="fn__link zoom"
                     target="_blank"
                     href="http://echols.territory3dev.com/"
                   >
                     Echols Metal Roofing
-                  </Link>
+                  </a>
                 </h3>
                 <p>Custom WordPress Theme, Bootstrap 5</p>
               </div>
