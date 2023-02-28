@@ -30,7 +30,7 @@ export default function CodeChallenges() {
                 </p>
               </div>
               <div className="img_holder">
-                <Link
+                <div
                   className="zoom"
                   href="img/portfolio/todo-coderfoundry.png"
                 >
@@ -39,7 +39,7 @@ export default function CodeChallenges() {
                     src="img/portfolio/todo-coderfoundry.png"
                     alt="Coder Foundry ToDo"
                   />
-                </Link>
+                </div>
                 <div
                   className="abs_img"
                   data-bg-img="img/portfolio/todo-coderfoundry.png"
