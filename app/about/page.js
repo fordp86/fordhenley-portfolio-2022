@@ -33,7 +33,7 @@ export default function About() {
                   Professional Full Stack Developer and Digital Marketer located
                   in Austin, TX. I enjoy rugby, reading and spending time with
                   family. I am a self motivated and lifetime learner looking to
-                  make an impact in your business.
+                  make an impact for your business.
                 </p>
               </div>
               {/* /Main Title */}

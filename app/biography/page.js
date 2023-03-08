@@ -14,9 +14,7 @@ export default function Biography() {
         <div className="container max880">
           <h3>Biography</h3>
           <p>
-            {`I'm a Full Stack Developer & Digital Marketer with over 10 years of
-                    experience. I'm from Fort Walton Beach, FL and currently reside in Austin,TX. 
-                    I code and create websites for amazing people around the world. I like to learn new skills and take challenges head on.`}
+            {`I'm a Full Stack Developer and currently reside in Austin,TX. I code and create websites for amazing people around the world. I like to learn new skills and take challenges head on.`}
           </p>
         </div>
       </div>
@@ -29,16 +27,6 @@ export default function Biography() {
               <li className="wow fadeInUp" data-wow-delay="0s">
                 <p>
                   Name: <span>Ford Henley</span>
-                </p>
-              </li>
-              <li className="wow fadeInUp" data-wow-delay="0.3s">
-                <p>
-                  Age: <span>35 Years</span>
-                </p>
-              </li>
-              <li className="wow fadeInUp" data-wow-delay="0.45s">
-                <p>
-                  Address: <span>Austin, Texas</span>
                 </p>
               </li>
               <li className="wow fadeInUp" data-wow-delay="0.9s">
@@ -63,10 +51,7 @@ export default function Biography() {
           <span className="line bottom_hover" />
           <span className="line top" />
           <span className="line bottom" />
-          <Link
-            href="download/PatrickFordHenley_Resume_2022.pdf"
-            target="_blank"
-          >
+          <Link href="download/FordHenley_030523.pdf" target="_blank">
             <span className="icon">
               <img src="svg/inbox.svg" alt="image" className="fn__svg" />
               <img src="svg/arrow.svg" alt="image" className="fn__svg arrow" />
