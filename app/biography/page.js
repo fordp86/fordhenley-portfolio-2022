@@ -51,7 +51,7 @@ export default function Biography() {
           <span className="line bottom_hover" />
           <span className="line top" />
           <span className="line bottom" />
-          <Link href="download/FordHenley_030523.pdf" target="_blank">
+          <Link href="download/FordHenleyResume_2023.pdf" target="_blank">
             <span className="icon">
               <img src="svg/inbox.svg" alt="image" className="fn__svg" />
               <img src="svg/arrow.svg" alt="image" className="fn__svg arrow" />
