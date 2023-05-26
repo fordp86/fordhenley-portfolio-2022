@@ -22,16 +22,24 @@ export default function About() {
                   family. I am a self motivated and lifetime learner looking to
                   make an impact in your business.
                 </p>
-                <div>
-                <Link href="/biography">
-                  About
-                </Link>
-                <Link href="/portfolio">
-                  Portfolio
-                </Link>
-                <Link href="/bootcamp-projects">
-                 Bootcamp Projects
-                </Link>
+                <div className="fn_cs_info_items">
+                  <ul>
+                    <li className="wow">
+                    <Link href="/biography">
+                      About
+                    </Link>
+                    </li>
+                    <li className="wow">
+                    <Link href="/portfolio">
+                      Portfolio
+                    </Link>
+                    </li>
+                    <li className="wow">
+                    <Link href="/bootcamp-projects">
+                      Bootcamp Projects
+                    </Link>
+                    </li>
+                  </ul>
                 </div>
               </div>
               {/* /Main Title */}
