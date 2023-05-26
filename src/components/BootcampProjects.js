@@ -42,7 +42,7 @@ export default function BootcampProjects() {
                 />
               </div>
             </div>
-            <div>
+            <div className="project_link">
             <a
                     className="fn__link zoom"
                     target="_blank"
@@ -81,9 +81,9 @@ export default function BootcampProjects() {
                   data-bg-img="img/portfolio/guessing-bethel.png"
                 />
               </div>
-              <div>
+              <div className="project_link">
               <a
-                    className="fn__link zoom"
+                    className="fn__link"
                     target="_blank"
                     href="https://guessfordsnumber.netlify.app/"
                   >

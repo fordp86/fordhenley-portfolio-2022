@@ -40,6 +40,15 @@ export default function PortfolioBox() {
                   data-bg-img="img/portfolio/sunsetpdi-thumb.jpeg"
                 />
               </div>
+              <div className="project_link">
+              <a
+                    className="fn__link zoom"
+                    target="_blank"
+                    href="https://sunsetpdi.com"
+                  >
+                    View Project
+                  </a>
+              </div>
             </div>
           </li>
 
@@ -73,6 +82,15 @@ export default function PortfolioBox() {
                   data-bg-img="img/portfolio/cornertstone-port-img-1.jpeg"
                 />
               </div>
+              <div className="project_link">
+              <a
+                    className="fn__link zoom"
+                    target="_blank"
+                    href="https://fortwaltonbeachhealthinsurance.com/"
+                  >
+                    View Project
+                  </a>
+              </div>
             </div>
           </li>
 
@@ -103,6 +121,15 @@ export default function PortfolioBox() {
                   data-bg-img="img/portfolio/bracesbysb-port.jpeg"
                 />
               </div>
+              <div className="project_link">
+              <a
+                    className="fn__link zoom"
+                    target="_blank"
+                    href="https://bracesbysb.com/"
+                  >
+                    View Project
+                  </a>
+              </div>
             </div>
           </li>
           <li className="masonry_in">
@@ -131,6 +158,15 @@ export default function PortfolioBox() {
                   className="abs_img"
                   data-bg-img="img/portfolio/46logistics.jpeg"
                 />
+              </div>
+              <div className="project_link">
+              <a
+                    className="fn__link zoom"
+                    target="_blank"
+                    href="https://www.46logistics.com/"
+                  >
+                    View Project
+                  </a>
               </div>
             </div>
           </li>
@@ -164,6 +200,15 @@ export default function PortfolioBox() {
                   data-bg-img="img/portfolio/devrightport-thumb.jpeg"
                 />
               </div>
+              <div className="project_link">
+              <a
+                    className="fn__link zoom"
+                    target="_blank"
+                    href="https://devright.com/"
+                  >
+                    View Project
+                  </a>
+              </div>
             </div>
           </li>
           <li className="masonry_in">
@@ -196,6 +241,15 @@ export default function PortfolioBox() {
                   data-bg-img="img/portfolio/definingpoint-port.jpeg"
                 />
               </div>
+              <div className="project_link">
+              <a
+                    className="fn__link zoom"
+                    target="_blank"
+                    href="https://thedefiningpoint.com/"
+                  >
+                    View Project
+                  </a>
+              </div>
             </div>
           </li>
           <li className="masonry_in">
@@ -227,6 +281,15 @@ export default function PortfolioBox() {
                   className="abs_img"
                   data-bg-img="img/portfolio/onsiteboatcare-port.jpeg"
                 />
+              </div>
+              <div className="project_link">
+              <a
+                    className="fn__link zoom"
+                    target="_blank"
+                    href="https://onsiteboatcare.com/"
+                  >
+                    View Project
+                  </a>
               </div>
             </div>
           </li>

@@ -507,6 +507,12 @@ a:focus {
   background-size: 100% 2px;
   transition: background-size 0.5s;
 }
+.project_link .fn__link{
+  text-align: center;
+  padding: 20px;
+  display: block;
+}
+
 .fn__link:hover {
   color: #000;
   background-size: 0% 2px;

@@ -45,6 +45,15 @@ export default function CodeChallenges() {
                   data-bg-img="img/portfolio/todo-coderfoundry.png"
                 />
               </div>
+              <div className="project_link">
+              <a
+                    className="fn__link zoom"
+                    target="_blank"
+                    href="https://fordhenley-todoproject.netlify.app/"
+                  >
+                    View Project
+                  </a>
+              </div>
             </div>
           </li>
           <li className="masonry_in">
@@ -79,6 +88,15 @@ export default function CodeChallenges() {
                   className="abs_img"
                   data-bg-img="img/portfolio/bootstrapgrids-coderfoundry.jpg"
                 />
+              </div>
+              <div className="project_link">
+              <a
+                    className="fn__link zoom"
+                    target="_blank"
+                    href="https://ford-bootstrapgrids.netlify.app/"
+                  >
+                    View Project
+                  </a>
               </div>
             </div>
           </li>
@@ -115,6 +133,15 @@ export default function CodeChallenges() {
                   data-bg-img="img/portfolio/bpptstraplab-coderfoundry.jpg"
                 />
               </div>
+              <div className="project_link">
+              <a
+                    className="fn__link zoom"
+                    target="_blank"
+                    href="https://ford-bootstraplab.netlify.app/"
+                  >
+                    View Project
+                  </a>
+              </div>
             </div>
           </li>
           <li className="masonry_in">
@@ -150,6 +177,15 @@ export default function CodeChallenges() {
                   data-bg-img="img/portfolio/allthewayup-thumb.jpeg"
                 />
               </div>
+              <div className="project_link">
+              <a
+                    className="fn__link zoom"
+                    target="_blank"
+                    href="https://allthewayup2100.netlify.app"
+                  >
+                    View Project
+                  </a>
+              </div>
             </div>
           </li>
           <li className="masonry_in">
@@ -179,6 +215,15 @@ export default function CodeChallenges() {
                   data-bg-img="img/portfolio/flipper-thumb.jpeg"
                 />
               </div>
+              <div className="project_link">
+              <a
+                    className="fn__link zoom"
+                    target="_blank"
+                    href="https://fordsflipper.netlify.app"
+                  >
+                    View Project
+                  </a>
+              </div>
             </div>
           </li>
           <li className="masonry_in">
@@ -207,6 +252,15 @@ export default function CodeChallenges() {
                   className="abs_img"
                   data-bg-img="img/portfolio/fizzbuzz-thumb.jpeg"
                 />
+              </div>
+              <div className="project_link">
+              <a
+                    className="fn__link zoom"
+                    target="_blank"
+                    href="https://fordsfizzbuzz.netlify.app"
+                  >
+                    View Project
+                  </a>
               </div>
             </div>
           </li>
@@ -239,6 +293,15 @@ export default function CodeChallenges() {
                   className="abs_img"
                   data-bg-img="img/portfolio/tacocat-thumb.jpeg"
                 />
+              </div>
+              <div className="project_link">
+              <a
+                    className="fn__link zoom"
+                    target="_blank"
+                    href="https://fordstacocat.netlify.app"
+                  >
+                    View Project
+                  </a>
               </div>
             </div>
           </li>

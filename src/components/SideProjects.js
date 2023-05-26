@@ -40,6 +40,15 @@ export default function SideProjects() {
                   data-bg-img="img/portfolio/chrishughes-port.jpeg"
                 />
               </div>
+              <div className="project_link">
+              <a
+                    className="fn__link zoom"
+                    target="_blank"
+                    href="https://chrishughes.com"
+                  >
+                    View Project
+                  </a>
+              </div>
             </div>
           </li>
           <li className="masonry_in">
@@ -68,6 +77,9 @@ export default function SideProjects() {
                   data-bg-img="img/portfolio/laurynhenleyport.jpeg"
                 />
               </div>
+              <div className="project_link">
+                
+              </div>
             </div>
           </li>
           <li className="masonry_in">
@@ -95,6 +107,9 @@ export default function SideProjects() {
                   className="abs_img"
                   data-bg-img="img/portfolio/destinmusichiphop-port.jpeg"
                 />
+              </div>
+              <div className="project_link">
+                
               </div>
             </div>
           </li>
@@ -125,6 +140,15 @@ export default function SideProjects() {
                   data-bg-img="img/portfolio/asa-port-img-1.jpeg"
                 />
               </div>
+              <div className="project_link">
+              <a
+                    target="_blank"
+                    className="fn__link zoom"
+                    href="https://allsportsassociation.com"
+                  >
+                    View Project
+                  </a>
+              </div>
             </div>
           </li>
 
@@ -153,6 +177,9 @@ export default function SideProjects() {
                   className="abs_img"
                   data-bg-img="img/portfolio/2-tall-port-img-1-1.jpeg"
                 />
+              </div>
+              <div className="project_link">
+                
               </div>
             </div>
           </li>
@@ -186,6 +213,15 @@ export default function SideProjects() {
                   data-bg-img="img/portfolio/randallsadventure.jpeg"
                 />
               </div>
+              <div className="project_link">
+              <a
+                    className="fn__link zoom"
+                    target="_blank"
+                    href="https://www.randallsadventure.com/"
+                  >
+                    View Project
+                  </a>
+              </div>
             </div>
           </li>
           <li className="masonry_in">
@@ -217,6 +253,15 @@ export default function SideProjects() {
                   className="abs_img"
                   data-bg-img="img/portfolio/echols-thumbnail.jpeg"
                 />
+              </div>
+              <div className="project_link">
+              <a
+                    className="fn__link zoom"
+                    target="_blank"
+                    href="http://echols.territory3dev.com/"
+                  >
+                    View Project
+                  </a>
               </div>
             </div>
           </li>
