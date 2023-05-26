@@ -731,6 +731,16 @@ section {
   flex-wrap: wrap;
   margin-left: -30px;
 }
+.about .fn_cs_info_items li {
+  border: 2px solid #444;
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+  line-height: 1.6;
+  margin: 0 0 30px 30px;
+  font-size: 200px;
+  text-align: center;
+}
+
 .fn_cs_info_items li {
   border: 4px solid #444;
   background-color: #f2f2f2;
