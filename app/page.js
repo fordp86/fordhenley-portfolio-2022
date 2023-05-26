@@ -1,5 +1,6 @@
 import React from "react";
 import Scene from "../src/components/Scene";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -21,6 +22,17 @@ export default function About() {
                   family. I am a self motivated and lifetime learner looking to
                   make an impact in your business.
                 </p>
+                <div>
+                <Link href="/biography">
+                  About
+                </Link>
+                <Link href="/portfolio">
+                  Portfolio
+                </Link>
+                <Link href="/bootcamp-projects">
+                 Bootcamp Projects
+                </Link>
+                </div>
               </div>
               {/* /Main Title */}
             </div>

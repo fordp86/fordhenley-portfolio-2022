@@ -124,37 +124,6 @@ export default function CodeChallenges() {
                   <a
                     className="fn__link zoom"
                     target="_blank"
-                    href="https://guessfordsnumber.netlify.app/"
-                  >
-                    Bethel Tech Bootcamp Guessing Game
-                  </a>
-                </h3>
-                <p>
-                  Guessing game built in React.js and React Bootstrap hosted on
-                  Netlify
-                </p>
-              </div>
-              <div className="img_holder">
-                <div className="zoom" href="img/portfolio/guessing-bethel.png">
-                  <img
-                    className="h-100"
-                    src="img/portfolio/guessing-bethel.png"
-                  />
-                </div>
-                <div
-                  className="abs_img"
-                  data-bg-img="img/portfolio/guessing-bethel.png"
-                />
-              </div>
-            </div>
-          </li>
-          <li className="masonry_in">
-            <div className="item">
-              <div className="title_holder">
-                <h3>
-                  <a
-                    className="fn__link zoom"
-                    target="_blank"
                     href="https://allthewayup2100.netlify.app"
                   >
                     Coder Foundry: All The Way Up

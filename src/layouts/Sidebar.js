@@ -96,19 +96,19 @@ export default function MobileMenu({ children }) {
             <li>
               <Link
                 className="btn"
-                href="/challenges"
+                href="/bootcamp-projects"
                 onClick={forceReloadUtil}
               >
-                Code Challenges
+                Bootcamp Projects
               </Link>
             </li>
             <li>
               <Link
                 className="btn"
-                href="/programming"
+                href="/challenges"
                 onClick={forceReloadUtil}
               >
-                Languages
+                Code Challenges
               </Link>
             </li>
           </ul>
@@ -117,30 +117,9 @@ export default function MobileMenu({ children }) {
           <div className="social">
             <ul>
               <li>
-                <Link target="_blank" href="https://twitter.com/fordalorian">
+                <Link target="_blank" href="https://www.linkedin.com/in/fordhenley">
                   <img
-                    src="svg/social/twitter.svg"
-                    alt="image"
-                    className="fn__svg"
-                  />
-                </Link>
-              </li>
-              <li>
-                <Link target="_blank" href="https://instagram.com/fordalorian">
-                  <img
-                    src="svg/social/instagram.svg"
-                    alt="image"
-                    className="fn__svg"
-                  />
-                </Link>
-              </li>
-              <li>
-                <Link
-                  target="_blank"
-                  href="https://www.youtube.com/channel/UC8n_yVZvKd_P_e5RlhBbohQ/videos"
-                >
-                  <img
-                    src="svg/social/youtube.svg"
+                    src="svg/social/linkedin.svg"
                     alt="image"
                     className="fn__svg"
                   />

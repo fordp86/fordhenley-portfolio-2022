@@ -43,7 +43,10 @@ export default function MobileMenu({ children }) {
               <a href="/portfolio">Portfolio</a>
             </li>
             <li>
-              <a href="/programming">Languages</a>
+              <a href="/bootcamp-projects">Bootcamp Projects</a>
+            </li>
+            <li>
+              <a href="/challenges">Code Challenges</a>
             </li>
           </ul>
         </div>
