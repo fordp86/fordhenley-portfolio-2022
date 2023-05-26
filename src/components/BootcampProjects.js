@@ -42,6 +42,15 @@ export default function BootcampProjects() {
                 />
               </div>
             </div>
+            <div>
+            <a
+                    className="fn__link zoom"
+                    target="_blank"
+                    href="https://team-git-saved-frontend-main-i4t9.vercel.app/welcome"
+                  >
+                   View Project
+                  </a>
+            </div>
           </li>
           <li className="masonry_in">
             <div className="item">
@@ -71,6 +80,15 @@ export default function BootcampProjects() {
                   className="abs_img"
                   data-bg-img="img/portfolio/guessing-bethel.png"
                 />
+              </div>
+              <div>
+              <a
+                    className="fn__link zoom"
+                    target="_blank"
+                    href="https://guessfordsnumber.netlify.app/"
+                  >
+                    View Project
+                  </a>
               </div>
             </div>
           </li>
