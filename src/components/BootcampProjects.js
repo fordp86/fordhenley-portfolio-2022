@@ -26,11 +26,15 @@ export default function BootcampProjects() {
                   </a>
                 </h3>
                 <p>
-                  Fullstack Web App Final built with React Ionic and Express.js MySQL backend
+                  Fullstack Web App Final built with React Ionic and Express.js
+                  MySQL backend
                 </p>
               </div>
               <div className="img_holder">
-                <div className="zoom" href="img/portfolio/hometaskic-bethel.jpg">
+                <div
+                  className="zoom"
+                  href="img/portfolio/hometaskic-bethel.jpg"
+                >
                   <img
                     className="h-100"
                     src="img/portfolio/hometaskic-bethel.jpg"
@@ -43,52 +47,13 @@ export default function BootcampProjects() {
               </div>
             </div>
             <div className="project_link">
-            <a
-                    className="fn__link zoom"
-                    target="_blank"
-                    href="https://team-git-saved-frontend-main-i4t9.vercel.app/welcome"
-                  >
-                   View Project
-                  </a>
-            </div>
-          </li>
-          <li className="masonry_in">
-            <div className="item">
-              <div className="title_holder">
-                <h3>
-                  <a
-                    className="fn__link zoom"
-                    target="_blank"
-                    href="https://backend-typescript-final-client-xpcm.vercel.app/"
-                  >
-                    Bethel Tech Bootcamp RantBook App
-                  </a>
-                </h3>
-                <p>
-                  Fullstack Web App built to mimic Twitter with a client and a server with React MVC.
-                </p>
-              </div>
-              <div className="img_holder">
-                <div className="zoom" href="img/portfolio/hometaskic-bethel.jpg">
-                  <img
-                    className="h-100"
-                    src="img/portfolio/bethel-rantbook.jpg"
-                  />
-                </div>
-                <div
-                  className="abs_img"
-                  data-bg-img="img/portfolio/bethel-rantbook.jpg"
-                />
-              </div>
-            </div>
-            <div className="project_link">
-            <a
-                    className="fn__link zoom"
-                    target="_blank"
-                    href="https://backend-typescript-final-client-xpcm.vercel.app/"
-                  >
-                   View Project
-                  </a>
+              <a
+                className="fn__link zoom"
+                target="_blank"
+                href="https://team-git-saved-frontend-main-i4t9.vercel.app/welcome"
+              >
+                View Project
+              </a>
             </div>
           </li>
           <li className="masonry_in">
@@ -121,13 +86,13 @@ export default function BootcampProjects() {
                 />
               </div>
               <div className="project_link">
-              <a
-                    className="fn__link"
-                    target="_blank"
-                    href="https://guessfordsnumber.netlify.app/"
-                  >
-                    View Project
-                  </a>
+                <a
+                  className="fn__link"
+                  target="_blank"
+                  href="https://guessfordsnumber.netlify.app/"
+                >
+                  View Project
+                </a>
               </div>
             </div>
           </li>
