@@ -13,6 +13,49 @@ export default function CodeChallenges() {
     <div className="portfolio_list">
       <div className="container">
         <ul className="fn__masonry gallery_zoom">
+        <li className="masonry_in">
+            <div className="item">
+              <div className="title_holder">
+                <h3>
+                  <a
+                    className="fn__link zoom"
+                    target="_blank"
+                    href="https://dancing-kitten-76f060.netlify.app/"
+                  >
+                    Vue Random User Generator
+                  </a>
+                </h3>
+                <p>
+                  Random user generator built with Vue CDN.
+                </p>
+              </div>
+              <div className="img_holder">
+                <div
+                  className="zoom"
+                  href="img/portfolio/tasktracker-traversy-vue.png"
+                >
+                  <img
+                    className="h-100"
+                    src="img/portfolio/tasktracker-traversy-vue.png"
+                    alt="Coder Foundry ToDo"
+                  />
+                </div>
+                <div
+                  className="abs_img"
+                  data-bg-img="img/portfolio/tasktracker-traversy-vue.png"
+                />
+              </div>
+              <div className="project_link">
+                <a
+                  className="fn__link zoom"
+                  target="_blank"
+                  href="https://dancing-kitten-76f060.netlify.app/"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
+          </li>
           <li className="masonry_in">
             <div className="item">
               <div className="title_holder">
