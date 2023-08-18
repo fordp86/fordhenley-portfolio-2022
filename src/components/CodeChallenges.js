@@ -13,7 +13,7 @@ export default function CodeChallenges() {
     <div className="portfolio_list">
       <div className="container">
         <ul className="fn__masonry gallery_zoom">
-        <li className="masonry_in">
+          <li className="masonry_in">
             <div className="item">
               <div className="title_holder">
                 <h3>
@@ -25,24 +25,19 @@ export default function CodeChallenges() {
                     Vue Random User Generator
                   </a>
                 </h3>
-                <p>
-                  Random user generator built with Vue CDN.
-                </p>
+                <p>Random user generator built with Vue CDN.</p>
               </div>
               <div className="img_holder">
-                <div
-                  className="zoom"
-                  href="img/portfolio/tasktracker-traversy-vue.png"
-                >
+                <div className="zoom" href="img/portfolio/random-user.png">
                   <img
                     className="h-100"
-                    src="img/portfolio/tasktracker-traversy-vue.png"
+                    src="img/portfolio/random-user.png"
                     alt="Coder Foundry ToDo"
                   />
                 </div>
                 <div
                   className="abs_img"
-                  data-bg-img="img/portfolio/tasktracker-traversy-vue.png"
+                  data-bg-img="img/portfolio/random-user.png"
                 />
               </div>
               <div className="project_link">
