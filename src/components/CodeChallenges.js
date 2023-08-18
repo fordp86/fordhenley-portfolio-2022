@@ -33,17 +33,17 @@ export default function CodeChallenges() {
               <div className="img_holder">
                 <div
                   className="zoom"
-                  href="img/portfolio/tasktracker-traversy.png"
+                  href="img/portfolio/tasktracker-traversy-angular.png"
                 >
                   <img
                     className="h-100"
-                    src="img/portfolio/tasktracker-traversy.png"
+                    src="img/portfolio/tasktracker-traversy-angular.png"
                     alt="Coder Foundry ToDo"
                   />
                 </div>
                 <div
                   className="abs_img"
-                  data-bg-img="img/portfolio/tasktracker-traversy.png"
+                  data-bg-img="img/portfolio/tasktracker-traversy-angular.png"
                 />
               </div>
               <div className="project_link">
