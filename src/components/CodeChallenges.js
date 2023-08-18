@@ -20,6 +20,50 @@ export default function CodeChallenges() {
                   <a
                     className="fn__link zoom"
                     target="_blank"
+                    href="https://eclectic-rolypoly-de7a44.netlify.app/"
+                  >
+                    Task Tracker React
+                  </a>
+                </h3>
+                <p>
+                  3 versions of of a Task Tracker built with Angular, React, and
+                  Vue
+                </p>
+              </div>
+              <div className="img_holder">
+                <div
+                  className="zoom"
+                  href="img/portfolio/tasktracker-traversy-react.png"
+                >
+                  <img
+                    className="h-100"
+                    src="img/portfolio/tasktracker-traversy-react.png"
+                    alt="Coder Foundry ToDo"
+                  />
+                </div>
+                <div
+                  className="abs_img"
+                  data-bg-img="img/portfolio/tasktracker-traversy-react.png"
+                />
+              </div>
+              <div className="project_link">
+                <a
+                  className="fn__link zoom"
+                  target="_blank"
+                  href="https://eclectic-rolypoly-de7a44.netlify.app/"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
+          </li>
+          <li className="masonry_in">
+            <div className="item">
+              <div className="title_holder">
+                <h3>
+                  <a
+                    className="fn__link zoom"
+                    target="_blank"
                     href="https://famous-travesseiro-649c4b.netlify.app/"
                   >
                     Task Tracker Angular
