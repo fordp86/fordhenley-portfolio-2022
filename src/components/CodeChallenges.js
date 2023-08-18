@@ -20,6 +20,50 @@ export default function CodeChallenges() {
                   <a
                     className="fn__link zoom"
                     target="_blank"
+                    href="https://famous-travesseiro-649c4b.netlify.app/"
+                  >
+                    Task Tracker Angular
+                  </a>
+                </h3>
+                <p>
+                  3 versions of of a Task Tracker built with Angular, React, and
+                  Vue
+                </p>
+              </div>
+              <div className="img_holder">
+                <div
+                  className="zoom"
+                  href="img/portfolio/tasktracker-traversy.png"
+                >
+                  <img
+                    className="h-100"
+                    src="img/portfolio/tasktracker-traversy.png"
+                    alt="Coder Foundry ToDo"
+                  />
+                </div>
+                <div
+                  className="abs_img"
+                  data-bg-img="img/portfolio/tasktracker-traversy.png"
+                />
+              </div>
+              <div className="project_link">
+                <a
+                  className="fn__link zoom"
+                  target="_blank"
+                  href="https://famous-travesseiro-649c4b.netlify.app/"
+                >
+                  View Project
+                </a>
+              </div>
+            </div>
+          </li>
+          <li className="masonry_in">
+            <div className="item">
+              <div className="title_holder">
+                <h3>
+                  <a
+                    className="fn__link zoom"
+                    target="_blank"
                     href="https://fordhenley-todoproject.netlify.app/"
                   >
                     Coder Foundry ToDo
@@ -46,13 +90,13 @@ export default function CodeChallenges() {
                 />
               </div>
               <div className="project_link">
-              <a
-                    className="fn__link zoom"
-                    target="_blank"
-                    href="https://fordhenley-todoproject.netlify.app/"
-                  >
-                    View Project
-                  </a>
+                <a
+                  className="fn__link zoom"
+                  target="_blank"
+                  href="https://fordhenley-todoproject.netlify.app/"
+                >
+                  View Project
+                </a>
               </div>
             </div>
           </li>
@@ -90,13 +134,13 @@ export default function CodeChallenges() {
                 />
               </div>
               <div className="project_link">
-              <a
-                    className="fn__link zoom"
-                    target="_blank"
-                    href="https://ford-bootstrapgrids.netlify.app/"
-                  >
-                    View Project
-                  </a>
+                <a
+                  className="fn__link zoom"
+                  target="_blank"
+                  href="https://ford-bootstrapgrids.netlify.app/"
+                >
+                  View Project
+                </a>
               </div>
             </div>
           </li>
@@ -134,13 +178,13 @@ export default function CodeChallenges() {
                 />
               </div>
               <div className="project_link">
-              <a
-                    className="fn__link zoom"
-                    target="_blank"
-                    href="https://ford-bootstraplab.netlify.app/"
-                  >
-                    View Project
-                  </a>
+                <a
+                  className="fn__link zoom"
+                  target="_blank"
+                  href="https://ford-bootstraplab.netlify.app/"
+                >
+                  View Project
+                </a>
               </div>
             </div>
           </li>
@@ -178,13 +222,13 @@ export default function CodeChallenges() {
                 />
               </div>
               <div className="project_link">
-              <a
-                    className="fn__link zoom"
-                    target="_blank"
-                    href="https://allthewayup2100.netlify.app"
-                  >
-                    View Project
-                  </a>
+                <a
+                  className="fn__link zoom"
+                  target="_blank"
+                  href="https://allthewayup2100.netlify.app"
+                >
+                  View Project
+                </a>
               </div>
             </div>
           </li>
@@ -216,13 +260,13 @@ export default function CodeChallenges() {
                 />
               </div>
               <div className="project_link">
-              <a
-                    className="fn__link zoom"
-                    target="_blank"
-                    href="https://fordsflipper.netlify.app"
-                  >
-                    View Project
-                  </a>
+                <a
+                  className="fn__link zoom"
+                  target="_blank"
+                  href="https://fordsflipper.netlify.app"
+                >
+                  View Project
+                </a>
               </div>
             </div>
           </li>
@@ -254,13 +298,13 @@ export default function CodeChallenges() {
                 />
               </div>
               <div className="project_link">
-              <a
-                    className="fn__link zoom"
-                    target="_blank"
-                    href="https://fordsfizzbuzz.netlify.app"
-                  >
-                    View Project
-                  </a>
+                <a
+                  className="fn__link zoom"
+                  target="_blank"
+                  href="https://fordsfizzbuzz.netlify.app"
+                >
+                  View Project
+                </a>
               </div>
             </div>
           </li>
@@ -295,13 +339,13 @@ export default function CodeChallenges() {
                 />
               </div>
               <div className="project_link">
-              <a
-                    className="fn__link zoom"
-                    target="_blank"
-                    href="https://fordstacocat.netlify.app"
-                  >
-                    View Project
-                  </a>
+                <a
+                  className="fn__link zoom"
+                  target="_blank"
+                  href="https://fordstacocat.netlify.app"
+                >
+                  View Project
+                </a>
               </div>
             </div>
           </li>
