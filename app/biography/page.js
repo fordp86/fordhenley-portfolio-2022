@@ -14,7 +14,7 @@ export default function Biography() {
         <div className="container max880">
           <h3>Biography</h3>
           <p>
-            {`I'm a Full Stack Developer and currently reside in Austin,TX. I code and create websites for amazing people around the world. I like to learn new skills and take challenges head on.`}
+            {`I'm a Full Stack Developer and currently reside in Melbourne,FL. I code and create websites for amazing people around the world. I like to learn new skills and take challenges head on.`}
           </p>
         </div>
       </div>
@@ -45,7 +45,7 @@ export default function Biography() {
       </div>
       {/* /Info Items */}
       {/* Download CV Button */}
-      <div className="fn_cs_cv_btn">
+      {/*<div className="fn_cs_cv_btn">
         <div className="container">
           <span className="line top_hover" />
           <span className="line bottom_hover" />
@@ -59,7 +59,7 @@ export default function Biography() {
             <span>Download Resume</span>
           </Link>
         </div>
-      </div>
+      </div>*/}
       {/* /Download CV Button */}
       {/* Tabs Shortcode */}
       <div className="fn_cs_tabs">
