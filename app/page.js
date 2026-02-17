@@ -17,7 +17,7 @@ export default function About() {
               <div className="main_title">
                 <h3>Ford Henley</h3>
                 <p>
-                  Professional Full Stack Developer and Digital Marketer located
+                  Professional Full Stack Developer located
                   in Melbourne, FL. I enjoy rugby, reading and spending time with
                   family. I am a self motivated and lifetime learner looking to
                   make an impact in your business.
