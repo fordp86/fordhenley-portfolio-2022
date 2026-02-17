@@ -75,11 +75,6 @@ export default function MobileMenu({ children }) {
               </Link>
             </li>
             <li>
-              <Link className="btn" href="/biography" onClick={forceReloadUtil}>
-                Biography
-              </Link>
-            </li>
-            <li>
               <Link className="btn" href="/portfolio" onClick={forceReloadUtil}>
                 Portfolio
               </Link>
@@ -128,7 +123,7 @@ export default function MobileMenu({ children }) {
             </ul>
           </div>
           <div className="desc">
-            <p>© 2022 Ford Henley</p>
+            <p>© 2026 Ford Henley</p>
           </div>
         </div>
       </div>
